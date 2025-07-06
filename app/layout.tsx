@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Juniper Island' }],
   creator: 'Juniper Island',
   publisher: 'Juniper Island',
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
     title: 'Juniper Island - Video Production & Brand Storytelling',
     description: 'We craft compelling brand stories through video and creative content',

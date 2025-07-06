@@ -22,16 +22,6 @@ const nextConfig: NextConfig = {
     });
     return config;
   },
-  experimental: {
-    turbo: {
-      rules: {
-        '*.mp4': {
-          loaders: ['file-loader'],
-          as: '*.js',
-        },
-      },
-    },
-  },
 };
 
 export default nextConfig;
