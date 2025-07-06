@@ -7,33 +7,6 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Juniper Island - Video Production & Brand Storytelling',
   description: 'Toronto-based video production and brand storytelling agency. We craft compelling brand stories through video and creative content.',
-  keywords: 'video production, brand storytelling, Toronto, creative agency, marketing video',
-  authors: [{ name: 'Juniper Island' }],
-  creator: 'Juniper Island',
-  publisher: 'Juniper Island',
-  icons: {
-    icon: '/favicon.ico',
-  },
-  openGraph: {
-    title: 'Juniper Island - Video Production & Brand Storytelling',
-    description: 'We craft compelling brand stories through video and creative content',
-    type: 'website',
-    locale: 'en_CA',
-    siteName: 'Juniper Island',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Juniper Island - Video Production & Brand Storytelling',
-    description: 'We craft compelling brand stories through video and creative content',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
 };
 
 export default function RootLayout({
@@ -43,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={inter.className}>
         <main>{children}</main>
       </body>
