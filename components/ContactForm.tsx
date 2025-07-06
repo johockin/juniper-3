@@ -5,6 +5,7 @@ import { useState } from 'react'
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showDetails, setShowDetails] = useState(false)
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -53,6 +54,7 @@ export default function ContactForm() {
       {/* Form name for Netlify */}
       <input type="hidden" name="form-name" value="contact" />
 
+      {/* Essential Fields */}
       <div className="grid md:grid-cols-2 gap-6 mb-6">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -84,86 +86,110 @@ export default function ContactForm() {
       </div>
 
       <div className="mb-6">
-        <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-          Company
-        </label>
-        <input
-          type="text"
-          id="company"
-          name="company"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
-          placeholder="Your company"
-        />
-      </div>
-
-      <div className="mb-6">
-        <label htmlFor="project-type" className="block text-sm font-medium text-gray-700 mb-2">
-          Project Type
-        </label>
-        <select
-          id="project-type"
-          name="project-type"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
-        >
-          <option value="">Select a project type</option>
-          <option value="brand-video">Brand Video</option>
-          <option value="social-content">Social Media Content</option>
-          <option value="marketing-video">Marketing Video</option>
-          <option value="product-video">Product Video</option>
-          <option value="testimonial-video">Testimonial Video</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-
-      <div className="mb-6">
-        <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
-          Budget Range
-        </label>
-        <select
-          id="budget"
-          name="budget"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
-        >
-          <option value="">Select a budget range</option>
-          <option value="under-5k">Under $5,000</option>
-          <option value="5k-10k">$5,000 - $10,000</option>
-          <option value="10k-25k">$10,000 - $25,000</option>
-          <option value="25k-50k">$25,000 - $50,000</option>
-          <option value="50k-plus">$50,000+</option>
-        </select>
-      </div>
-
-      <div className="mb-6">
-        <label htmlFor="timeline" className="block text-sm font-medium text-gray-700 mb-2">
-          Timeline
-        </label>
-        <select
-          id="timeline"
-          name="timeline"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
-        >
-          <option value="">Select a timeline</option>
-          <option value="asap">ASAP</option>
-          <option value="1-month">Within 1 month</option>
-          <option value="2-3-months">2-3 months</option>
-          <option value="3-6-months">3-6 months</option>
-          <option value="flexible">Flexible</option>
-        </select>
-      </div>
-
-      <div className="mb-8">
         <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-          Tell us about your project *
+          Message *
         </label>
         <textarea
           id="message"
           name="message"
           required
-          rows={6}
+          rows={4}
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors resize-none"
-          placeholder="Tell us about your project goals, vision, and any specific requirements..."
+          placeholder="Tell us about your project..."
         />
+        <p className="text-xs text-gray-500 mt-2">
+          💡 <strong>Helpful to include:</strong> project type (brand video, social content, etc.), budget range, timeline, and company name
+        </p>
       </div>
+
+      {/* Optional Details Toggle */}
+      <div className="mb-6">
+        <button
+          type="button"
+          onClick={() => setShowDetails(!showDetails)}
+          className="text-sm text-gray-600 hover:text-black transition-colors flex items-center gap-2"
+        >
+          <svg className={`w-4 h-4 transition-transform ${showDetails ? 'rotate-90' : ''}`} fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+          </svg>
+          {showDetails ? 'Hide' : 'Add'} project details (optional)
+        </button>
+      </div>
+
+      {/* Optional Fields */}
+      {showDetails && (
+        <div className="border-l-2 border-gray-200 pl-6 mb-6 space-y-6">
+          <div>
+            <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+              Company
+            </label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+              placeholder="Your company"
+            />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <label htmlFor="project-type" className="block text-sm font-medium text-gray-700 mb-2">
+                Project Type
+              </label>
+              <select
+                id="project-type"
+                name="project-type"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+              >
+                <option value="">Select a project type</option>
+                <option value="brand-video">Brand Video</option>
+                <option value="social-content">Social Media Content</option>
+                <option value="marketing-video">Marketing Video</option>
+                <option value="product-video">Product Video</option>
+                <option value="testimonial-video">Testimonial Video</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
+                Budget Range
+              </label>
+              <select
+                id="budget"
+                name="budget"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+              >
+                <option value="">Select a budget range</option>
+                <option value="under-5k">Under $5,000</option>
+                <option value="5k-10k">$5,000 - $10,000</option>
+                <option value="10k-25k">$10,000 - $25,000</option>
+                <option value="25k-50k">$25,000 - $50,000</option>
+                <option value="50k-plus">$50,000+</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label htmlFor="timeline" className="block text-sm font-medium text-gray-700 mb-2">
+              Timeline
+            </label>
+            <select
+              id="timeline"
+              name="timeline"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+            >
+              <option value="">Select a timeline</option>
+              <option value="asap">ASAP</option>
+              <option value="1-month">Within 1 month</option>
+              <option value="2-3-months">2-3 months</option>
+              <option value="3-6-months">3-6 months</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+        </div>
+      )}
 
       <button
         type="submit"
