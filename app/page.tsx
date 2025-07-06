@@ -176,11 +176,11 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
-            <div className="group">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
+            <a href="/work/tech-startup-launch" className="group block" aria-label="View Tech Startup Launch case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                   <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
                       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z"/>
                       </svg>
@@ -189,14 +189,14 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Tech Startup Launch</h3>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Tech Startup Launch</h3>
               <p className="text-gray-600 text-sm">
                 Brand storytelling video that helped a Toronto startup secure Series A funding.
               </p>
-            </div>
+            </a>
 
             {/* Project 2 */}
-            <div className="group">
+            <div className="group opacity-75">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-800 to-purple-900 flex items-center justify-center">
                   <div className="text-white text-center">
@@ -213,10 +213,11 @@ export default function Home() {
               <p className="text-gray-600 text-sm">
                 Monthly social content that increased engagement by 300% and foot traffic by 40%.
               </p>
+              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
             </div>
 
             {/* Project 3 */}
-            <div className="group">
+            <div className="group opacity-75">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-green-800 to-teal-900 flex items-center justify-center">
                   <div className="text-white text-center">
@@ -233,10 +234,11 @@ export default function Home() {
               <p className="text-gray-600 text-sm">
                 Product demonstration video that converted 25% of viewers to trial users.
               </p>
+              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
             </div>
 
             {/* Project 4 */}
-            <div className="group">
+            <div className="group opacity-75">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-800 to-pink-900 flex items-center justify-center">
                   <div className="text-white text-center">
@@ -253,10 +255,11 @@ export default function Home() {
               <p className="text-gray-600 text-sm">
                 Event recap video that generated 50K+ views and doubled next year&apos;s attendance.
               </p>
+              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
             </div>
 
             {/* Project 5 */}
-            <div className="group">
+            <div className="group opacity-75">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-yellow-800 to-orange-900 flex items-center justify-center">
                   <div className="text-white text-center">
@@ -273,10 +276,11 @@ export default function Home() {
               <p className="text-gray-600 text-sm">
                 Authentic customer testimonials that increased conversion rates by 35%.
               </p>
+              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
             </div>
 
             {/* Project 6 */}
-            <div className="group">
+            <div className="group opacity-75">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-800 to-blue-900 flex items-center justify-center">
                   <div className="text-white text-center">
@@ -293,6 +297,7 @@ export default function Home() {
               <p className="text-gray-600 text-sm">
                 Fundraising campaign video that helped raise $500K+ for local charity.
               </p>
+              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
             </div>
           </div>
 
