@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-semibold text-white mb-6 leading-tight">
             Creative That Feels Like a Natural Extension of Your Team.
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -43,7 +43,7 @@ export default function Home() {
       {/* Simple intro section */}
       <section className="py-24 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Toronto-Based Video Production</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-6">Toronto-Based Video Production</h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             We specialize in creating compelling brand stories through video and creative content that resonates with your audience and drives results.
           </p>
