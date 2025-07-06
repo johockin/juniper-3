@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
-import CaseStudyContent from '@/components/CaseStudyContent'
+import CaseStudyContent from '../../../components/CaseStudyContent'
 
 interface CaseStudy {
   slug: string
