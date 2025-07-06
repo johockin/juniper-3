@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -20,14 +19,7 @@ export default function Home() {
             <source src="/videos/hero-video.mp4" type="video/mp4" />
           </video>
           <div className="absolute top-8 left-8 z-20 w-48">
-            <Image 
-              src="/logos/logo-light.png" 
-              alt="Juniper Island" 
-              width={192}
-              height={80}
-              className="w-full h-auto"
-              priority
-            />
+            <div className="text-white text-2xl font-bold">Juniper Island</div>
           </div>
           <div className="absolute inset-0 bg-black/30" />
         </div>
@@ -144,15 +136,9 @@ export default function Home() {
               }
             ].map((member, index) => (
               <div key={index} className="text-center">
-                <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
+                <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
+                <span className="text-gray-500 text-lg">{member.name.charAt(0)}</span>
+              </div>
                 <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
                 <p className="text-gray-600 mb-4">{member.role}</p>
                 <p className="text-gray-700">{member.bio}</p>
