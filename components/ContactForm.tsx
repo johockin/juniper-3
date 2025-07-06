@@ -4,13 +4,32 @@ import { useState } from 'react'
 
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const handleSubmit = () => {
-    // Form submission is handled by Netlify
-    // We just need to show a success message
-    setTimeout(() => {
-      setIsSubmitted(true)
-    }, 500)
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    setIsSubmitting(true)
+
+    try {
+      const formData = new FormData(event.currentTarget)
+      
+      const response = await fetch('/__forms.html', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(Array.from(formData.entries()) as [string, string][]).toString(),
+      })
+
+      if (response.ok) {
+        setIsSubmitted(true)
+      } else {
+        throw new Error('Form submission failed')
+      }
+    } catch (error) {
+      console.error('Form submission error:', error)
+      alert('There was an error submitting the form. Please try again or email us directly.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   if (isSubmitted) {
@@ -28,22 +47,11 @@ export default function ContactForm() {
   return (
     <form 
       name="contact"
-      method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
       className="max-w-2xl mx-auto"
     >
-      {/* Netlify form detection */}
+      {/* Form name for Netlify */}
       <input type="hidden" name="form-name" value="contact" />
-      
-      {/* Honeypot field for spam protection */}
-      <div className="hidden">
-        <label>
-          Don&apos;t fill this out if you&apos;re human: 
-          <input name="bot-field" />
-        </label>
-      </div>
 
       <div className="grid md:grid-cols-2 gap-6 mb-6">
         <div>
@@ -159,9 +167,10 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="w-full bg-black text-white font-medium py-4 px-8 rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:ring-2 focus:ring-black focus:ring-offset-2"
+        disabled={isSubmitting}
+        className="w-full bg-black text-white font-medium py-4 px-8 rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:ring-2 focus:ring-black focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        Send Message
+        {isSubmitting ? 'Sending...' : 'Send Message'}
       </button>
 
       <p className="text-sm text-gray-500 text-center mt-4">
