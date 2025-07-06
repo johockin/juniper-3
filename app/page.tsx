@@ -307,6 +307,96 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="py-24 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Meet the Team</h2>
+            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              We&apos;re Johnny and Nina, a Toronto-based creative duo passionate about telling authentic brand stories through video.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Team Photos */}
+            <div className="grid grid-cols-2 gap-6">
+              <div className="text-center">
+                <div className="relative">
+                  <img
+                    src="/images/team/Johnny.png"
+                    alt="Johnny Hockin"
+                    className="w-full aspect-square object-cover rounded-lg"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold mt-4 mb-2">Johnny Hockin</h3>
+                <p className="text-gray-600 text-sm">Creative Director & Producer</p>
+              </div>
+
+              <div className="text-center">
+                <div className="relative">
+                  <img
+                    src="/images/team/Nina.png"
+                    alt="Nina"
+                    className="w-full aspect-square object-cover rounded-lg"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold mt-4 mb-2">Nina</h3>
+                <p className="text-gray-600 text-sm">Director & Creative Strategist</p>
+              </div>
+            </div>
+
+            {/* About Content */}
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">Our Story</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Founded in Toronto, Juniper Island emerged from our shared belief that every brand has a unique story worth telling. We combine Johnny&apos;s production expertise with Nina&apos;s strategic creative vision to create video content that doesn&apos;t just look great—it drives real results.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold mb-3">What Sets Us Apart</h4>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-black mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span><strong>Collaborative approach</strong> - We work as an extension of your team, not just a vendor</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-black mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span><strong>Strategic storytelling</strong> - Every video serves your broader business goals</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-black mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span><strong>Toronto roots</strong> - Deep understanding of the local market and culture</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-black mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span><strong>End-to-end service</strong> - From strategy to final delivery, we handle everything</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="pt-4">
+                <a
+                  href="#contact"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
+                >
+                  Let&apos;s Work Together
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-24 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">

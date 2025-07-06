@@ -71,6 +71,7 @@ export default function RootLayout({
                 <div className="ml-10 flex items-baseline space-x-8">
                   <span className="text-gray-900 font-medium">Home</span>
                   <a href="#work" className="text-gray-900 hover:text-gray-600 font-medium transition-colors">Work</a>
+                  <a href="#about" className="text-gray-900 hover:text-gray-600 font-medium transition-colors">About</a>
                   <a href="#contact" className="text-gray-900 hover:text-gray-600 font-medium transition-colors">Contact</a>
                 </div>
               </div>
