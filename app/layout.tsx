@@ -1,6 +1,6 @@
 import './globals.css'
 import { Metadata } from 'next'
-import { siteConfig, generateKeywords } from '@/config/seo'
+import { siteConfig, generateKeywords } from '../config/seo'
 
 export const metadata: Metadata = {
   title: siteConfig.title,

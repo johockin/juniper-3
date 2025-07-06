@@ -1,4 +1,4 @@
-import { siteConfig } from '@/config/seo'
+import { siteConfig } from '../config/seo'
 
 export default function Home() {
   return (
