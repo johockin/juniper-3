@@ -23,7 +23,7 @@ export const siteConfig = {
     name: 'Juniper Island',
     type: 'Video Production Agency',
     location: 'Toronto, Ontario, Canada',
-    email: 'hello@juniper-island.ca',
+    email: 'nina@juniperisland.ca',
     phone: '', // Add when available
     address: '', // Add when available
   },
@@ -72,7 +72,7 @@ export const siteConfig = {
     description: 'Video production and brand storytelling agency specializing in polished brand and social video content.',
     url: 'https://juniper-island.ca',
     telephone: '', // Add when available
-    email: 'hello@juniper-island.ca',
+    email: 'nina@juniperisland.ca',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Toronto',

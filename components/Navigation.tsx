@@ -9,13 +9,15 @@ export default function Navigation() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center h-16">
         <div className="flex-shrink-0">
-          <img 
-            src="/logos/logo-dark.png" 
-            alt="Juniper Island Logo" 
-            className="h-8 w-auto"
-            width={120}
-            height={32}
-          />
+          <a href="/">
+            <img 
+              src="/logos/logo-dark.png" 
+              alt="Juniper Island Logo" 
+              className="h-8 w-auto"
+              width={120}
+              height={32}
+            />
+          </a>
         </div>
         
         {/* Desktop Navigation */}

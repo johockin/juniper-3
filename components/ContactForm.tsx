@@ -27,7 +27,7 @@ export default function ContactForm() {
       }
     } catch (error) {
       console.error('Form submission error:', error)
-      alert('There was an error submitting the form. Please try again or email us directly.')
+      alert('There was an error submitting the form. Please try again or email us directly at nina@juniperisland.ca.')
     } finally {
       setIsSubmitting(false)
     }

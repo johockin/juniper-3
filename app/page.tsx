@@ -56,6 +56,19 @@ export default function Home() {
               View Our Work
             </a>
           </div>
+          
+          {/* Small testimonial under header */}
+          <div className="mt-12 max-w-2xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <p className="text-white/90 italic text-center">
+                &quot;The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn.&quot;
+              </p>
+              <div className="text-center mt-3">
+                <div className="text-white/80 text-sm font-medium">Andrew Addison</div>
+                <div className="text-white/60 text-xs">VP Communications, CMPA</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       
@@ -188,7 +201,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Company Story */}
             <div>
               <h3 className="text-2xl font-semibold mb-6">Our Story</h3>
@@ -546,8 +559,16 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-24 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
+      <section id="about" className="py-24 px-4 bg-gray-50 relative overflow-hidden">
+        {/* Behind-the-scenes background image */}
+        <div className="absolute inset-0 opacity-5">
+          <img 
+            src="/images/bts-filming.jpg" 
+            alt="Behind the scenes filming" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-semibold mb-6">Meet the Team</h2>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">

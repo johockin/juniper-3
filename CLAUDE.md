@@ -381,6 +381,17 @@ config/
 - **DECISIONS**: Add hamburger menu (simple, zippy), keep one-page for launch, break out sections in Phase 1b
 - **CLARIFICATION**: Still mid-to-tail end of Phase 1a, not ready for Phase 1b yet
 - **CONFIRMED**: Creative Brief Canvas PDF as Phase 2 lead magnet
+- **COMPLETED**: Fixed testimonials with 4 real client testimonials including full names/titles
+- **COMPLETED**: Added simple mobile hamburger menu with "MENU" button
+- **COMPLETED**: Created client component for navigation to handle interactivity
+- **RESULT**: Build successful, changes pushed to git for Netlify deployment
+- **STATUS**: Phase 1a QA fixes complete - ready for final review
+- **NEW DIRECTION**: User wants styling improvements as Phase 1a priority
+- **ROADMAP SHIFT**: Styling becomes Phase 1b, previous 1b becomes 1c, blog moves later
+- **FEEDBACK**: Need styling improvements, image placement, layout fixes, glass navbar
+- **SPECIFIC REQUESTS**: Logo home link, BTS image in About, column alignment, navbar transparency
+- **IMAGE QUESTION**: User expects images in case studies, asks if I can see/analyze image content
+- **OVERALL**: 10/10 progress, very happy with direction
 
 ### Previous History (Reconstructed from Git)
 - Built comprehensive case study system with JSON-based CMS
@@ -394,15 +405,25 @@ config/
 ## 🎯 DEVELOPMENT ROADMAP - ACTUAL PHASES
 
 ### 🚀 Phase 1a (IMMEDIATE - Content Creation)
-- [ ] **Case Study Pipeline**: Adapt user docs into web page content
-- [ ] **Blog System**: JSON-based blog (pre-CMS) with SEO optimization  
-- [ ] **Hardcoded Testimonials**: Real testimonials directly in components
-- [ ] **Real Content**: Replace boilerplate with actual content from proposals/current site
+- [x] **Case Study Pipeline**: Adapt user docs into web page content
+- [ ] **Styling & Visual Polish**: Creative styling improvements (NEW PRIORITY)
+- [x] **Hardcoded Testimonials**: Real testimonials directly in components
+- [x] **Real Content**: Replace boilerplate with actual content from proposals/current site
 
 ### 🎯 Phase 1 (MAJOR GOAL - Launch)
 - [ ] **Site Launch**: Get the site live and functioning
 
-### 🔧 Phase 1b (Pre-launch Optimizations)  
+### 🔧 Phase 1b (Visual Polish & Styling)
+- [ ] **Logo home link**: Make logo clickable to return home
+- [ ] **Glass navbar**: More transparent with "liquid glass" effect
+- [ ] **About section BTS image**: Add behind-the-scenes image background
+- [ ] **Column alignment**: Fix vertical alignment in Our Story/Our Approach
+- [ ] **Header testimonial**: Add small testimonial under main header
+- [ ] **Case study images**: Add extracted images to case studies
+- [ ] **Contact email**: Update to nina@juniperisland.ca
+
+### 🔧 Phase 1c (Pre-launch Optimizations)  
+- [ ] **Blog System**: JSON-based blog (pre-CMS) with SEO optimization (MOVED HERE)
 - [ ] **Break out sections**: Separate pages for About, Services, individual case studies for better SEO
 - [ ] **Analytics Integration**: Privacy-first analytics without external dependencies
 - [ ] **Performance Audit**: Lighthouse optimization and Core Web Vitals
