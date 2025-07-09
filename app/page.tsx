@@ -72,6 +72,22 @@ export default function Home() {
         </div>
       </section>
       
+      {/* Client Logo Strip */}
+      <section className="py-16 px-4 bg-gray-900">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">Trusted by Leading Brands</h2>
+          </div>
+          <div className="flex justify-center">
+            <img 
+              src="/images/logo-strip-white.avif" 
+              alt="Client logos including Red Bull, Rily, Muskoka Roastery and others" 
+              className="max-w-full h-auto opacity-70"
+            />
+          </div>
+        </div>
+      </section>
+      
       {/* Services Section */}
       <section className="py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
@@ -260,22 +276,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Client Logo Strip */}
-      <section className="py-16 px-4 bg-gray-900">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">Trusted by Leading Brands</h2>
-          </div>
-          <div className="flex justify-center">
-            <img 
-              src="/images/logo-strip-white.avif" 
-              alt="Client logos including Red Bull, Rily, Muskoka Roastery and others" 
-              className="max-w-full h-auto opacity-70"
-            />
           </div>
         </div>
       </section>

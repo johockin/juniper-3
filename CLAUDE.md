@@ -318,7 +318,22 @@ config/
 
 **Format**: `[DATE] [CLAUDE_INSTANCE] [ACTION] - [RESULT/NOTES]`
 
-### 2025-01-08 (Today)
+### 2025-01-09 (Today)
+- **Claude Instance**: Cascade (Windsurf AI)
+- **Action**: CTO-level code audit completed
+- **Result**: B+ grade assessment, identified strengths and areas for improvement
+- **Status**: Taking over project to complete Phase 1b case study images
+- **Action**: Beginning case study image implementation
+- **Plan**: Extract appropriate images from uploads, optimize, and add to case studies
+- **Result**: Added images to all 4 real case studies (Subway, Rily, Muskoka, Red Bull)
+- **Cleanup**: Removed tech-startup placeholder case study that was accidentally left
+- **Status**: All case study images implemented, build successful
+- **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514) - taking over
+- **Action**: User clarified we're still in Phase 1a (real design pass hasn't happened yet)
+- **Action**: Moved "Trusted by Leading Brands" section to above the fold near testimonial
+- **Status**: Ready for QA of Phase 1a case study images + logo positioning
+
+### 2025-01-08
 - **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514)
 - **Action**: Enhanced CLAUDE.md with comprehensive SOP structure
 - **Result**: Added preservation rules, logging protocol, and institutional knowledge framework
@@ -427,7 +442,8 @@ config/
 - [x] **Contact email**: Update to nina@juniperisland.ca throughout all files
 - [x] **Remove placeholder case studies**: Cleaned up to show only real case studies (Subway, Rily, Muskoka, Red Bull)
 - [x] **JSX syntax fix**: Fixed broken div structure causing build failures
-- [ ] **Case study images**: Add extracted images to case studies (REMAINING TASK)
+- [x] **Case study images**: Add extracted images to case studies (COMPLETED)
+- [x] **Logo strip positioning**: Moved "Trusted by Leading Brands" to above the fold near testimonial
 
 ### 🔧 Phase 1c (Pre-launch Optimizations)  
 - [ ] **Blog System**: JSON-based blog (pre-CMS) with SEO optimization (MOVED HERE)
@@ -614,11 +630,13 @@ When making any decision, ask:
 - [x] Build errors fixed (JSX syntax)
 - [x] Testimonial positioning improved (after scroll, subtle styling)
 
-### 🔄 Currently Working On
-- [ ] **Case study images**: Add extracted images to individual case studies (ONLY REMAINING TASK)
+### 🔄 Phase 1a Status
+- [x] **Case study images**: Added images to all real case studies
+- [x] **Logo strip positioning**: Moved to above the fold near testimonial
+- [ ] **Real design pass**: Still needs comprehensive styling improvements
 
 ### 🎯 Next Priority
-Complete case study images, then move to Phase 1c (pre-launch optimizations).
+QA current Phase 1a work, then proceed with comprehensive design improvements.
 
 ### 📁 Key Files Modified Recently
 - `app/page.tsx`: Main homepage with all styling improvements
