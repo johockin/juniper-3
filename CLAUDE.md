@@ -414,13 +414,14 @@ config/
 - [ ] **Site Launch**: Get the site live and functioning
 
 ### 🔧 Phase 1b (Visual Polish & Styling)
-- [ ] **Logo home link**: Make logo clickable to return home
-- [ ] **Glass navbar**: More transparent with "liquid glass" effect
-- [ ] **About section BTS image**: Add behind-the-scenes image background
-- [ ] **Column alignment**: Fix vertical alignment in Our Story/Our Approach
-- [ ] **Header testimonial**: Add small testimonial under main header
+- [x] **Logo home link**: Make logo clickable to return home
+- [x] **Glass navbar**: More transparent with "liquid glass" effect
+- [x] **About section BTS image**: Add behind-the-scenes image background (correct "About Juniper Island" section)
+- [x] **Column alignment**: Fix vertical alignment in Our Story/Our Approach
+- [x] **Header testimonial**: Add small testimonial under main header (positioned after scroll, subtle styling)
+- [x] **Logo strip**: Added client logo strip from original materials
+- [x] **Contact email**: Update to nina@juniperisland.ca
 - [ ] **Case study images**: Add extracted images to case studies
-- [ ] **Contact email**: Update to nina@juniperisland.ca
 
 ### 🔧 Phase 1c (Pre-launch Optimizations)  
 - [ ] **Blog System**: JSON-based blog (pre-CMS) with SEO optimization (MOVED HERE)

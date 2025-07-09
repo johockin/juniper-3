@@ -57,15 +57,15 @@ export default function Home() {
             </a>
           </div>
           
-          {/* Small testimonial under header */}
-          <div className="mt-12 max-w-2xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <p className="text-white/90 italic text-center">
+          {/* Small testimonial - positioned after the scroll */}
+          <div className="mt-32 max-w-xl mx-auto">
+            <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+              <p className="text-white/80 italic text-center text-sm">
                 &quot;The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn.&quot;
               </p>
-              <div className="text-center mt-3">
-                <div className="text-white/80 text-sm font-medium">Andrew Addison</div>
-                <div className="text-white/60 text-xs">VP Communications, CMPA</div>
+              <div className="text-center mt-2">
+                <div className="text-white/70 text-xs font-medium">Andrew Addison</div>
+                <div className="text-white/50 text-xs">VP Communications, CMPA</div>
               </div>
             </div>
           </div>
@@ -201,7 +201,25 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Behind-the-scenes image - now properly incorporated */}
+            <div className="order-2 lg:order-1">
+              <div className="relative rounded-lg overflow-hidden">
+                <img 
+                  src="/images/bts-filming.jpg" 
+                  alt="Behind the scenes filming - our team capturing content in action" 
+                  className="w-full h-auto object-cover"
+                />
+                <div className="absolute inset-0 bg-black/10"></div>
+              </div>
+              <p className="text-sm text-gray-500 mt-3 text-center italic">
+                Behind the scenes: Our team capturing authentic moments that become powerful brand stories
+              </p>
+            </div>
+            
+            {/* Content */}
+            <div className="order-1 lg:order-2">
+              <div className="grid gap-16">
             {/* Company Story */}
             <div>
               <h3 className="text-2xl font-semibold mb-6">Our Story</h3>
@@ -240,6 +258,22 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Client Logo Strip */}
+      <section className="py-16 px-4 bg-gray-900">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">Trusted by Leading Brands</h2>
+          </div>
+          <div className="flex justify-center">
+            <img 
+              src="/images/logo-strip-white.avif" 
+              alt="Client logos including Red Bull, Rily, Muskoka Roastery and others" 
+              className="max-w-full h-auto opacity-70"
+            />
           </div>
         </div>
       </section>
@@ -421,130 +455,6 @@ export default function Home() {
               </p>
             </a>
 
-            {/* Tech Startup */}
-            <a href="/work/tech-startup-launch" className="group block" aria-label="View Tech Startup Launch case study">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Brand Story</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Tech Startup Launch</h3>
-              <p className="text-gray-600 text-sm">
-                Brand storytelling that helped secure Series A funding.
-              </p>
-            </a>
-
-            {/* Coming Soon */}
-            <div className="group opacity-75">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-800 to-purple-900 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Social Campaign</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Restaurant Social Content</h3>
-              <p className="text-gray-600 text-sm">
-                Monthly social content that increased engagement by 300% and foot traffic by 40%.
-              </p>
-              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
-            </div>
-
-            {/* Project 3 */}
-            <div className="group opacity-75">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-800 to-teal-900 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Product Demo</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">SaaS Product Demo</h3>
-              <p className="text-gray-600 text-sm">
-                Product demonstration video that converted 25% of viewers to trial users.
-              </p>
-              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
-            </div>
-
-            {/* Project 4 */}
-            <div className="group opacity-75">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-800 to-pink-900 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Event Coverage</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Conference Highlights</h3>
-              <p className="text-gray-600 text-sm">
-                Event recap video that generated 50K+ views and doubled next year&apos;s attendance.
-              </p>
-              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
-            </div>
-
-            {/* Project 5 */}
-            <div className="group opacity-75">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
-                <div className="absolute inset-0 bg-gradient-to-br from-yellow-800 to-orange-900 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Testimonial</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Customer Stories</h3>
-              <p className="text-gray-600 text-sm">
-                Authentic customer testimonials that increased conversion rates by 35%.
-              </p>
-              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
-            </div>
-
-            {/* Project 6 */}
-            <div className="group opacity-75">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-800 to-blue-900 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Campaign Video</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Non-Profit Campaign</h3>
-              <p className="text-gray-600 text-sm">
-                Fundraising campaign video that helped raise $500K+ for local charity.
-              </p>
-              <p className="text-xs text-gray-400 mt-2 italic">Case study coming soon</p>
-            </div>
           </div>
 
           <div className="text-center mt-16">
@@ -559,16 +469,8 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-24 px-4 bg-gray-50 relative overflow-hidden">
-        {/* Behind-the-scenes background image */}
-        <div className="absolute inset-0 opacity-5">
-          <img 
-            src="/images/bts-filming.jpg" 
-            alt="Behind the scenes filming" 
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="max-w-6xl mx-auto relative z-10">
+      <section id="about" className="py-24 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-semibold mb-6">Meet the Team</h2>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
