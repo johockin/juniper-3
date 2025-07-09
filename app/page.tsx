@@ -56,34 +56,141 @@ export default function Home() {
               View Our Work
             </a>
           </div>
-          
-          {/* Small testimonial - positioned after the scroll */}
-          <div className="mt-32 max-w-xl mx-auto">
-            <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
-              <p className="text-white/80 italic text-center text-sm">
+        </div>
+      </section>
+      
+      {/* Testimonial + Logo Strip Belt */}
+      <section className="py-12 px-4 bg-gray-900">
+        <div className="max-w-7xl mx-auto">
+          {/* Testimonial Strip */}
+          <div className="text-center mb-8">
+            <div className="max-w-2xl mx-auto">
+              <p className="text-white/80 italic text-sm md:text-base">
                 &quot;The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn.&quot;
               </p>
-              <div className="text-center mt-2">
-                <div className="text-white/70 text-xs font-medium">Andrew Addison</div>
-                <div className="text-white/50 text-xs">VP Communications, CMPA</div>
+              <div className="mt-2 text-white/60 text-xs">
+                <span className="font-medium">Andrew Addison</span>, VP Communications, CMPA
               </div>
+            </div>
+          </div>
+          
+          {/* Logo Strip */}
+          <div className="border-t border-white/10 pt-8">
+            <div className="text-center mb-6">
+              <h2 className="text-lg font-medium text-white/70">Trusted by Leading Brands</h2>
+            </div>
+            <div className="flex justify-center">
+              <img 
+                src="/images/logo-strip-white.avif" 
+                alt="Client logos including Red Bull, Rily, Muskoka Roastery and others" 
+                className="max-w-full h-auto opacity-60"
+              />
             </div>
           </div>
         </div>
       </section>
       
-      {/* Client Logo Strip */}
-      <section className="py-16 px-4 bg-gray-900">
+      {/* Work/Portfolio Section */}
+      <section id="work" className="py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">Trusted by Leading Brands</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Our Work</h2>
+            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto mb-4">
+              Expertly crafted commercials, documentaries, social ads, corporate videos and brand films.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              Award-winning creative, expert production and white-glove service. Whether you need a single testimonial video or a massive content library, consider it done.
+            </p>
           </div>
-          <div className="flex justify-center">
-            <img 
-              src="/images/logo-strip-white.avif" 
-              alt="Client logos including Red Bull, Rily, Muskoka Roastery and others" 
-              className="max-w-full h-auto opacity-70"
-            />
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Subway Meat Cute */}
+            <a href="/work/subway-meat-cute" className="group block" aria-label="View Subway Meat Cute case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-yellow-500 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Viral Campaign</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Subway &apos;Meat Cute&apos;</h3>
+              <p className="text-gray-600 text-sm mb-2">Valentine&apos;s Day campaign that achieved 10M+ views</p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Viral Campaign</span>
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Social Media</span>
+              </div>
+            </a>
+
+            {/* Rily Social Growth */}
+            <a href="/work/rily-social-growth" className="group block" aria-label="View Rily Social Growth case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Social Content</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Rily Social Growth</h3>
+              <p className="text-gray-600 text-sm mb-2">Complete social media transformation and growth strategy</p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Social Media</span>
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Brand Strategy</span>
+              </div>
+            </a>
+
+            {/* Muskoka Roastery */}
+            <a href="/work/muskoka-roastery-wilderness" className="group block" aria-label="View Muskoka Roastery case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-orange-600 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Brand Documentary</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Muskoka Roastery Wilderness</h3>
+              <p className="text-gray-600 text-sm mb-2">Authentic brand storytelling in Canada&apos;s wilderness</p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Documentary</span>
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Brand Story</span>
+              </div>
+            </a>
+
+            {/* Red Bull */}
+            <a href="/work/red-bull-music-academy" className="group block" aria-label="View Red Bull Music Academy case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-600 to-blue-600 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Event Coverage</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Red Bull Music Academy</h3>
+              <p className="text-gray-600 text-sm mb-2">Global music event documentation and content creation</p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Event Coverage</span>
+                <span className="px-2 py-1 bg-gray-100 text-xs text-gray-600 rounded">Music</span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -362,110 +469,6 @@ export default function Home() {
                 &quot;Johnny and his team are fantastic to work with. They cross all the T&apos;s and dot all the I&apos;s, so you don&apos;t have to. He works with you to reach your marketing goals and reveal new markets and sales channels you may not even have known were there.&quot;
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Work/Portfolio Section */}
-      <section id="work" className="py-24 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Our Work</h2>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-              From brand storytelling to social content, we create videos that connect with your audience and drive results.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Subway Meat Cute */}
-            <a href="/work/subway-meat-cute" className="group block" aria-label="View Subway Meat Cute case study">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-yellow-500 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Viral Campaign</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Subway &apos;Meat Cute&apos;</h3>
-              <p className="text-gray-600 text-sm">
-                Valentine&apos;s Day campaign that achieved 10M+ views and 8M+ engagements.
-              </p>
-            </a>
-
-            {/* Rily Social Growth */}
-            <a href="/work/rily-social-growth" className="group block" aria-label="View Rily Social Growth case study">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Social Growth</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Rily.co Growth Story</h3>
-              <p className="text-gray-600 text-sm">
-                From 150 to 36,000+ followers: A 3-year content strategy success.
-              </p>
-            </a>
-
-            {/* Muskoka Documentary */}
-            <a href="/work/muskoka-roastery-wilderness" className="group block" aria-label="View Muskoka Roastery case study">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-700 to-blue-600 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Documentary</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Muskoka Wilderness</h3>
-              <p className="text-gray-600 text-sm">
-                Docu-style films showcasing Canadian wilderness roots - 300K+ views.
-              </p>
-            </a>
-
-            {/* Red Bull Partnership */}
-            <a href="/work/red-bull-music-academy" className="group block" aria-label="View Red Bull Music Academy case study">
-              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-600 to-blue-700 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-sm opacity-75">Music Content</p>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Red Bull Music Academy</h3>
-              <p className="text-gray-600 text-sm">
-                7-year partnership covering independent music across Canada.
-              </p>
-            </a>
-
-          </div>
-
-          <div className="text-center mt-16">
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-black text-black font-medium hover:bg-black hover:text-white transition-colors duration-300"
-            >
-              Start Your Project
-            </a>
           </div>
         </div>
       </section>
