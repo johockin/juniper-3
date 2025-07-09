@@ -1,6 +1,7 @@
 import './globals.css'
 import { Metadata } from 'next'
 import { siteConfig, generateKeywords } from '../config/seo'
+import Navigation from '../components/Navigation'
 
 export const metadata: Metadata = {
   title: siteConfig.title,
@@ -56,27 +57,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-16">
-              <div className="flex-shrink-0">
-                <img 
-                  src="/logos/logo-dark.png" 
-                  alt="Juniper Island Logo" 
-                  className="h-8 w-auto"
-                  width={120}
-                  height={32}
-                />
-              </div>
-              <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-8">
-                  <span className="text-gray-900 font-medium">Home</span>
-                  <a href="#work" className="text-gray-900 hover:text-gray-600 font-medium transition-colors">Work</a>
-                  <a href="#about" className="text-gray-900 hover:text-gray-600 font-medium transition-colors">About</a>
-                  <a href="#contact" className="text-gray-900 hover:text-gray-600 font-medium transition-colors">Contact</a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Navigation />
         </nav>
         <main className="pt-16">
           {children}

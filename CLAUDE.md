@@ -371,6 +371,16 @@ config/
 - **Status**: Phase 1a nearly complete - only blog system remains
 - **Action**: User approved milestone - pushing to git for Netlify QA review
 - **Next**: User will QA site on Netlify, then proceed with final blog system
+- **QA FEEDBACK**: User completed QA review with mostly positive results
+- **QA POSITIVES**: Fast load, no font flash, content accurate, hero video works
+- **QA ISSUES**: Missing images in case studies, no hamburger menu, testimonials not real
+- **QA CONCERNS**: SEO - should things be on separate pages? "Sea of text" issue
+- **DISCOVERY**: Creative Brief Canvas PDF could be lead magnet for Phase 2
+- **ACTION**: Need to find real testimonials from knowledge bank and address issues
+- **TESTIMONIALS PROVIDED**: User provided 4 complete real testimonials with names/titles
+- **DECISIONS**: Add hamburger menu (simple, zippy), keep one-page for launch, break out sections in Phase 1b
+- **CLARIFICATION**: Still mid-to-tail end of Phase 1a, not ready for Phase 1b yet
+- **CONFIRMED**: Creative Brief Canvas PDF as Phase 2 lead magnet
 
 ### Previous History (Reconstructed from Git)
 - Built comprehensive case study system with JSON-based CMS
@@ -393,6 +403,7 @@ config/
 - [ ] **Site Launch**: Get the site live and functioning
 
 ### 🔧 Phase 1b (Pre-launch Optimizations)  
+- [ ] **Break out sections**: Separate pages for About, Services, individual case studies for better SEO
 - [ ] **Analytics Integration**: Privacy-first analytics without external dependencies
 - [ ] **Performance Audit**: Lighthouse optimization and Core Web Vitals
 - [ ] **Image Optimization**: Ensure all assets are properly optimized
@@ -400,6 +411,7 @@ config/
 
 ### 📈 Phase 2 (Post-Launch)
 - [ ] **Real CMS**: Replace JSON system with proper CMS for blog and case studies
+- [ ] **Lead Magnet**: Creative Brief Canvas PDF download system
 
 ### 🎯 Phase 5 (Stretch Goals)
 - [ ] **Client Portal**: Secure area for clients to track project progress
@@ -437,6 +449,7 @@ config/
 - **User feedback loops**: Always validate assumptions vs. making up features
 - **Permission-based workflow**: Ask before acting - prevents unwanted changes
 - **Reference preservation**: Keep uploaded materials as knowledge base
+- **One-page launch strategy**: Faster to launch, break apart later for SEO
 
 ---
 
@@ -460,6 +473,7 @@ config/
 - **Complex abstractions**: Harder to debug and maintain
 - **Inconsistent patterns**: Creates confusion and bugs
 - **Making up features**: Don't assume what user wants - ask and validate
+- **Sea of text**: Too much text without visual breaks creates poor UX
 
 ---
 

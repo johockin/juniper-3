@@ -251,12 +251,12 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="font-semibold">Subway Canada</div>
-                  <div className="text-sm text-gray-600">Major Brand Campaign</div>
+                  <div className="font-semibold">Andrew Addison</div>
+                  <div className="text-sm text-gray-600">VP Communications, CMPA</div>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                &quot;The campaign exceeded all expectations. Juniper Island brought creativity and authenticity together in a way that resonated with our target audience.&quot;
+                &quot;The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn. They take time to understand the &apos;why&apos; of everything we&apos;re doing, and then put in the work to make sure it&apos;s as creative and beautiful as possible.&quot;
               </p>
             </div>
             
@@ -269,12 +269,12 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="font-semibold">Rily.co</div>
-                  <div className="text-sm text-gray-600">Health & Wellness Startup</div>
+                  <div className="font-semibold">Jennie Tao</div>
+                  <div className="text-sm text-gray-600">The Samuel Family Foundation</div>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                &quot;Working with Juniper Island has been transformative. They don&apos;t just create content—they understand our mission and help us build genuine connections with our community.&quot;
+                &quot;It&apos;s perfect! It still gives me feels each time I watch it. Again, thank you so much for the wonderful project! The entire team is over the moon about it.&quot;
               </p>
             </div>
             
@@ -287,12 +287,12 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="font-semibold">Muskoka Roastery</div>
-                  <div className="text-sm text-gray-600">Coffee & Beverage</div>
+                  <div className="font-semibold">Andre De Pape</div>
+                  <div className="text-sm text-gray-600">Cannoe, Toronto</div>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                &quot;Juniper Island captured the essence of what makes our coffee special—the connection to the Canadian wilderness that inspired our entire brand.&quot;
+                &quot;Juniper came in with lightning fast development, exceeded our expectations, and the final video&apos;s driving really strong/positive engagement.&quot;
               </p>
             </div>
             
@@ -305,12 +305,12 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="font-semibold">Tech Startup</div>
-                  <div className="text-sm text-gray-600">Series A Funding</div>
+                  <div className="font-semibold">Tabitha Osler</div>
+                  <div className="text-sm text-gray-600">fairechild, Halifax</div>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                &quot;Juniper Island didn&apos;t just create a video—they helped us find our voice. The story they crafted became the foundation for all our investor communications.&quot;
+                &quot;Johnny and his team are fantastic to work with. They cross all the T&apos;s and dot all the I&apos;s, so you don&apos;t have to. He works with you to reach your marketing goals and reveal new markets and sales channels you may not even have known were there.&quot;
               </p>
             </div>
           </div>
