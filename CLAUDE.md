@@ -399,29 +399,35 @@ config/
 - Simplified contact form for faster, easier submissions
 - Fixed Netlify Forms integration for Next.js 15 compatibility
 - Fixed import path for Netlify deployment compatibility
+- Fixed JSX syntax error in About section that was causing build failures
+- Removed placeholder case studies, keeping only real ones (Subway, Rily, Muskoka, Red Bull)
+- Added client logo strip from original materials
+- Properly incorporated BTS filming image into About section design
 
 ---
 
 ## 🎯 DEVELOPMENT ROADMAP - ACTUAL PHASES
 
-### 🚀 Phase 1a (IMMEDIATE - Content Creation)
-- [x] **Case Study Pipeline**: Adapt user docs into web page content
-- [ ] **Styling & Visual Polish**: Creative styling improvements (NEW PRIORITY)
+### 🚀 Phase 1a (COMPLETED - Content Creation)
+- [x] **Case Study Pipeline**: Adapted user docs into web page content
+- [x] **Styling & Visual Polish**: Creative styling improvements completed
 - [x] **Hardcoded Testimonials**: Real testimonials directly in components
-- [x] **Real Content**: Replace boilerplate with actual content from proposals/current site
+- [x] **Real Content**: Replaced boilerplate with actual content from proposals/current site
 
 ### 🎯 Phase 1 (MAJOR GOAL - Launch)
 - [ ] **Site Launch**: Get the site live and functioning
 
-### 🔧 Phase 1b (Visual Polish & Styling)
-- [x] **Logo home link**: Make logo clickable to return home
+### 🔧 Phase 1b (COMPLETED - Visual Polish & Styling)
+- [x] **Logo home link**: Make logo clickable to return home (works even on homepage)
 - [x] **Glass navbar**: More transparent with "liquid glass" effect
-- [x] **About section BTS image**: Add behind-the-scenes image background (correct "About Juniper Island" section)
+- [x] **About section BTS image**: Properly incorporated BTS filming image into "About Juniper Island" section with caption
 - [x] **Column alignment**: Fix vertical alignment in Our Story/Our Approach
 - [x] **Header testimonial**: Add small testimonial under main header (positioned after scroll, subtle styling)
-- [x] **Logo strip**: Added client logo strip from original materials
-- [x] **Contact email**: Update to nina@juniperisland.ca
-- [ ] **Case study images**: Add extracted images to case studies
+- [x] **Logo strip**: Added client logo strip from original materials in dark section
+- [x] **Contact email**: Update to nina@juniperisland.ca throughout all files
+- [x] **Remove placeholder case studies**: Cleaned up to show only real case studies (Subway, Rily, Muskoka, Red Bull)
+- [x] **JSX syntax fix**: Fixed broken div structure causing build failures
+- [ ] **Case study images**: Add extracted images to case studies (REMAINING TASK)
 
 ### 🔧 Phase 1c (Pre-launch Optimizations)  
 - [ ] **Blog System**: JSON-based blog (pre-CMS) with SEO optimization (MOVED HERE)
@@ -591,6 +597,41 @@ When making any decision, ask:
 1. **Read this entire file** - it's your bible
 2. **Check the action log** - understand what's been done
 3. **Review current priorities** - focus on what matters most
+
+## 🎯 CURRENT STATUS & NEXT STEPS (UPDATED)
+
+### ✅ Phase 1a & 1b COMPLETED
+- [x] Real case studies created from client materials (Subway, Rily, Muskoka, Red Bull)
+- [x] Authentic testimonials implemented with real names and titles
+- [x] Company story and team profiles added
+- [x] Contact form with nina@juniperisland.ca integration
+- [x] Homepage metrics and content updated
+- [x] Logo home link functionality (works on all pages)
+- [x] Glass navbar effect implemented
+- [x] BTS filming image properly incorporated into About section with caption
+- [x] Client logo strip added from original materials in dark section
+- [x] Placeholder case studies removed - only real ones remain
+- [x] Build errors fixed (JSX syntax)
+- [x] Testimonial positioning improved (after scroll, subtle styling)
+
+### 🔄 Currently Working On
+- [ ] **Case study images**: Add extracted images to individual case studies (ONLY REMAINING TASK)
+
+### 🎯 Next Priority
+Complete case study images, then move to Phase 1c (pre-launch optimizations).
+
+### 📁 Key Files Modified Recently
+- `app/page.tsx`: Main homepage with all styling improvements
+- `components/Navigation.tsx`: Logo home link functionality
+- `components/ContactForm.tsx`: Updated email to nina@juniperisland.ca
+- `config/seo.ts`: Updated email addresses
+- `public/images/bts-filming.jpg`: Added BTS image
+- `public/images/logo-strip-white.avif`: Added client logo strip
+
+### 🚀 Deployment Status
+- Build: ✅ Fixed JSX syntax error
+- Netlify: ✅ Should deploy successfully
+- Performance: ✅ All optimizations maintained
 4. **Test the build** - make sure everything works
 5. **Update the log** - document your actions
 
