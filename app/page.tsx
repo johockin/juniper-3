@@ -220,8 +220,8 @@ export default function Home() {
             {/* Content */}
             <div className="order-1 lg:order-2">
               <div className="grid gap-16">
-            {/* Company Story */}
-            <div>
+                {/* Company Story */}
+                <div>
               <h3 className="text-2xl font-semibold mb-6">Our Story</h3>
               <div className="space-y-4 text-gray-600">
                 <p>
@@ -236,8 +236,8 @@ export default function Home() {
               </div>
             </div>
             
-            {/* Team & Values */}
-            <div>
+                {/* Team & Values */}
+                <div>
               <h3 className="text-2xl font-semibold mb-6">Our Approach</h3>
               <div className="space-y-6">
                 <div>
@@ -255,6 +255,8 @@ export default function Home() {
                 <div>
                   <h4 className="font-semibold mb-2">Sustainability Focus</h4>
                   <p className="text-gray-600">Certified with Bullfrog Power and committed to creating impactful content that aligns with our clients&apos; values.</p>
+                </div>
+              </div>
                 </div>
               </div>
             </div>
