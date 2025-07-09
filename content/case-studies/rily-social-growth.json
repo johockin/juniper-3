@@ -1,0 +1,112 @@
+{
+  "slug": "rily-social-growth",
+  "title": "Rily.co Social Media Growth",
+  "subtitle": "From 150 to 36,000+ followers: A 3-year content strategy success story",
+  "client": "Rily.co",
+  "industry": "Health & Wellness",
+  "projectType": "Long-term Content Strategy",
+  "timeline": "3+ years (ongoing)",
+  "budget": "Confidential",
+  "heroImage": "/images/cases/rily-hero.jpg",
+  "heroVideo": "/videos/cases/rily-demo.mp4",
+  "summary": "A comprehensive content strategy that grew Rily.co from 150 to over 36,000 Instagram followers, establishing them as a leading voice in allergy-friendly cooking.",
+  "challenge": "Rily.co, a recipe startup for people with health conditions and allergies, needed to build brand awareness and community in a crowded wellness space.",
+  "solution": "We developed a long-term content strategy focused on monthly recipe videos, chef profiles, and authentic storytelling that resonated with their niche audience.",
+  "results": [
+    "24,000%+ follower growth (150 to 36,000+)",
+    "Vast library of engaging video content",
+    "Established thought leadership in allergy-friendly cooking",
+    "3+ years of sustained partnership and growth"
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "content": "When Rily.co approached us in 2020, they were a recipe startup with a powerful mission but limited reach. Serving people with health conditions and allergies, they needed to build trust and community in a space where authenticity matters most."
+    },
+    {
+      "type": "callout",
+      "title": "The Challenge",
+      "content": "How do you build a loyal community around specialized dietary needs while standing out in an oversaturated wellness market?",
+      "variant": "info"
+    },
+    {
+      "type": "text",
+      "content": "Our approach focused on consistent, high-quality content that showcased both recipes and the stories behind them. We partnered with Nina Gilmour as producer to create a sustainable content pipeline that could grow with their brand."
+    },
+    {
+      "type": "image",
+      "src": "/images/cases/rily-bts-1.jpg",
+      "alt": "Behind the scenes of Rily recipe video production",
+      "caption": "Behind the scenes: Creating authentic recipe content for the allergy-friendly community",
+      "layout": "full-width"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Our Content Strategy"
+    },
+    {
+      "type": "text",
+      "content": "We established a monthly production rhythm that balanced recipe showcases with chef profiles, creating a diverse content library that served multiple audience needs and engagement patterns."
+    },
+    {
+      "type": "bulletList",
+      "items": [
+        "Monthly recipe videos with step-by-step guidance",
+        "Chef profiles highlighting diverse culinary voices",
+        "Behind-the-scenes content building brand authenticity",
+        "Community-focused storytelling around health journeys"
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Working with Juniper Island has been transformative. They don't just create content—they understand our mission and help us build genuine connections with our community.",
+      "author": "Rily.co Team",
+      "role": "Client"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The Results"
+    },
+    {
+      "type": "text",
+      "content": "Over three years, we've helped Rily.co build one of the most engaged communities in the allergy-friendly cooking space. Their growth has been both substantial and sustainable, with authentic engagement driving real business results."
+    },
+    {
+      "type": "statsGrid",
+      "stats": [
+        {
+          "number": "36,000+",
+          "label": "Instagram Followers"
+        },
+        {
+          "number": "24,000%",
+          "label": "Follower Growth"
+        },
+        {
+          "number": "36+",
+          "label": "Months Partnership"
+        },
+        {
+          "number": "100+",
+          "label": "Videos Produced"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "title": "Key Insight",
+      "content": "Sustainable growth comes from understanding your audience's deeper needs. In wellness, authenticity and consistency matter more than viral moments.",
+      "variant": "success"
+    }
+  ],
+  "tags": ["Social Media", "Content Strategy", "Health & Wellness", "Long-term Partnership"],
+  "featured": true,
+  "publishedAt": "2024-01-10",
+  "seo": {
+    "metaTitle": "Rily.co Social Media Success - 24,000% Growth Case Study | Juniper Island",
+    "metaDescription": "How we grew Rily.co from 150 to 36,000+ Instagram followers with strategic content creation. See our 3-year partnership results.",
+    "ogImage": "/images/cases/rily-og.jpg"
+  }
+}

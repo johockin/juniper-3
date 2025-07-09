@@ -1,6 +1,69 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## 🏆 THIS FILE IS GOLD - PRESERVE AT ALL COSTS
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH** - It contains the complete institutional knowledge for this project.
+
+⚠️ **CRITICAL PRESERVATION RULE**: If you EVER revert to a previous version of the site via git or any other method, YOU MUST PRESERVE THIS FILE. Copy it before reverting, then restore it after. This file contains knowledge that transcends any single version of the code.
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. It serves as:
+- **Standard Operating Procedure (SOP)** for all development work
+- **Complete action log** of everything we've done
+- **Dream features wishlist** for future development
+- **Best practices guide** that works vs. what doesn't
+- **Project ethos** and philosophy preservation
+- **Handoff documentation** for new Claude instances
+
+## 🔄 MANDATORY LOGGING PROTOCOL
+
+**EVERY ACTION MUST BE LOGGED** - Assume you might be pulled away from this project at any moment, and another Claude instance needs to seamlessly continue.
+
+### How to Log Actions:
+1. **Before doing anything**: Update the action log below
+2. **After completing work**: Document results, learnings, and next steps
+3. **If something fails**: Document what didn't work and why
+4. **If something works great**: Document it in best practices
+
+## 📖 HOW TO USE THIS SPEC - USER EXPECTATIONS
+
+**THE USER EXPECTS YOU TO:**
+
+### 🎯 Always Start Here
+- **READ THIS ENTIRE FILE FIRST** - Before doing anything else
+- **Update the action log** with what you're about to do
+- **Check dream features** to see if current request aligns with roadmap
+- **Review best practices** to ensure you're following proven patterns
+
+### 📝 Document Everything
+- **Log every action** in the action log section
+- **Update best practices** when you discover something that works well
+- **Update anti-patterns** when you discover something that doesn't work
+- **Add to dream features** if user mentions something for the future
+- **Update troubleshooting** if you solve a problem
+
+### 🔄 Continuous Updates
+- **Never assume** the user remembers what we discussed before
+- **Always reference** this file for context and decisions
+- **Keep documentation current** - this file should always reflect reality
+- **Think long-term** - every decision should consider future maintainability
+
+### 🚨 Critical Rules
+- **NEVER skip documentation** - even small changes must be logged
+- **ALWAYS preserve this file** - it's more important than any code
+- **QUESTION everything** - if something isn't documented, ask why
+- **ASSUME discontinuity** - every session might be your last
+- **ASK PERMISSION** before making changes - user might just be venting, not requesting work
+- **PRESERVE uploads** - keep all uploaded materials as reference brain
+
+### 🎭 Your Role
+You are the "guy from Memento" - this file is your external memory. Without it, you know nothing about:
+- What we've tried before
+- What works vs what doesn't
+- Why decisions were made
+- Where we're headed
+- What the user values
+
+**THE USER WILL NOT REPEAT THEMSELVES** - Everything you need to know is in this file.
 
 ## Project Overview
 
@@ -80,22 +143,35 @@ npm run type-check
 ## Project Structure
 
 ```
+_uploads/              # 📥 TEMPORARY UPLOAD DROPBOX
+└── README.md          # Upload instructions and workflow
+
 app/
 ├── layout.tsx          # Root layout with comprehensive SEO metadata
 ├── page.tsx            # Homepage with hero video and complete sections
 ├── globals.css         # Minimal global styles with system fonts
 ├── sitemap.ts          # XML sitemap generation
 ├── robots.ts           # Robots.txt generation
-└── favicon.ico
+└── work/[slug]/        # Dynamic case study pages
+    └── page.tsx
+
+components/
+├── CaseStudyContent.tsx # Case study display component
+└── ContactForm.tsx      # Netlify Forms integration
 
 config/
 └── seo.ts             # 🎯 CENTRALIZED SEO CONFIGURATION (CRITICAL)
                        # ALL SEO settings, meta tags, structured data
 
+content/
+└── case-studies/      # JSON-based case study data
+    └── *.json         # Individual case study files
+
 public/
+├── __forms.html       # Netlify Forms discovery file
 ├── images/
 │   ├── team/          # Team member photos (optimized)
-│   └── og-image.jpg   # Open Graph image
+│   └── projects/      # Case study images
 ├── logos/             # Brand logos (optimized)
 └── videos/
     └── hero-video.mp4 # Optimized hero video
@@ -155,12 +231,33 @@ config/
 - **Semantic HTML** structure throughout
 - **Proper heading hierarchy** (h1 -> h2 -> h3)
 
-## Netlify Deployment
+## 🚀 NETLIFY DEPLOYMENT (CRITICAL)
 
-- **Netlify-specific optimizations** in netlify.toml
-- **Performance headers** for caching
-- **Security headers** for protection
+**AUTO-DEPLOYMENT**: Site auto-deploys from git pushes to Netlify. Every commit triggers a build.
+
+### Netlify Configuration (`netlify.toml`)
 - **Next.js plugin** for proper static generation
+- **Performance headers** for aggressive caching (1 year for static assets)
+- **Security headers** for protection (XSS, clickjacking, etc.)
+- **Node 20 + NPM 10** build environment
+
+### Netlify Forms Integration
+- **Built into Netlify infrastructure** for INTENSE performance
+- **No external form services** to maintain fast load times
+- **Contact form** uses Netlify's native form handling
+- **Pre-rendered forms** in `public/__forms.html` for discovery
+
+### Performance Optimizations for Netlify
+- **Static generation** with Next.js export
+- **Aggressive caching** for images, videos, and static assets
+- **No external dependencies** that would slow down their edge network
+- **Optimized build process** for fast deployment
+
+### Deployment Workflow
+1. **Push to git** → Auto-triggers Netlify build
+2. **Netlify builds** with Next.js plugin 
+3. **Deploy to edge network** with performance headers
+4. **Forms automatically work** via Netlify infrastructure
 
 ## Styling Approach
 
@@ -214,3 +311,263 @@ config/
 6. **Keep it simple** - complexity is the enemy of performance
 7. **Document everything** - update CLAUDE.md for ALL changes
 8. **Centralize configuration** - use config files, not hardcoded values
+
+---
+
+## 📋 ACTION LOG - COMPLETE HISTORY
+
+**Format**: `[DATE] [CLAUDE_INSTANCE] [ACTION] - [RESULT/NOTES]`
+
+### 2025-01-08 (Today)
+- **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514)
+- **Action**: Enhanced CLAUDE.md with comprehensive SOP structure
+- **Result**: Added preservation rules, logging protocol, and institutional knowledge framework
+- **User Feedback**: Requested to include instructions on how to use the spec IN the spec itself
+- **Action**: Added "HOW TO USE THIS SPEC - USER EXPECTATIONS" section
+- **Result**: Now includes complete instructions for future Claude instances on user expectations
+- **Key Insight**: User will not repeat themselves - everything needed is in this file
+- **Status**: Comprehensive SOP structure complete and ready for use
+- **Action**: User requested return to planning mode to assess current codebase status
+- **Result**: Reviewed codebase state and potential next steps
+- **User Feedback**: Clarified actual priorities vs made-up features in dream list
+- **Action**: Updating dream features to reflect real phases and priorities
+- **Key Insight**: Case studies ARE the portfolio, no separate interactive portfolio needed
+- **Next**: Organize phases properly and prepare for content creation from user docs
+- **Action**: User requested dropbox folder for material uploads and clarified workflow
+- **Key Info**: Site auto-deploys from git pushes on Netlify, performance critical for their systems
+- **Workflow**: User uploads docs → Claude processes → Claude deletes → Claude edits site
+- **Action**: Creating upload folder structure and updating deployment info
+- **Result**: Created `_uploads/` folder with README for user material dropbox
+- **Result**: Updated spec with comprehensive Netlify deployment info and auto-deploy workflow
+- **Result**: Documented content upload & processing workflow in development pipeline
+- **Result**: Updated project structure to reflect current state including uploads folder
+- **Key**: Netlify Forms integration already built for INTENSE performance
+- **Ready**: Upload folder ready for user case study docs and materials
+- **User Feedback**: Don't delete uploads after processing - keep as reference brain
+- **User Feedback**: Always ask permission before making changes - user might just be venting
+- **Action**: Updated workflow to preserve uploads and added permission protocol
+- **User Feedback**: Permission protocol may relax over time, but important starting point
+- **User Suggestion**: Organize processed uploads into subfolders as knowledge bank
+- **Action**: User uploaded materials - reviewing all content to understand what we have
+- **Next**: Go through each upload, identify what it is, get user corrections, plan usage
+- **Challenge**: Binary files (docx, pdf, pptx) not readable with standard tools
+- **User Request**: Find automated method to extract both text and images from all files
+- **Research**: Looking into programmatic extraction methods for comprehensive asset access
+- **SUCCESS**: Created automated extraction scripts for all Office files and RTF content
+- **Result**: Extracted 674 text elements + 33 images from all documents
+- **Result**: Successfully processed current website content from RTF file
+- **Action**: Organizing all extracted content into knowledge bank structure
+- **Result**: Successfully organized comprehensive knowledge bank with 674+ text elements, 33+ images
+- **Result**: Extracted current website content including headlines, metrics, and structure
+- **User Question**: Whether to dump browser-side code from current site or if that's overkill
+- **Decision**: Skip browser code dump - have sufficient content from knowledge bank
+- **Action**: Proceeding with Phase 1a content creation using extracted materials
+- **Status**: Beginning case study creation and content enhancement
+- **COMPLETED**: Created 4 comprehensive case studies from real client work
+- **COMPLETED**: Updated homepage with real content, metrics, and testimonials
+- **COMPLETED**: Added comprehensive About section with company history
+- **COMPLETED**: Enhanced services section with proven results focus
+- **COMPLETED**: Added hardcoded testimonials from client feedback
+- **Status**: Phase 1a nearly complete - only blog system remains
+- **Action**: User approved milestone - pushing to git for Netlify QA review
+- **Next**: User will QA site on Netlify, then proceed with final blog system
+
+### Previous History (Reconstructed from Git)
+- Built comprehensive case study system with JSON-based CMS
+- Added comprehensive About section featuring Johnny and Nina  
+- Simplified contact form for faster, easier submissions
+- Fixed Netlify Forms integration for Next.js 15 compatibility
+- Fixed import path for Netlify deployment compatibility
+
+---
+
+## 🎯 DEVELOPMENT ROADMAP - ACTUAL PHASES
+
+### 🚀 Phase 1a (IMMEDIATE - Content Creation)
+- [ ] **Case Study Pipeline**: Adapt user docs into web page content
+- [ ] **Blog System**: JSON-based blog (pre-CMS) with SEO optimization  
+- [ ] **Hardcoded Testimonials**: Real testimonials directly in components
+- [ ] **Real Content**: Replace boilerplate with actual content from proposals/current site
+
+### 🎯 Phase 1 (MAJOR GOAL - Launch)
+- [ ] **Site Launch**: Get the site live and functioning
+
+### 🔧 Phase 1b (Pre-launch Optimizations)  
+- [ ] **Analytics Integration**: Privacy-first analytics without external dependencies
+- [ ] **Performance Audit**: Lighthouse optimization and Core Web Vitals
+- [ ] **Image Optimization**: Ensure all assets are properly optimized
+- [ ] **SEO Validation**: Test structured data and meta tags
+
+### 📈 Phase 2 (Post-Launch)
+- [ ] **Real CMS**: Replace JSON system with proper CMS for blog and case studies
+
+### 🎯 Phase 5 (Stretch Goals)
+- [ ] **Client Portal**: Secure area for clients to track project progress
+
+### 🤔 Maybe Later
+- [ ] **Service Calculator**: Interactive pricing calculator
+
+### ❌ Killed Features
+- ~~**Performance Dashboard**~~: Not needed
+- ~~**Interactive Portfolio**~~: Case studies ARE the portfolio
+- ~~**Testimonials System**~~: Just hardcode them
+
+---
+
+## ✅ BEST PRACTICES - WHAT WORKS
+
+### Performance Winners
+- **System fonts**: Zero external font loading = instant text rendering
+- **Next.js Image optimization**: Automatic format selection and lazy loading
+- **Minimal dependencies**: Current bundle size under 103KB first load
+- **Centralized SEO config**: Single source of truth in `config/seo.ts`
+- **Turbopack dev server**: Extremely fast development experience
+
+### SEO Winners
+- **Structured data**: JSON-LD implementation for local business
+- **Semantic HTML**: Proper heading hierarchy and accessibility
+- **XML sitemap**: Auto-generated and comprehensive
+- **Meta tag completeness**: All required tags centrally managed
+
+### Development Winners
+- **TypeScript strict mode**: Catches errors early
+- **Centralized configuration**: Easy maintenance and updates
+- **Clear file structure**: Logical organization and navigation
+- **Comprehensive documentation**: This file as single source of truth
+- **User feedback loops**: Always validate assumptions vs. making up features
+- **Permission-based workflow**: Ask before acting - prevents unwanted changes
+- **Reference preservation**: Keep uploaded materials as knowledge base
+
+---
+
+## ❌ ANTI-PATTERNS - WHAT DOESN'T WORK
+
+### Performance Killers
+- **External fonts**: Even Google Fonts add 200-500ms delay
+- **Unused dependencies**: Each package adds to bundle size
+- **Unoptimized images**: Can kill Core Web Vitals scores
+- **Inline styles**: Harder to maintain and can block rendering
+
+### SEO Killers
+- **Hardcoded meta tags**: Leads to inconsistency and maintenance hell
+- **Missing structured data**: Reduces search engine understanding
+- **Poor heading hierarchy**: Confuses search engines and users
+- **Slow loading**: Directly impacts search rankings
+
+### Development Killers
+- **Scattered configuration**: Hard to maintain and update
+- **Poor documentation**: Wastes time for future developers
+- **Complex abstractions**: Harder to debug and maintain
+- **Inconsistent patterns**: Creates confusion and bugs
+- **Making up features**: Don't assume what user wants - ask and validate
+
+---
+
+## 🏗️ DEVELOPMENT PIPELINE
+
+### Content Upload & Processing Workflow
+1. **User uploads** materials to `_uploads/` folder (case studies, docs, images, etc.)
+2. **Claude processes** materials into website content (JSON, components, pages)
+3. **Claude keeps** original files as reference brain for future use
+4. **Claude updates** action log with what was processed
+5. **Claude asks permission** before committing changes (auto-deploys to Netlify)
+
+### Milestone & QA Workflow
+1. **Complete development work** for agreed milestone/phase
+2. **User approves milestone** completion and requests deployment
+3. **Claude commits and pushes** changes to git (triggers Netlify auto-deploy)
+4. **User performs QA** on live Netlify site
+5. **User reports** any issues or approves for next phase
+6. **Claude documents** QA results and proceeds accordingly
+
+### Feature Development Process
+1. **Document intention** in this file's action log
+2. **Check performance impact** before implementing
+3. **Verify Netlify compatibility** and deployment implications
+4. **Verify SEO implications** and update config if needed
+5. **Test thoroughly** on mobile and desktop
+6. **Update documentation** with learnings
+7. **Deploy and monitor** Core Web Vitals
+
+### Quality Gates
+- [ ] **Build passes**: `npm run build` succeeds
+- [ ] **Type checking**: `npm run type-check` passes
+- [ ] **Linting**: `npm run lint` passes  
+- [ ] **Performance**: Lighthouse score >90 for all metrics
+- [ ] **SEO**: All meta tags and structured data valid
+- [ ] **Mobile**: Responsive design works on all devices
+
+### Deployment Checklist
+- [ ] **Assets optimized**: Images, videos compressed
+- [ ] **Cache headers**: Proper caching configuration
+- [ ] **Security headers**: All security measures in place
+- [ ] **Performance monitoring**: Core Web Vitals tracking
+- [ ] **Error monitoring**: Proper error handling and logging
+
+---
+
+## 🎨 PROJECT ETHOS & PHILOSOPHY
+
+### Core Principles
+1. **Performance First**: Speed trumps everything else
+2. **Simplicity Wins**: Complex solutions are usually wrong
+3. **User Experience**: Every decision should improve UX
+4. **Maintainability**: Code should be easy to understand and modify
+5. **Documentation**: Knowledge should be preserved and shared
+
+### Decision Framework
+When making any decision, ask:
+1. Does this make the site faster?
+2. Does this improve user experience?
+3. Is this the simplest solution?
+4. Can future developers understand this?
+5. Does this align with our performance goals?
+
+### Success Metrics
+- **Core Web Vitals**: All metrics in green
+- **Bundle Size**: Keep first load JS under 150KB
+- **SEO Score**: Maintain 100% SEO score
+- **User Engagement**: High time on site, low bounce rate
+- **Client Satisfaction**: Positive feedback and referrals
+
+---
+
+## 🔧 TROUBLESHOOTING GUIDE
+
+### Common Issues & Solutions
+- **Build fails**: Check TypeScript errors and dependencies
+- **Performance degradation**: Audit bundle size and image optimization
+- **SEO issues**: Verify `config/seo.ts` and test structured data
+- **Deployment problems**: Check Netlify logs and configuration
+- **Development server slow**: Restart with `npm run dev`
+
+### Emergency Procedures
+- **Site down**: Check Netlify status and deployment logs
+- **Performance issues**: Revert to last known good commit
+- **SEO problems**: Verify Google Search Console for errors
+- **Build breaking**: Check recent changes and dependency updates
+
+---
+
+## 📞 HANDOFF PROTOCOL
+
+### For New Claude Instances
+1. **Read this entire file** - it's your bible
+2. **Check the action log** - understand what's been done
+3. **Review current priorities** - focus on what matters most
+4. **Test the build** - make sure everything works
+5. **Update the log** - document your actions
+
+### For Human Developers
+1. **Understand the philosophy** - performance and simplicity first
+2. **Follow the processes** - use the established patterns
+3. **Maintain documentation** - keep this file updated
+4. **Test thoroughly** - don't break what's working
+5. **Preserve knowledge** - add to this file
+
+### Critical Files to Understand
+- `CLAUDE.md` - This file (most important)
+- `config/seo.ts` - SEO configuration
+- `app/layout.tsx` - Main layout and metadata
+- `app/page.tsx` - Homepage implementation
+- `package.json` - Dependencies and scripts

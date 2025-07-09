@@ -23,11 +23,25 @@ export default function Home() {
         
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-semibold text-white mb-6 leading-tight">
-            Creative That Feels Like a Natural Extension of Your Team.
+            Toronto&apos;s Premier Video Production Company
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed">
-            We produce polished brand and social video content that feels like you—just more powerful, more clear, and ready for the spotlight.
+            Elevating Brands with Visually Compelling Video Content
           </p>
+          <div className="flex flex-wrap justify-center gap-8 mb-8 text-white/90">
+            <div className="text-center">
+              <div className="text-2xl font-semibold">300+</div>
+              <div className="text-sm">Video Projects</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-semibold">25M+</div>
+              <div className="text-sm">Total Views</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-semibold">10M+</div>
+              <div className="text-sm">Viral Campaign Views</div>
+            </div>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="#contact" 
@@ -49,9 +63,9 @@ export default function Home() {
       <section className="py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Toronto-Based Video Production</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Story-Driven Video Production</h2>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-              We specialize in creating compelling brand stories through video and creative content that resonates with your audience and drives results.
+              We believe in the power of stories to captivate, engage, and inspire. Our audience-centric strategies deliver performance marketing results that drive measurable business growth.
             </p>
           </div>
           
@@ -164,6 +178,145 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-24 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">About Juniper Island</h2>
+            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              For over a decade, we&apos;ve been delivering high-quality video content that captivates and engages audiences across Canada.
+            </p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Company Story */}
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Our Story</h3>
+              <div className="space-y-4 text-gray-600">
+                <p>
+                  Founded in 2012, Juniper Island Productions emerged from Johnny Hockin&apos;s seven-year journey at MTV Canada, where he hosted MTV News, created Movie Night, and produced hundreds of branded content segments for major brands like Nike, Apple, and Red Bull.
+                </p>
+                <p>
+                  In 2019, Nina Gilmour joined as producer, bringing her expertise to strengthen our production capabilities. Together, we&apos;ve built a lean yet powerful production powerhouse that partners with businesses, public institutions, and major advertising agencies.
+                </p>
+                <p>
+                  From our early seven-year partnership with Red Bull Canada&apos;s Music Academy to recent viral campaigns achieving 10M+ views, we&apos;ve consistently delivered content that resonates with audiences and drives measurable results.
+                </p>
+              </div>
+            </div>
+            
+            {/* Team & Values */}
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Our Approach</h3>
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold mb-2">Story-Driven Content</h4>
+                  <p className="text-gray-600">We believe in the power of stories to captivate, engage, and inspire audiences across all platforms.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Performance Marketing</h4>
+                  <p className="text-gray-600">Our audience-centric strategies deliver measurable results that drive business growth.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Lean & Efficient</h4>
+                  <p className="text-gray-600">We excel at delivering top-tier productions efficiently, often bringing high-quality results on tight budgets and timelines.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Sustainability Focus</h4>
+                  <p className="text-gray-600">Certified with Bullfrog Power and committed to creating impactful content that aligns with our clients&apos; values.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-24 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">What Our Clients Say</h2>
+            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              We&apos;ve had the privilege of working with incredible clients who trust us with their most important stories.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Testimonial 1 */}
+            <div className="bg-white rounded-lg p-8 shadow-sm">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                  </svg>
+                </div>
+                <div className="ml-4">
+                  <div className="font-semibold">Subway Canada</div>
+                  <div className="text-sm text-gray-600">Major Brand Campaign</div>
+                </div>
+              </div>
+              <p className="text-gray-600 italic">
+                &quot;The campaign exceeded all expectations. Juniper Island brought creativity and authenticity together in a way that resonated with our target audience.&quot;
+              </p>
+            </div>
+            
+            {/* Testimonial 2 */}
+            <div className="bg-white rounded-lg p-8 shadow-sm">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+                <div className="ml-4">
+                  <div className="font-semibold">Rily.co</div>
+                  <div className="text-sm text-gray-600">Health & Wellness Startup</div>
+                </div>
+              </div>
+              <p className="text-gray-600 italic">
+                &quot;Working with Juniper Island has been transformative. They don&apos;t just create content—they understand our mission and help us build genuine connections with our community.&quot;
+              </p>
+            </div>
+            
+            {/* Testimonial 3 */}
+            <div className="bg-white rounded-lg p-8 shadow-sm">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                  </svg>
+                </div>
+                <div className="ml-4">
+                  <div className="font-semibold">Muskoka Roastery</div>
+                  <div className="text-sm text-gray-600">Coffee & Beverage</div>
+                </div>
+              </div>
+              <p className="text-gray-600 italic">
+                &quot;Juniper Island captured the essence of what makes our coffee special—the connection to the Canadian wilderness that inspired our entire brand.&quot;
+              </p>
+            </div>
+            
+            {/* Testimonial 4 */}
+            <div className="bg-white rounded-lg p-8 shadow-sm">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                  </svg>
+                </div>
+                <div className="ml-4">
+                  <div className="font-semibold">Tech Startup</div>
+                  <div className="text-sm text-gray-600">Series A Funding</div>
+                </div>
+              </div>
+              <p className="text-gray-600 italic">
+                &quot;Juniper Island didn&apos;t just create a video—they helped us find our voice. The story they crafted became the foundation for all our investor communications.&quot;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Work/Portfolio Section */}
       <section id="work" className="py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -175,7 +328,87 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project 1 */}
+            {/* Subway Meat Cute */}
+            <a href="/work/subway-meat-cute" className="group block" aria-label="View Subway Meat Cute case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-yellow-500 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Viral Campaign</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Subway &apos;Meat Cute&apos;</h3>
+              <p className="text-gray-600 text-sm">
+                Valentine&apos;s Day campaign that achieved 10M+ views and 8M+ engagements.
+              </p>
+            </a>
+
+            {/* Rily Social Growth */}
+            <a href="/work/rily-social-growth" className="group block" aria-label="View Rily Social Growth case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Social Growth</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Rily.co Growth Story</h3>
+              <p className="text-gray-600 text-sm">
+                From 150 to 36,000+ followers: A 3-year content strategy success.
+              </p>
+            </a>
+
+            {/* Muskoka Documentary */}
+            <a href="/work/muskoka-roastery-wilderness" className="group block" aria-label="View Muskoka Roastery case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-700 to-blue-600 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Documentary</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Muskoka Wilderness</h3>
+              <p className="text-gray-600 text-sm">
+                Docu-style films showcasing Canadian wilderness roots - 300K+ views.
+              </p>
+            </a>
+
+            {/* Red Bull Partnership */}
+            <a href="/work/red-bull-music-academy" className="group block" aria-label="View Red Bull Music Academy case study">
+              <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-600 to-blue-700 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <p className="text-sm opacity-75">Music Content</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Red Bull Music Academy</h3>
+              <p className="text-gray-600 text-sm">
+                7-year partnership covering independent music across Canada.
+              </p>
+            </a>
+
+            {/* Tech Startup */}
             <a href="/work/tech-startup-launch" className="group block" aria-label="View Tech Startup Launch case study">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
@@ -185,17 +418,17 @@ export default function Home() {
                         <path d="M8 5v14l11-7z"/>
                       </svg>
                     </div>
-                    <p className="text-sm opacity-75">Brand Story Video</p>
+                    <p className="text-sm opacity-75">Brand Story</p>
                   </div>
                 </div>
               </div>
               <h3 className="text-lg font-semibold mb-2 group-hover:text-gray-600 transition-colors">Tech Startup Launch</h3>
               <p className="text-gray-600 text-sm">
-                Brand storytelling video that helped a Toronto startup secure Series A funding.
+                Brand storytelling that helped secure Series A funding.
               </p>
             </a>
 
-            {/* Project 2 */}
+            {/* Coming Soon */}
             <div className="group opacity-75">
               <div className="relative bg-gray-100 rounded-lg overflow-hidden aspect-video mb-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-800 to-purple-900 flex items-center justify-center">
