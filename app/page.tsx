@@ -64,7 +64,14 @@ export default function Home() {
           </p>
           
           <div className="grid grid-cols-3 gap-16 mb-16 max-w-4xl mx-auto">
-            <div className="glass-stat-card text-center py-8 px-4">
+            <div className="text-center" style={{
+              background: 'rgba(255,255,255,0.02)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: '12px',
+              backdropFilter: 'blur(20px)',
+              transition: 'all 0.3s ease',
+              padding: '2rem 1rem'
+            }}>
               <div className="mb-2" style={{
                 fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
                 fontWeight: 200,
@@ -79,7 +86,14 @@ export default function Home() {
                 letterSpacing: '0.02em'
               }}>Video Projects</div>
             </div>
-            <div className="glass-stat-card text-center py-8 px-4">
+            <div className="text-center" style={{
+              background: 'rgba(255,255,255,0.02)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: '12px',
+              backdropFilter: 'blur(20px)',
+              transition: 'all 0.3s ease',
+              padding: '2rem 1rem'
+            }}>
               <div className="mb-2" style={{
                 fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
                 fontWeight: 200,
@@ -94,7 +108,14 @@ export default function Home() {
                 letterSpacing: '0.02em'
               }}>Total Views</div>
             </div>
-            <div className="glass-stat-card text-center py-8 px-4">
+            <div className="text-center" style={{
+              background: 'rgba(255,255,255,0.02)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: '12px',
+              backdropFilter: 'blur(20px)',
+              transition: 'all 0.3s ease',
+              padding: '2rem 1rem'
+            }}>
               <div className="mb-2" style={{
                 fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
                 fontWeight: 200,
