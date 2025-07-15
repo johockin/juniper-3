@@ -64,17 +64,50 @@ export default function Home() {
           </p>
           
           <div className="grid grid-cols-3 gap-16 mb-16 max-w-4xl mx-auto">
-            <div className="glass-stat-card text-center p-8">
-              <div className="stat-number-ultra clamp-stat-number mb-2">300+</div>
-              <div className="ultra-thin-subtitle text-xs tracking-wider">Video Projects</div>
+            <div className="glass-stat-card text-center py-8 px-4">
+              <div className="mb-2" style={{
+                fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
+                fontWeight: 200,
+                color: '#fff',
+                lineHeight: 1,
+                letterSpacing: '-0.02em'
+              }}>300+</div>
+              <div style={{
+                fontSize: '0.8125rem',
+                fontWeight: 400,
+                color: '#a1a1a6',
+                letterSpacing: '0.02em'
+              }}>Video Projects</div>
             </div>
-            <div className="glass-stat-card text-center p-8">
-              <div className="stat-number-ultra clamp-stat-number mb-2">25M+</div>
-              <div className="ultra-thin-subtitle text-xs tracking-wider">Total Views</div>
+            <div className="glass-stat-card text-center py-8 px-4">
+              <div className="mb-2" style={{
+                fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
+                fontWeight: 200,
+                color: '#fff',
+                lineHeight: 1,
+                letterSpacing: '-0.02em'
+              }}>25M+</div>
+              <div style={{
+                fontSize: '0.8125rem',
+                fontWeight: 400,
+                color: '#a1a1a6',
+                letterSpacing: '0.02em'
+              }}>Total Views</div>
             </div>
-            <div className="glass-stat-card text-center p-8">
-              <div className="stat-number-ultra clamp-stat-number mb-2">10M+</div>
-              <div className="ultra-thin-subtitle text-xs tracking-wider">Viral Campaign Views</div>
+            <div className="glass-stat-card text-center py-8 px-4">
+              <div className="mb-2" style={{
+                fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
+                fontWeight: 200,
+                color: '#fff',
+                lineHeight: 1,
+                letterSpacing: '-0.02em'
+              }}>10M+</div>
+              <div style={{
+                fontSize: '0.8125rem',
+                fontWeight: 400,
+                color: '#a1a1a6',
+                letterSpacing: '0.02em'
+              }}>Viral Campaign Views</div>
             </div>
           </div>
           
