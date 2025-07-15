@@ -21,15 +21,15 @@ export default function Home() {
           muted
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover"
-          style={{ zIndex: -2 }}
-          preload="metadata"
+          style={{ zIndex: 1 }}
+          preload="auto"
           poster="/images/hero-poster.jpg"
         >
           <source src="/videos/hero-video.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0" style={{
-          background: 'rgba(0, 0, 0, 0.4)',
-          zIndex: -1
+          background: 'rgba(0, 0, 0, 0.15)',
+          zIndex: 2
         }} />
         <div className="absolute inset-0" style={{
           background: `
@@ -37,24 +37,28 @@ export default function Home() {
             radial-gradient(circle at 100% 100%, rgba(255,255,255,0.01) 0%, transparent 50%)
           `,
           pointerEvents: 'none',
-          zIndex: -3
+          zIndex: 3
         }} />
         
-        <div className="relative z-10 text-center max-w-5xl mx-auto">
-          <h1 className="mb-8" style={{
-            fontSize: 'clamp(3rem, 8vw, 6rem)',
+        <div className="relative text-center max-w-5xl mx-auto" style={{ zIndex: 10 }}>
+          <h1 className="ultra-thin-title clamp-hero-title mb-8" style={{
             fontWeight: 200,
             letterSpacing: '-0.03em',
             lineHeight: 1.05,
-            color: '#f5f5f7'
+            color: '#f5f5f7',
+            WebkitFontSmoothing: 'antialiased',
+            MozOsxFontSmoothing: 'grayscale',
+            textRendering: 'optimizeLegibility'
           }}>
             <span style={{ fontWeight: 600, color: '#fff' }}>Toronto&apos;s Premier</span><br />
             Video Production Company
           </h1>
-          <p className="mb-16 max-w-2xl mx-auto" style={{
-            fontSize: 'clamp(1.125rem, 2.5vw, 1.375rem)',
+          <p className="ultra-thin-subtitle clamp-hero-subtitle mb-16 max-w-2xl mx-auto" style={{
             fontWeight: 300,
-            color: '#a1a1a6'
+            color: '#a1a1a6',
+            WebkitFontSmoothing: 'antialiased',
+            MozOsxFontSmoothing: 'grayscale',
+            textRendering: 'optimizeLegibility'
           }}>
             Elevating brands with visually compelling video content
           </p>
