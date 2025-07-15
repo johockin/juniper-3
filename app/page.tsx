@@ -337,28 +337,87 @@ export default function Home() {
               display: 'block',
               padding: '1.5rem'
             }} aria-label="View Subway Meat Cute case study">
-              <div className="relative bg-gradient-to-br from-green-600 to-yellow-500 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+              <div style={{
+                position: 'relative',
+                background: 'linear-gradient(to bottom right, #16a34a, #eab308)',
+                borderRadius: '0.5rem',
+                overflow: 'hidden',
+                aspectRatio: '16/9',
+                marginBottom: '1rem',
+                transition: 'transform 0.3s ease'
+              }}>
+                <div style={{
+                  position: 'absolute',
+                  top: 0,
+                  right: 0,
+                  bottom: 0,
+                  left: 0,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}>
+                  <div style={{
+                    color: '#fff',
+                    textAlign: 'center'
+                  }}>
+                    <div style={{
+                      width: '4rem',
+                      height: '4rem',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',
+                      marginBottom: '1rem',
+                      background: 'rgba(255,255,255,0.2)',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      transition: 'background-color 0.3s ease'
+                    }}>
+                      <svg style={{
+                        width: '2rem',
+                        height: '2rem'
+                      }} fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z"/>
                       </svg>
                     </div>
-                    <p className="text-sm opacity-75">Viral Campaign</p>
+                    <p style={{
+                      fontSize: '0.875rem',
+                      opacity: 0.75
+                    }}>Viral Campaign</p>
                   </div>
                 </div>
               </div>
-              <h3 className="clamp-work-title ultra-thin-title mb-2 group-hover:text-gray-300 transition-colors">Subway &apos;Meat Cute&apos;</h3>
-              <p className="ultra-thin-subtitle text-sm mb-2">Valentine&apos;s Day campaign that achieved 10M+ views</p>
-              <div className="flex flex-wrap gap-2">
-                <span className="tag-premium px-2 py-1 text-xs rounded">Viral Campaign</span>
-                <span className="tag-premium px-2 py-1 text-xs rounded">Social Media</span>
+              <h3 className="clamp-work-title ultra-thin-title" style={{
+                marginBottom: '0.5rem',
+                transition: 'color 0.3s ease'
+              }}>Subway &apos;Meat Cute&apos;</h3>
+              <p className="ultra-thin-subtitle" style={{
+                fontSize: '0.875rem',
+                marginBottom: '0.5rem'
+              }}>Valentine&apos;s Day campaign that achieved 10M+ views</p>
+              <div style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '0.5rem'
+              }}>
+                <span className="tag-premium" style={{
+                  padding: '0.25rem 0.5rem',
+                  fontSize: '0.75rem',
+                  borderRadius: '0.25rem'
+                }}>Viral Campaign</span>
+                <span className="tag-premium" style={{
+                  padding: '0.25rem 0.5rem',
+                  fontSize: '0.75rem',
+                  borderRadius: '0.25rem'
+                }}>Social Media</span>
               </div>
             </a>
 
             {/* Rily Social Growth */}
-            <a href="/work/rily-social-growth" className="glass-work-card work-item-shine group block p-6" aria-label="View Rily Social Growth case study">
+            <a href="/work/rily-social-growth" className="glass-work-card work-item-shine" style={{
+              display: 'block',
+              padding: '1.5rem'
+            }} aria-label="View Rily Social Growth case study">
               <div className="relative bg-gradient-to-br from-purple-600 to-pink-500 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-white text-center">
