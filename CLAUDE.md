@@ -661,6 +661,23 @@ config/
 - **Status**: Direction 2 implementation COMPLETE and ready for QA
 
 ### 2025-01-15 (Later) - Direction 2 Implementation Feedback
+
+### 2025-01-15 (Critical CSS Fix Session)
+- **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514) - continued session
+- **Context**: Continuing Direction 2 implementation with critical CSS override issue
+- **CRITICAL DISCOVERY**: CSS styles not applying despite correct inline code
+- **Root Cause**: Tailwind config was importing DM Sans font, overriding system font approach
+- **Problem**: `tailwind.config.js` had `fontFamily: { sans: ['DM Sans', 'sans-serif'] }`
+- **Evidence**: Compiled CSS showed `font-family:DM Sans,sans-serif` in HTML tag
+- **User Report**: Browser inspector showed `font-size: 13px` with strikethrough on inline styles
+- **CRITICAL FIX**: Updated Tailwind config to use system fonts only
+- **New Config**: `fontFamily: { sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'] }`
+- **Build Process**: Rebuilt site to regenerate CSS without DM Sans
+- **Verification**: Compiled CSS now shows proper system font stack
+- **Deployment**: Committed and pushed fix to remote repository for Netlify auto-deployment
+- **Result**: Should resolve CSS override issue where inline styles were being ignored
+- **Performance Alignment**: Maintains CLAUDE.md performance standards with zero external font loading
+- **Status**: Critical fix deployed, awaiting user QA confirmation on Netlify
 - **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514) - continuing session
 - **Context**: User provided detailed QA feedback comparing current implementation to original Direction 2 jam version
 - **User Feedback Summary**: Implementation successful but several elements need refinement to match jam version quality
@@ -898,6 +915,7 @@ config/
 - **Minimal dependencies**: Current bundle size under 103KB first load
 - **Centralized SEO config**: Single source of truth in `config/seo.ts`
 - **Turbopack dev server**: Extremely fast development experience
+- **Proper Tailwind config**: System fonts in config prevent external font loading and CSS override issues
 
 ### SEO Winners
 - **Structured data**: JSON-LD implementation for local business
@@ -928,6 +946,7 @@ config/
 - **Unused dependencies**: Each package adds to bundle size
 - **Unoptimized images**: Can kill Core Web Vitals scores
 - **Inline styles**: Harder to maintain and can block rendering
+- **External fonts in Tailwind config**: DM Sans or other web fonts in Tailwind config override system fonts and cause CSS specificity issues
 
 ### SEO Killers
 - **Hardcoded meta tags**: Leads to inconsistency and maintenance hell
@@ -1037,6 +1056,7 @@ When making any decision, ask:
 - **SEO issues**: Verify `config/seo.ts` and test structured data
 - **Deployment problems**: Check Netlify logs and configuration
 - **Development server slow**: Restart with `npm run dev`
+- **CSS styles not applying (CRITICAL)**: Check Tailwind config for external fonts overriding system fonts - DM Sans was causing inline style overrides
 
 ### Emergency Procedures
 - **Site down**: Check Netlify status and deployment logs
