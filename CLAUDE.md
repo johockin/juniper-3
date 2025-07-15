@@ -69,6 +69,222 @@ You are the "guy from Memento" - this file is your external memory. Without it, 
 
 This is a Next.js 15 website for Juniper Island, a Toronto-based video production and brand storytelling agency. The site is built with React 19, TypeScript, and Tailwind CSS, featuring a modern marketing website with hero video and service showcases.
 
+## 🏢 COMPREHENSIVE COMPANY INFORMATION
+
+**EVERYTHING YOU NEED TO KNOW ABOUT JUNIPER ISLAND** - This section contains the complete company history, team, capabilities, and philosophy distilled from all grant proposals, case studies, and company materials.
+
+### 🎬 Founding Story & Evolution
+
+**2012 - The Beginning**
+- Founded by **Johnny Hockin** after 7 years at MTV Canada
+- Johnny's MTV experience: Hosted MTV News, created Movie Night, produced hundreds of branded segments for Nike, Apple, Red Bull
+- Started with vision to bring broadcast-quality storytelling to digital content
+
+**2012-2019 - The Red Bull Era**
+- 7-year exclusive partnership with Red Bull Canada's Music Academy
+- Created content for RedBullTV, YouTube, and podcast network
+- Produced "Playing With..." series showcasing Canadian musicians
+- Created "Northern Lights" podcast about Canada's underground music scenes
+- Produced "Spaces" documentaries about artists adapting to vanishing venues
+- Partnership ended when Red Bull's global strategy shifted from music
+
+**2019-2020 - Documentary Breakthrough**
+- Pivoted to premium brand documentaries
+- Major success with Muskoka Roastery Coffee Company partnership
+- "Howling: The Call of the Wild" - $60K budget, 6-month production, 56K+ organic views
+- "The Challenge" canoe race documentary - 250K+ views, screened at Paddling Film Festival
+
+**2020-Present - Digital Content Leadership**
+- 4+ year partnership with Rily.co
+- Grew Rily's Instagram from 150 to 36,000+ followers
+- Top content: 3.9M and 2M views
+- Produce 3-4 social videos weekly
+
+**2024 - Viral Success**
+- "Meat Cute" campaign for Subway Canada with Dentsu Creative
+- 7-day production turnaround
+- 10 million views, 8 million engagements
+- Led to continued Dentsu partnership
+
+### 👥 Team & Leadership
+
+**Johnny Hockin - Creative Director & Founder**
+- Former MTV Canada host and interviewer
+- Conducted thousands of interviews with film stars and political figures
+- Specializes in authentic, natural performances from actors and non-actors
+- Expert at creating comfortable on-camera environments
+- Contact: johnny@juniperisland.ca, (647) 969-3452
+
+**Nina Gilmour - Producer & Head of Operations (joined 2020)**
+- Former trained actor and theatre producer
+- Professional arts career spanning decades
+- Fully bilingual (English/French) and experienced translator
+- Expert at complex project organization and stakeholder alignment
+- Manages logistics, timelines, and client relationships
+- Contact: nina@juniperisland.ca, (416) 839-9152
+
+### 🎯 Core Capabilities & Services
+
+**Primary Services:**
+- Viral marketing campaigns
+- Documentary storytelling
+- Social media content creation and management
+- Brand films and commercials
+- Event coverage and conference content
+- Motion graphics and animation
+- Bilingual content (English/French)
+
+**Technical Infrastructure:**
+- Sony FX6 camera package with professional lenses
+- Industry-standard lighting and audio equipment
+- Adobe Suite and DaVinci Resolve post-production
+- Professional cloud services: Vimeo Pro, Frame.io, Google Drive
+- Double-backed secure storage for all projects
+
+### 🤝 Client Portfolio & Long-Term Relationships
+
+**8+ Year Partnerships:**
+- Canadian Media Producers Association (CMPA)
+  - Brand sizzles, conference signage, 20+ event videos annually
+
+**4+ Year Partnerships:**
+- Rily.co - Ongoing social media management and growth
+
+**Major Brand Work:**
+- Subway Canada - 10M view viral campaign
+- Red Bull Canada - 7 years exclusive partnership
+- Muskoka Roastery Coffee Co. - Award-worthy documentaries
+- Toronto Symphony Orchestra
+- Toronto Metropolitan University
+- University of Alberta
+- Metcalf Foundation
+- Samuel Centre for Social Connectedness
+
+**Client Sectors:**
+- Government
+- Education
+- Corporate
+- Non-Profit
+- Arts & Culture
+
+### 🎨 Creative Process & Methodology
+
+**The Juniper Island Approach:**
+1. **Discover** - Deep dive into brand and audience
+2. **Define** - Create clear creative brief and SOW
+3. **Create** - Develop scripts and concepts
+4. **Craft** - Production with attention to detail
+5. **Deliver** - On time, on budget, exceeding expectations
+6. **Drive Impact** - Optimize for engagement and results
+
+**Three Pillars of Success:**
+1. **Communication** - Build consensus early and often
+2. **Organization** - Highly structured project management
+3. **Foresight** - Approximate final products ahead of time
+
+**Production Philosophy:**
+- Story-driven approach to all content
+- Audience-centric strategies
+- Performance marketing delivery
+- "No surprises" policy with clients
+- Fair compensation for all collaborators
+
+### 💼 Business Operations & Standards
+
+**Financial Management:**
+- Detailed budget breakdowns at pitch stage
+- Harvest time tracking for all team members
+- Flexible pricing based on client values alignment
+- Monthly retainer models available
+- Never had project rescoping due to budget overruns
+
+**Quality Standards:**
+- ACTRA compliant when needed
+- Clear contracts and rights management
+- Professional insurance coverage
+- Bullfrog Power certified (sustainability)
+- Double backup of all project files
+
+**Operational Excellence:**
+- Lean team structure for efficiency
+- Strong network of trusted collaborators
+- Minimal overhead, maximum quality
+- Remote-first workflow capabilities
+
+### 🏆 Notable Achievements & Recognition
+
+**Metrics That Matter:**
+- 300+ video projects completed
+- 25M+ total views across all content
+- 10M+ views on single viral campaign
+- 36,000+ follower growth for single client
+- 8+ year client retention record
+- 100% on-budget delivery rate
+
+**Industry Recognition:**
+- Paddling Film Festival screening
+- Consistent organic viral success
+- Long-term brand partnerships
+- Trusted by government and institutions
+
+### 🌱 Company Values & Culture
+
+**Core Values:**
+- **Authenticity** - Real stories, real people, real impact
+- **Excellence** - Broadcast quality on every project
+- **Efficiency** - Premium results on tight budgets
+- **Sustainability** - Environmental consciousness in operations
+- **Fairness** - Equitable compensation for all collaborators
+- **Innovation** - Constantly evolving storytelling techniques
+
+**Work Culture:**
+- Proactive communication
+- Creative problem-solving
+- Respect for all talent
+- Continuous learning
+- Building consensus while maintaining vision
+- "Approximating final product" to prevent surprises
+
+### 🚀 Market Position & Future Vision
+
+**Current Market Position:**
+- Premium content creators delivering "Chanel-level" quality
+- Specialists in authentic storytelling that drives engagement
+- Leaders in social media performance
+- Full-service production handling concept to delivery
+- Expert navigators of complex stakeholder projects
+
+**Competitive Advantages:**
+- MTV broadcast pedigree
+- Proven viral success record
+- Long-term client relationships
+- Bilingual capabilities
+- Lean operation efficiency
+- Documentary storytelling expertise
+
+**Future Focus:**
+- Continued growth in digital/social content
+- Expanding documentary work for brands
+- Maintaining premium positioning
+- Values-aligned project selection
+- Innovation while maintaining efficiency
+
+### 📞 Contact & Business Information
+
+**Primary Contacts:**
+- General/Nina: nina@juniperisland.ca
+- Johnny: johnny@juniperisland.ca
+- Location: Toronto, Ontario, Canada
+- Website: juniperisland.ca
+
+**Business Details:**
+- Founded: 2012
+- Type: Video Production & Brand Storytelling Agency
+- Team Size: Lean core team + trusted collaborator network
+- Certifications: Bullfrog Power, ACTRA compliant
+
+This comprehensive profile represents 12+ years of building one of Toronto's most sophisticated video production companies, combining broadcast-level quality with digital-first thinking and an unwavering commitment to authentic storytelling.
+
 ## 🚀 PERFORMANCE PRIORITIES (CRITICAL)
 
 **EXTREME PERFORMANCE IS THE #1 PRIORITY** - This overrides "industry standard" approaches when they conflict with performance.
@@ -145,6 +361,22 @@ npm run type-check
 ```
 _uploads/              # 📥 TEMPORARY UPLOAD DROPBOX
 └── README.md          # Upload instructions and workflow
+
+_references/           # 🎨 EXTERNAL DESIGN REFERENCES
+├── README.md          # Reference workflow and instructions
+├── websites/          # Screenshot uploads of reference sites
+├── design-elements/   # Specific design elements, color palettes
+└── analysis/          # Claude's analysis and styling proposals
+
+_creative-jam/         # 🎸 CREATIVE STYLING SANDBOX
+├── README.md          # Creative jam methodology and workflow
+├── NAVIGATION.html    # Directory of all 6 styling directions
+├── direction-1-typography/     # Premium Typography direction
+├── direction-2-premium-tech/   # Ultra-Premium Tech direction
+├── direction-3-verve-inspired/ # Verve-Inspired Editorial direction
+├── direction-5-cinematic/      # Premium Cinematic direction
+├── direction-6-gallery/        # Gallery Minimal direction
+└── direction-7-verve-bar/      # Verve White Bar direction
 
 app/
 ├── layout.tsx          # Root layout with comprehensive SEO metadata
@@ -318,7 +550,163 @@ config/
 
 **Format**: `[DATE] [CLAUDE_INSTANCE] [ACTION] - [RESULT/NOTES]`
 
-### 2025-01-09 (Today)
+### 2025-01-12 (Today)
+- **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514) - continuing session
+- **Context**: Continuation of creative direction tweaks before presenting to Nina
+- **Action**: User requested left-alignment of stats/buttons in Direction 7 video section
+- **Implementation**: Changed `.hero-video-content` from `align-items: center` to `align-items: flex-start` and added `padding-left: 4rem`
+- **Result**: Stats and buttons now left-aligned in video section, matching original Direction 3 aesthetic
+- **Action**: User requested video be more prominent - "here, watch the video" feeling
+- **Video Enhancements**: 
+  - Reduced overlay opacity from 12% to 5% (much more video visible)
+  - Added white border frame around video section (3px solid rgba(255,255,255,0.8))
+  - Increased video height from 60vh to 70vh (larger, more prominent)
+  - Added "▶ Watch Our Work" label in top-right of video area
+  - Added hover effects - video scales on hover, label lifts up
+  - Added margin, border radius, and box shadow for framed appearance
+- **Result**: Video now feels like featured content rather than background footage
+- **Action**: User requested navigation with site link
+- **Navigation Implementation**:
+  - Fixed navigation in top-right corner with glass morphism effect
+  - "Main Site" button with dark background to stand out
+  - Added Work, About, Contact links with hover states
+  - Proper z-index layering above video
+- **Result**: Clean navigation provides easy access back to main site
+- **CRITICAL ERROR**: User discovered Direction 7 missing from creative jam navigation page
+- **ROOT CAUSE**: Failed to read entire CLAUDE.md spec before acting - violated mandatory protocol
+- **USER FEEDBACK**: "Are you reading the spec? I feel like you're not reading the spec"
+- **CORRECTIVE ACTION**: Read complete CLAUDE.md spec file from top to bottom
+- **LESSON LEARNED**: Must ALWAYS read entire spec first before any actions
+- **Action**: Added Direction 7 to creative jam NAVIGATION.html
+- **Implementation**: Added Direction 7 card with description "Based on Direction 3 with Verve-style white bar at top containing headline/paragraph, video section below with stats/buttons/brands"
+- **Visual**: Created `.preview-7` CSS with white top section and gray bottom to represent layout concept
+- **Result**: Direction 7 now accessible from main creative jam navigation
+- **Action**: User requested video improvements - remove navbar, make edge-to-edge, remove "watch our work" button
+- **Implementation**: Removed all navigation CSS/HTML, removed video border/margin/border-radius for edge-to-edge effect, removed video label
+- **Result**: Clean video section spanning full width without framing or distracting elements
+- **Action**: User requested headline/paragraph spacing adjustments for elegant video transition
+- **Spacing Iterations**: Multiple adjustments to bottom padding of white bar section (4rem → 0 → 1.5rem → 3rem)
+- **Result**: Found optimal 3rem spacing creating elegant transition from white bar to video
+- **Action**: User requested headline closer to left edge, paragraph closer to right edge
+- **Layout Fixes**: Reduced white bar padding to 1.5rem all around, added `margin-left: auto` to paragraph container
+- **Result**: Headline and paragraph properly positioned at page edges with appropriate spacing
+- **Action**: User requested Juniper Island logo in vertical letterhead treatment
+- **Challenge**: Multiple positioning attempts with overlap and sizing issues
+- **Container Discovery**: Logo initially positioned within padded `.hero-bar` causing alignment with headline
+- **Solution**: Used negative left positioning (`left: -1.7rem`) to escape container padding constraints
+- **Final Logo Implementation**:
+  - Position: `absolute` within `.hero-bar`
+  - Size: 24px height (optimal for vertical readability)
+  - Location: `top: 24%`, `left: -1.7rem` (perfectly positioned in left margin)
+  - Transform: `translateY(-50%) rotate(-90deg)` for proper vertical orientation
+  - Opacity: 0.4 for subtle letterhead aesthetic with 0.8 hover state
+- **Result**: Perfect letterhead-style vertical logo in left margin of white bar section
+- **Action**: User requested refined spacing adjustments for final polish
+- **White Bar Spacing Refinements**:
+  - Applied spacing formula twice: increase top padding 15%, decrease bottom padding 10%
+  - First iteration: 4rem → 4.6rem top, 3rem → 2.7rem bottom
+  - Second iteration: 4.6rem → 5.29rem top, 2.7rem → 2.43rem bottom
+  - Final iteration: 5.29rem → 6.08rem top, 2.43rem → 2.19rem bottom
+- **Logo Fine-Tuning**:
+  - Repositioned: `left: -1.7rem` → `left: -1.2rem` → `left: -0.9rem` (moved progressively right)
+  - Adjusted vertically: `top: 24%` → `top: 27%` (moved down for better positioning)
+  - Size optimization: 24px → 26.4px height (10% increase for better visibility)
+- **Final Specifications**:
+  - White bar padding: `6.08rem 1.5rem 2.19rem 1.5rem` (perfect balance)
+  - Logo position: `top: 27%, left: -0.9rem, height: 26.4px`
+  - Logo styling: 40% opacity with 80% hover, rotated -90deg for vertical letterhead effect
+- **Result**: Polished Direction 7 with perfect spacing hierarchy and professional logo placement
+- **Action**: User requested removal of floating stats and CTA buttons to clean up video experience
+- **Problem Solved**: Stats and CTAs were floating center-left over video, disrupting the clean edge-to-edge aesthetic
+- **Solution Process**:
+  - Initially moved CTAs to white bar below paragraph (good flow but made paragraph too tall)
+  - Tried positioning CTAs over video in same visual area (better balance)
+  - Final decision: Remove all CTAs entirely (navigation will handle this later)
+- **Result**: Clean video section with no floating elements, perfect for video focus
+- **Action**: User requested redesign of "Trusted by" overlay - too prominent and distracting from video
+- **Old Design Problems**: Large overlay with 4rem padding, 84px logos, complex grid taking up significant video space
+- **New Low-Profile Design**:
+  - Moved to belt below video instead of overlay on video
+  - Dark background (#1a1a1a) - doesn't compete with video content
+  - Compact 2rem padding vs original 4rem
+  - Horizontal layout: "Trusted by" + logos on left, testimonial on right
+  - Logo size: 72px height (tripled from initial 24px for proper visibility)
+  - Subtle typography with muted colors
+- **Glass Edge Experiment**: Tried subtle glass effect at video/belt boundary but determined it was superfluous
+- **Final Polish**: Removed 1px border artifact at video bottom with `margin-top: -1px` on trusted belt
+- **Final Direction 7 Specifications**:
+  - White bar: `padding: 6.08rem 1.5rem 2.19rem 1.5rem` (perfect hierarchy)
+  - Logo: `top: 27%, left: -0.9rem, height: 26.4px` (vertical letterhead positioning)
+  - Video: Edge-to-edge with 5% white overlay for subtle content visibility
+  - Trusted belt: Low-profile dark strip with 72px logos and compact testimonial
+  - No CTAs or floating elements - clean video focus
+- **Status**: Direction 7 COMPLETE and ready for presentation to Nina - sophisticated Verve-inspired layout with professional letterhead logo and uninterrupted video experience
+
+### 2025-01-15 (Today)
+- **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514) - continuing session
+- **Context**: User selected Direction 2 (Premium Tech) for main site implementation
+- **Status**: Previous CSS classes were added to globals.css, but actual implementation was interrupted
+- **Action**: Implemented Direction 2 Premium Tech styling throughout app/page.tsx
+- **Hero Section**: Updated stats cards to use `glass-stat-card` class and premium typography
+- **Button Effects**: Added `btn-shine` class to all CTA buttons for hover animations
+- **Typography**: Replaced all text styling with `ultra-thin-title` and `ultra-thin-subtitle` classes
+- **Glass Morphism**: Applied `glass-work-card` styling to all case study cards and service cards
+- **Color Scheme**: Transformed entire page from mixed light/dark to consistent dark theme
+- **Testimonial Section**: Updated with `glass-testimonial-card` styling and testimonial-quote-gradient
+- **Form Integration**: Updated ContactForm.tsx to use `glass-form-container` and `form-input-underline` styling
+- **Background Classes**: Applied section-specific background classes (services-section-bg, testimonials-section-bg, contact-section-bg)
+- **Build Success**: Confirmed build passes with no errors, maintaining performance standards
+- **Result**: Complete Direction 2 Premium Tech implementation - dark theme with glass morphism effects, ultra-thin typography, and premium button animations
+- **Performance**: All optimizations maintained, bundle size under 103KB first load
+- **Status**: Direction 2 implementation COMPLETE and ready for QA
+
+### 2025-01-11 (Previous)
+- **Claude Instance**: Opus 4 (claude-opus-4-20250514) 
+- **Action**: User requested comprehensive company information be added to spec
+- **Insight**: Spec should contain EVERYTHING about the company for future Claude instances
+- **Action**: Created proper README.md that directs to CLAUDE.md as mandatory first read
+- **Result**: README now enforces "READ THE SPEC TOP TO BOTTOM" policy for all collaborators
+- **Action**: Added comprehensive company information section to CLAUDE.md
+- **Content**: Extracted and distilled from all grant proposals, case studies, and uploaded materials
+- **Coverage**: Founding story, team bios, project history, client relationships, capabilities, philosophy
+- **Result**: Complete 12-year company history now centralized in spec for future reference
+- **Status**: Spec now contains institutional knowledge about both project AND company
+- **Action**: Added hero video backgrounds to all 5 creative directions
+- **Result**: Video implementation completed with proper overlays for each direction's aesthetic
+- **Action**: Redesigned NAVIGATION.html with art gallery aesthetic - USER LOVED IT!
+- **Result**: Sophisticated, minimal, grid-based design perfect for showing Nina
+- **Action**: Created Direction 6 based on navigation design aesthetic
+- **Result**: Gallery-minimal direction with vast whitespace and geometric perfection
+- **Action**: Fixed Direction 1 text sizing and headline
+- **Result**: Reduced from massive 9rem to reasonable 5rem, new headline "Your Brand Needs Video. We Make the Kind That Moves People."
+- **BUG DISCOVERED**: Hero video backgrounds not showing in directions 2-6
+- **DEBUG PROCESS**: Compared working D1 vs non-working D2 implementations
+- **BUG CAUSE**: CSS class name mismatch - D1 used `.hero-overlay`, others used `.hero-video-overlay`
+- **BUG FIX**: Fixed all directions 2-6 by changing CSS and HTML classes to match D1's working implementation
+- **VIDEO PATHS**: Restored all video paths to correct `../../public/videos/hero-video.mp4`
+- **CLEANUP**: Removed debug video files copied during troubleshooting
+- **LESSON LEARNED**: Always compare working vs non-working implementations FIRST before making changes
+- **Status**: All 6 directions now have working video backgrounds with consistent implementation
+- **FINAL BUG FIX**: Video backgrounds not showing despite playing
+- **ROOT CAUSE**: Opaque background colors on `.hero` elements blocking video visibility
+- **SOLUTION**: Removed all `background` properties from `.hero` elements in directions 2-6
+- **REMOVED BACKGROUNDS**: D2 (#000), D3 (#fff), D4 (#fafafa), D5 (gradient), D6 (#f8f8f8)
+- **Result**: All 6 directions now show hero video backgrounds with their respective overlays
+- **Status**: Creative jam v3 complete with working video backgrounds across all directions
+- **Action**: Created automated frame extraction system for hero video stills
+- **System**: Built `extracted-frames/frame-extractor.html` to extract 12 frames at regular intervals
+- **Implementation**: Canvas-based capture system with automatic download functionality
+- **Integration**: Updated Direction 1, 2, and 6 with extracted frame backgrounds in case study sections
+- **Frame Assignment**: Randomized frame distribution across directions for visual variety
+- **Status**: Automated system ready - extract frames and case studies will show real video stills
+- **EXECUTION**: Ran headless Python script using OpenCV to extract 12 frames from hero video
+- **FRAMES EXTRACTED**: 12 frames at 1.8-second intervals from 19.6-second video
+- **INTEGRATION COMPLETE**: Updated all 6 directions with extracted frames as case study backgrounds
+- **FRAME DISTRIBUTION**: Randomized across directions with appropriate overlays for each aesthetic
+- **RESULT**: All case study sections now display real video stills instead of placeholder boxes
+- **AUTOMATION**: Fully headless system - no manual intervention required
+
+### 2025-01-09
 - **Claude Instance**: Cascade (Windsurf AI)
 - **Action**: CTO-level code audit completed
 - **Result**: B+ grade assessment, identified strengths and areas for improvement
@@ -332,6 +720,28 @@ config/
 - **Action**: User clarified we're still in Phase 1a (real design pass hasn't happened yet)
 - **Action**: Moved "Trusted by Leading Brands" section to above the fold near testimonial
 - **Status**: Ready for QA of Phase 1a case study images + logo positioning
+- **Action**: Restructured homepage layout based on user feedback
+- **Changes**: Created testimonial/logo "belt" section, moved Our Work to top priority, added expert intro copy
+- **Result**: Eliminated dead space, improved user flow to core content, build successful
+- **Status**: Ready for QA of restructured layout, then moving to comprehensive styling pass
+- **Action**: User ready for creative styling phase - wants to showcase creative arts pedigree
+- **Setup**: Created `_references/` folder structure for external design inspiration
+- **Plan**: User will upload reference sites → Claude analyzes → Pitch styling directions → Implement
+- **Goal**: Transform functional layout into visually sophisticated design matching high-end video production
+- **Action**: Created complete creative jam sandbox with 5 distinct styling directions
+- **Result**: 5 self-contained HTML pages showcasing different creative approaches to same content
+- **Directions**: 1) Typographic Maximalism, 2) Bold Color Maximalism, 3) Organic Editorial, 4) Kinetic Brutalism, 5) Cinematic Storytelling
+- **Status**: Creative jam ready for review and iteration - all directions maintain performance standards
+- **Action**: Completely redesigned all 5 directions based on detailed user feedback
+- **Key Feedback**: Need Chanel-level premium quality, not generic tech products
+- **User Insight**: "We are a product most similar to Chanel" - premium, for the few
+- **Target Audience**: Mature, sophisticated clients (not rave crews or broad tech appeal)
+- **Typography Requirements**: Ultra-thin fonts with personality, large + tiny mix
+- **Layout Requirements**: Left-justified text boxes in grid formations, less centered
+- **Content Philosophy**: Content-first, editorial approach, let work speak
+- **Reference Focus**: Verve screenshots as primary inspiration - white, geometric, editorial
+- **Readability**: Must be premium but readable (previous version was 5/10)
+- **Status**: 5 premium directions complete and ready for review
 
 ### 2025-01-08
 - **Claude Instance**: Sonnet 4 (claude-sonnet-4-20250514)
@@ -494,6 +904,10 @@ config/
 - **Permission-based workflow**: Ask before acting - prevents unwanted changes
 - **Reference preservation**: Keep uploaded materials as knowledge base
 - **One-page launch strategy**: Faster to launch, break apart later for SEO
+- **Creative jam methodology**: 5-direction sandbox for iterative design exploration
+- **Premium design requirements**: Chanel-level quality targeting mature, sophisticated clients
+- **Reference-driven design**: Using client's uploaded references as primary inspiration
+- **Content-first philosophy**: Let the work speak, editorial approach over marketing-speak
 
 ---
 
@@ -518,6 +932,11 @@ config/
 - **Inconsistent patterns**: Creates confusion and bugs
 - **Making up features**: Don't assume what user wants - ask and validate
 - **Sea of text**: Too much text without visual breaks creates poor UX
+- **Generic tech aesthetics**: Broad appeal approaches that lack premium positioning
+- **Rave crew design**: Overly technical or youth-focused design that doesn't target mature clients
+- **Centered formatting**: Overly centered layouts that lack editorial sophistication
+- **Thick/heavy fonts**: Heavy typography that lacks the refined feel of premium brands
+- **Broad accessibility**: Trying to appeal to everyone instead of focusing on premium positioning
 
 ---
 
@@ -537,6 +956,16 @@ config/
 4. **User performs QA** on live Netlify site
 5. **User reports** any issues or approves for next phase
 6. **Claude documents** QA results and proceeds accordingly
+
+### Creative Styling Process
+1. **Upload references** to `_references/` folder for inspiration
+2. **Analyze references** for key premium design patterns
+3. **Create 5 directions** in `_creative-jam/` sandbox
+4. **User reviews** all directions and provides detailed feedback
+5. **Claude iterates** based on feedback, maintains 5 directions
+6. **Repeat refinement** until user satisfaction
+7. **Select final direction** for main site implementation
+8. **Extract elements** from jam session to production site
 
 ### Feature Development Process
 1. **Document intention** in this file's action log
@@ -633,10 +1062,14 @@ When making any decision, ask:
 ### 🔄 Phase 1a Status
 - [x] **Case study images**: Added images to all real case studies
 - [x] **Logo strip positioning**: Moved to above the fold near testimonial
-- [ ] **Real design pass**: Still needs comprehensive styling improvements
+- [x] **Layout restructuring**: Created testimonial/logo belt, moved Our Work to top priority
+- [x] **Expert intro copy**: Added professional intro text to Our Work section
+- [x] **Creative styling sandbox**: Built 5-direction jam session for design exploration
+- [x] **Premium design iteration**: Redesigned all directions based on Chanel-level requirements
+- [ ] **Final direction selection**: User to review and select preferred styling approach
 
 ### 🎯 Next Priority
-QA current Phase 1a work, then proceed with comprehensive design improvements.
+**Direction Selection & Refinement**: User will review the 5 premium directions in `_creative-jam/` and select preferred approach(es) for further refinement and eventual implementation on main site.
 
 ### 📁 Key Files Modified Recently
 - `app/page.tsx`: Main homepage with all styling improvements
@@ -645,6 +1078,9 @@ QA current Phase 1a work, then proceed with comprehensive design improvements.
 - `config/seo.ts`: Updated email addresses
 - `public/images/bts-filming.jpg`: Added BTS image
 - `public/images/logo-strip-white.avif`: Added client logo strip
+- `_creative-jam/`: Complete 5-direction styling sandbox
+- `_references/`: External design references and analysis
+- `CLAUDE.md`: Updated with comprehensive creative styling methodology
 
 ### 🚀 Deployment Status
 - Build: ✅ Fixed JSX syntax error

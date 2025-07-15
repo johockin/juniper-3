@@ -35,10 +35,10 @@ export default function ContactForm() {
 
   if (isSubmitted) {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
-        <div className="text-green-600 text-2xl mb-4">✓</div>
-        <h3 className="text-xl font-semibold text-green-800 mb-2">Message Sent!</h3>
-        <p className="text-green-700">
+      <div className="glass-form-container p-8 text-center">
+        <div className="text-green-400 text-2xl mb-4">✓</div>
+        <h3 className="ultra-thin-title text-xl font-semibold mb-2">Message Sent!</h3>
+        <p className="ultra-thin-subtitle">
           Thanks for reaching out. We&apos;ll get back to you within 24 hours.
         </p>
       </div>
@@ -46,18 +46,18 @@ export default function ContactForm() {
   }
 
   return (
-    <form 
-      name="contact"
-      onSubmit={handleSubmit}
-      className="max-w-2xl mx-auto"
-    >
+    <div className="glass-form-container p-8 max-w-2xl mx-auto">
+      <form 
+        name="contact"
+        onSubmit={handleSubmit}
+      >
       {/* Form name for Netlify */}
       <input type="hidden" name="form-name" value="contact" />
 
       {/* Essential Fields */}
       <div className="grid md:grid-cols-2 gap-6 mb-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="name" className="ultra-thin-subtitle block text-sm font-medium mb-2">
             Name *
           </label>
           <input
@@ -65,13 +65,13 @@ export default function ContactForm() {
             id="name"
             name="name"
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+            className="form-input-underline w-full py-3 transition-colors"
             placeholder="Your name"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="email" className="ultra-thin-subtitle block text-sm font-medium mb-2">
             Email *
           </label>
           <input
@@ -79,14 +79,14 @@ export default function ContactForm() {
             id="email"
             name="email"
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+            className="form-input-underline w-full py-3 transition-colors"
             placeholder="your@email.com"
           />
         </div>
       </div>
 
       <div className="mb-6">
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="message" className="ultra-thin-subtitle block text-sm font-medium mb-2">
           Message *
         </label>
         <textarea
@@ -94,10 +94,10 @@ export default function ContactForm() {
           name="message"
           required
           rows={4}
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors resize-none"
+          className="form-input-underline w-full py-3 transition-colors resize-none"
           placeholder="Tell us about your project..."
         />
-        <p className="text-xs text-gray-500 mt-2">
+        <p className="text-xs text-gray-400 mt-2">
           💡 <strong>Helpful to include:</strong> project type (brand video, social content, etc.), budget range, timeline, and company name
         </p>
       </div>
@@ -107,7 +107,7 @@ export default function ContactForm() {
         <button
           type="button"
           onClick={() => setShowDetails(!showDetails)}
-          className="text-sm text-gray-600 hover:text-black transition-colors flex items-center gap-2"
+          className="ultra-thin-subtitle text-sm hover:text-white transition-colors flex items-center gap-2"
         >
           <svg className={`w-4 h-4 transition-transform ${showDetails ? 'rotate-90' : ''}`} fill="currentColor" viewBox="0 0 24 24">
             <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -118,29 +118,29 @@ export default function ContactForm() {
 
       {/* Optional Fields */}
       {showDetails && (
-        <div className="border-l-2 border-gray-200 pl-6 mb-6 space-y-6">
+        <div className="border-l-2 border-white/20 pl-6 mb-6 space-y-6">
           <div>
-            <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="company" className="ultra-thin-subtitle block text-sm font-medium mb-2">
               Company
             </label>
             <input
               type="text"
               id="company"
               name="company"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+              className="form-input-underline w-full py-3 transition-colors"
               placeholder="Your company"
             />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <label htmlFor="project-type" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="project-type" className="ultra-thin-subtitle block text-sm font-medium mb-2">
                 Project Type
               </label>
               <select
                 id="project-type"
                 name="project-type"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+                className="form-input-underline w-full py-3 transition-colors"
               >
                 <option value="">Select a project type</option>
                 <option value="brand-video">Brand Video</option>
@@ -153,13 +153,13 @@ export default function ContactForm() {
             </div>
 
             <div>
-              <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="budget" className="ultra-thin-subtitle block text-sm font-medium mb-2">
                 Budget Range
               </label>
               <select
                 id="budget"
                 name="budget"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+                className="form-input-underline w-full py-3 transition-colors"
               >
                 <option value="">Select a budget range</option>
                 <option value="under-5k">Under $5,000</option>
@@ -172,13 +172,13 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label htmlFor="timeline" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="timeline" className="ultra-thin-subtitle block text-sm font-medium mb-2">
               Timeline
             </label>
             <select
               id="timeline"
               name="timeline"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent transition-colors"
+              className="form-input-underline w-full py-3 transition-colors"
             >
               <option value="">Select a timeline</option>
               <option value="asap">ASAP</option>
@@ -191,17 +191,18 @@ export default function ContactForm() {
         </div>
       )}
 
-      <button
-        type="submit"
-        disabled={isSubmitting}
-        className="w-full bg-black text-white font-medium py-4 px-8 rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:ring-2 focus:ring-black focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
-      >
-        {isSubmitting ? 'Sending...' : 'Send Message'}
-      </button>
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className="btn-shine w-full bg-white text-black font-medium py-4 px-8 rounded-lg hover:bg-gray-200 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {isSubmitting ? 'Sending...' : 'Send Message'}
+        </button>
 
-      <p className="text-sm text-gray-500 text-center mt-4">
-        We typically respond within 24 hours
-      </p>
-    </form>
+        <p className="ultra-thin-subtitle text-sm text-center mt-4">
+          We typically respond within 24 hours
+        </p>
+      </form>
+    </div>
   )
 }
