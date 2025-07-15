@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direction 1: Premium Typography | Juniper Island</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #1a1a1a;
+      background: #fefefe;
+      letter-spacing: -0.01em;
+    }
+    
+    /* PREMIUM TYPOGRAPHY */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      align-items: center;
+      padding: 4rem;
+      gap: 6rem;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+    
+    .hero-overlay {
+      display: none;
+    }
+    
+    .hero-content {
+      max-width: 800px;
+      background: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.65) 100%);
+      backdrop-filter: blur(25px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-top: 1px solid rgba(255, 255, 255, 0.6);
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 24px;
+      padding: 3rem;
+      box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.12),
+        0 2px 6px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
+      position: relative;
+    }
+    
+    .hero-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.8) 50%, transparent 100%);
+      border-radius: 24px 24px 0 0;
+    }
+    
+    .hero-title {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 100;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 2.5rem;
+      color: #000;
+    }
+    
+    .hero-title > span {
+      display: block;
+    }
+    
+    .hero-title .emphasis {
+      font-weight: 700;
+    }
+    
+    .hero-subtitle {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 300;
+      letter-spacing: 0.01em;
+      margin-bottom: 4rem;
+      color: #666;
+      line-height: 1.4;
+      max-width: 500px;
+    }
+    
+    .hero-cta {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 1.25rem 2.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: #000;
+      background: rgba(0, 0, 0, 0.05);
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      border-top: 2px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      margin-right: 1rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      box-shadow: 
+        0 4px 15px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+    }
+    
+    .btn:hover {
+      background: rgba(0, 0, 0, 0.08);
+      border-color: rgba(0, 0, 0, 0.15);
+      border-top-color: rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+      box-shadow: 
+        0 6px 20px rgba(0, 0, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+    }
+    
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: 
+        0 2px 8px rgba(0, 0, 0, 0.1),
+        inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn:active {
+      transform: translateY(0);
+    }
+    
+    .btn.btn-primary {
+      background: #000;
+      color: #fff;
+      border: 2px solid #000;
+      border-top: 2px solid #333;
+      border-bottom: 2px solid #000;
+      box-shadow: 
+        0 4px 15px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn.btn-primary:hover {
+      background: #333;
+      border-color: #333;
+      transform: translateY(-2px);
+      box-shadow: 
+        0 6px 20px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn.btn-primary:active {
+      transform: translateY(0);
+      box-shadow: 
+        0 2px 8px rgba(0, 0, 0, 0.3),
+        inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      opacity: 0.8;
+    }
+    
+    .stat {
+      text-align: left;
+    }
+    
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 100;
+      color: #000;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+      letter-spacing: -0.02em;
+    }
+    
+    .stat-label {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    
+    .hero-aside {
+      padding-left: 2rem;
+      border-left: 1px solid #eee;
+    }
+    
+    .hero-aside-text {
+      font-size: 0.875rem;
+      font-weight: 300;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    
+    .hero-aside-credit {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    
+    /* BELT SECTION */
+    .belt {
+      padding: 3rem 4rem;
+      background: #000;
+      color: #fff;
+    }
+    
+    .belt-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .belt-quote {
+      font-size: clamp(1.5rem, 4vw, 2.25rem);
+      font-weight: 100;
+      font-style: italic;
+      line-height: 1.3;
+      color: #fff;
+      letter-spacing: -0.01em;
+    }
+    
+    .belt-author {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      margin-top: 1rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    
+    .belt-logos {
+      text-align: left;
+    }
+    
+    .belt-logos h3 {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #666;
+      margin-bottom: 1rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    
+    .belt-logos p {
+      font-size: 0.875rem;
+      color: #999;
+      line-height: 1.8;
+    }
+    
+    /* WORK SECTION */
+    .work {
+      padding: 6rem 4rem;
+      background: #fefefe;
+    }
+    
+    .work-header {
+      margin-bottom: 6rem;
+      max-width: 800px;
+    }
+    
+    .work-title {
+      font-size: clamp(5rem, 15vw, 12rem);
+      font-weight: 100;
+      color: #000;
+      margin-bottom: 3rem;
+      letter-spacing: -0.03em;
+      line-height: 0.9;
+    }
+    
+    .work-subtitle {
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 300;
+      color: #666;
+      margin-bottom: 2rem;
+      line-height: 1.4;
+      max-width: 600px;
+      letter-spacing: -0.01em;
+    }
+    
+    .work-description {
+      font-size: 1rem;
+      color: #999;
+      max-width: 500px;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem 6rem;
+      max-width: 1200px;
+    }
+    
+    .work-item {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: opacity 0.3s ease;
+      position: relative;
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 2rem;
+      overflow: hidden;
+    }
+    
+    .work-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(254, 254, 254, 0.85);
+      z-index: 1;
+    }
+    
+    .work-item > * {
+      position: relative;
+      z-index: 2;
+    }
+    
+    .work-item:nth-child(1) {
+      background-image: url('../extracted-frames/frame-01.jpg');
+    }
+    
+    .work-item:nth-child(2) {
+      background-image: url('../extracted-frames/frame-05.jpg');
+    }
+    
+    .work-item:nth-child(3) {
+      background-image: url('../extracted-frames/frame-09.jpg');
+    }
+    
+    .work-item:nth-child(4) {
+      background-image: url('../extracted-frames/frame-12.jpg');
+    }
+    
+    .work-item:hover {
+      opacity: 0.7;
+    }
+    
+    .work-item-title {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 100;
+      margin-bottom: 1rem;
+      color: #000;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    
+    .work-item-description {
+      font-size: 0.875rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+    
+    .work-item-tags {
+      display: flex;
+      gap: 1rem;
+    }
+    
+    .tag {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    
+    /* SERVICES SECTION */
+    .services {
+      padding: 6rem 4rem;
+      background: #f8f8f8;
+    }
+    
+    .services-header {
+      margin-bottom: 6rem;
+      max-width: 800px;
+    }
+    
+    .services-title {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 100;
+      color: #000;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+      line-height: 0.9;
+    }
+    
+    .services-subtitle {
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 300;
+      color: #666;
+      line-height: 1.4;
+      max-width: 600px;
+      letter-spacing: -0.01em;
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem;
+      max-width: 1200px;
+    }
+    
+    .service-item {
+      background: #fff;
+      padding: 3rem;
+      border-radius: 8px;
+    }
+    
+    .service-title {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 100;
+      margin-bottom: 1.5rem;
+      color: #000;
+      letter-spacing: -0.01em;
+    }
+    
+    .service-description {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    
+    .service-features {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .service-features li {
+      font-size: 0.875rem;
+      color: #999;
+      margin-bottom: 0.5rem;
+      font-weight: 300;
+    }
+    
+    /* ABOUT SECTION */
+    .about {
+      padding: 6rem 4rem;
+      background: #fefefe;
+    }
+    
+    .about-header {
+      margin-bottom: 6rem;
+      max-width: 800px;
+    }
+    
+    .about-title {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 100;
+      color: #000;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+      line-height: 0.9;
+    }
+    
+    .about-subtitle {
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 300;
+      color: #666;
+      line-height: 1.4;
+      max-width: 600px;
+      letter-spacing: -0.01em;
+    }
+    
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: start;
+    }
+    
+    .about-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    
+    .about-caption {
+      font-size: 0.75rem;
+      color: #999;
+      font-style: italic;
+      text-align: center;
+      margin-top: 1rem;
+      font-weight: 300;
+    }
+    
+    .about-text {
+      display: grid;
+      gap: 4rem;
+    }
+    
+    .section-subtitle {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 100;
+      margin-bottom: 2rem;
+      color: #000;
+      letter-spacing: -0.01em;
+    }
+    
+    .story-text p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    
+    .approach-items {
+      display: grid;
+      gap: 2rem;
+    }
+    
+    .approach-item h4 {
+      font-size: 1.125rem;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+      color: #000;
+    }
+    
+    .approach-item p {
+      font-size: 0.875rem;
+      color: #666;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    
+    /* TESTIMONIALS SECTION */
+    .testimonials {
+      padding: 6rem 4rem;
+      background: #f8f8f8;
+    }
+    
+    .testimonials-header {
+      margin-bottom: 6rem;
+      max-width: 800px;
+    }
+    
+    .testimonials-title {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 100;
+      color: #000;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+      line-height: 0.9;
+    }
+    
+    .testimonials-subtitle {
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 300;
+      color: #666;
+      line-height: 1.4;
+      max-width: 600px;
+      letter-spacing: -0.01em;
+    }
+    
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+      max-width: 1200px;
+    }
+    
+    .testimonial {
+      background: #fff;
+      padding: 3rem;
+      border-radius: 8px;
+    }
+    
+    .testimonial-text {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 300;
+      font-style: italic;
+      color: #333;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+      letter-spacing: -0.01em;
+    }
+    
+    .author-name {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #000;
+      margin-bottom: 0.25rem;
+    }
+    
+    .author-title {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    
+    /* TEAM SECTION */
+    .team {
+      padding: 6rem 4rem;
+      background: #fefefe;
+    }
+    
+    .team-header {
+      margin-bottom: 6rem;
+      max-width: 800px;
+    }
+    
+    .team-title {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 100;
+      color: #000;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+      line-height: 0.9;
+    }
+    
+    .team-subtitle {
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 300;
+      color: #666;
+      line-height: 1.4;
+      max-width: 600px;
+      letter-spacing: -0.01em;
+    }
+    
+    .team-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: start;
+    }
+    
+    .team-photos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+    }
+    
+    .team-member {
+      text-align: center;
+    }
+    
+    .team-member img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .member-name {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 100;
+      margin-bottom: 0.5rem;
+      color: #000;
+      letter-spacing: -0.01em;
+    }
+    
+    .member-title {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    
+    .team-text {
+      display: grid;
+      gap: 3rem;
+    }
+    
+    .team-story p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    
+    .values-title {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 100;
+      margin-bottom: 1.5rem;
+      color: #000;
+      letter-spacing: -0.01em;
+    }
+    
+    .values-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .values-list li {
+      font-size: 0.875rem;
+      color: #666;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    
+    .values-list strong {
+      font-weight: 400;
+      color: #000;
+    }
+    
+    .team-cta {
+      padding-top: 2rem;
+    }
+    
+    /* CONTACT SECTION */
+    .contact {
+      padding: 6rem 4rem;
+      background: #f8f8f8;
+    }
+    
+    .contact-header {
+      margin-bottom: 4rem;
+      text-align: center;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .contact-title {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 100;
+      color: #000;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.02em;
+      line-height: 0.9;
+    }
+    
+    .contact-subtitle {
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 300;
+      color: #666;
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+    }
+    
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto 3rem;
+      background: #fff;
+      padding: 3rem;
+      border-radius: 8px;
+    }
+    
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .form-group {
+      margin-bottom: 2rem;
+    }
+    
+    .form-group label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 1rem 0;
+      font-size: 1rem;
+      font-weight: 300;
+      color: #333;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: #000;
+    }
+    
+    .form-submit {
+      width: 100%;
+      padding: 1.5rem 0;
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: #fff;
+      background: #000;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    
+    .form-submit:hover {
+      background: #333;
+    }
+    
+    .contact-direct {
+      text-align: center;
+      max-width: 400px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      border-top: 1px solid #ddd;
+    }
+    
+    .contact-direct p {
+      font-size: 0.875rem;
+      color: #666;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+    
+    .contact-direct a {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px solid #000;
+      transition: all 0.3s ease;
+    }
+    
+    .contact-direct a:hover {
+      color: #666;
+      border-color: #666;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 3rem 2rem;
+        text-align: left;
+      }
+      
+      .hero-aside {
+        padding-left: 0;
+        border-left: none;
+        border-top: 1px solid #eee;
+        padding-top: 3rem;
+        margin-top: 3rem;
+      }
+      
+      .belt-content {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+      
+      .belt-logos {
+        text-align: left;
+      }
+      
+      .work {
+        padding: 4rem 2rem;
+      }
+      
+      .work-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+      
+      .services {
+        padding: 4rem 2rem;
+      }
+      
+      .services-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+      
+      .about {
+        padding: 4rem 2rem;
+      }
+      
+      .about-content {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+      
+      .testimonials {
+        padding: 4rem 2rem;
+      }
+      
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      
+      .team {
+        padding: 4rem 2rem;
+      }
+      
+      .team-content {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+      
+      .contact {
+        padding: 4rem 2rem;
+      }
+      
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      class="hero-video"
+      preload="metadata"
+    >
+      <source src="../../public/videos/hero-video.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span>Your Brand <span class="emphasis">Needs</span> Video.</span>
+        <span>We Make the Kind That Moves People.</span>
+      </h1>
+      
+      <p class="hero-subtitle">
+        Elevating brands with visually compelling video content
+      </p>
+      
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+        <a href="#work" class="btn">View Our Work</a>
+      </div>
+    </div>
+    
+  </section>
+  
+  <!-- BELT SECTION -->
+  <section class="belt">
+    <div class="belt-content">
+      <div class="belt-logos">
+        <h3 style="font-size: 0.75rem; font-weight: 400; color: #666; margin-bottom: 1rem; letter-spacing: 0.1em; text-transform: uppercase;">Trusted by Leading Brands</h3>
+        <img src="../../public/images/logo-strip-white.avif" alt="Client logos including Red Bull, Rily, Muskoka Roastery, Subway, CMPA" style="height: 96px; opacity: 0.9;">
+      </div>
+      
+      <div class="belt-testimonial" style="text-align: right;">
+        <p style="font-size: 1rem; font-weight: 300; font-style: italic; color: #fff; margin-bottom: 1rem; max-width: 300px; margin-left: auto;">
+          "The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn."
+        </p>
+        <div style="font-size: 0.75rem; font-weight: 400; color: #999; letter-spacing: 0.1em; text-transform: uppercase;">
+          Andrew Addison, VP Communications, CMPA
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- WORK SECTION -->
+  <section class="work">
+    <div class="work-header">
+      <p class="work-subtitle" style="font-size: clamp(1.25rem, 3vw, 1.75rem); font-weight: 300; color: #000; margin-bottom: 2rem;">
+        Expertly crafted commercials, documentaries, social ads, corporate videos and brand films.
+      </p>
+      <p class="work-description">
+        Award-winning creative, expert production and white-glove service. Whether you need a single testimonial video or a massive content library, consider it done.
+      </p>
+    </div>
+    
+    <div class="work-grid">
+      <a href="#" class="work-item">
+        <h3 class="work-item-title">Subway</h3>
+        <p class="work-item-description">Valentine's Day campaign that achieved 10M+ views</p>
+        <div class="work-item-tags">
+          <span class="tag">Viral Campaign</span>
+          <span class="tag">Social Media</span>
+        </div>
+      </a>
+      
+      <a href="#" class="work-item">
+        <h3 class="work-item-title">Rily</h3>
+        <p class="work-item-description">Complete social media transformation and growth strategy</p>
+        <div class="work-item-tags">
+          <span class="tag">Social Media</span>
+          <span class="tag">Brand Strategy</span>
+        </div>
+      </a>
+      
+      <a href="#" class="work-item">
+        <h3 class="work-item-title">Muskoka</h3>
+        <p class="work-item-description">Authentic brand storytelling in Canada's wilderness</p>
+        <div class="work-item-tags">
+          <span class="tag">Documentary</span>
+          <span class="tag">Brand Story</span>
+        </div>
+      </a>
+      
+      <a href="#" class="work-item">
+        <h3 class="work-item-title">Red Bull</h3>
+        <p class="work-item-description">Global music event documentation and content creation</p>
+        <div class="work-item-tags">
+          <span class="tag">Event Coverage</span>
+          <span class="tag">Music</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services">
+    <div class="services-header">
+      <h2 class="services-title">Story-Driven Video Production</h2>
+      <p class="services-subtitle">
+        We believe in the power of stories to captivate, engage, and inspire. Our audience-centric strategies deliver performance marketing results that drive measurable business growth.
+      </p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-item">
+        <h3 class="service-title">Brand Videos</h3>
+        <p class="service-description">
+          Professional brand storytelling that captures your company's essence and values.
+        </p>
+        <ul class="service-features">
+          <li>Company culture videos</li>
+          <li>Brand story documentaries</li>
+          <li>Mission & values videos</li>
+          <li>Leadership interviews</li>
+          <li>Behind-the-scenes content</li>
+        </ul>
+      </div>
+
+      <div class="service-item">
+        <h3 class="service-title">Social Content</h3>
+        <p class="service-description">
+          Engaging social media content optimized for each platform and audience.
+        </p>
+        <ul class="service-features">
+          <li>Instagram Reels & Stories</li>
+          <li>TikTok campaigns</li>
+          <li>LinkedIn video content</li>
+          <li>YouTube series</li>
+          <li>Platform-specific editing</li>
+        </ul>
+      </div>
+
+      <div class="service-item">
+        <h3 class="service-title">Marketing Videos</h3>
+        <p class="service-description">
+          Results-driven video content that converts viewers into customers.
+        </p>
+        <ul class="service-features">
+          <li>Product demonstrations</li>
+          <li>Explainer videos</li>
+          <li>Customer testimonials</li>
+          <li>Sales funnel videos</li>
+          <li>Event coverage</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <div class="about-header">
+      <p class="about-subtitle" style="font-size: clamp(1.25rem, 3vw, 1.75rem); font-weight: 300; color: #000; margin-bottom: 3rem;">
+        For over a decade, we've been delivering high-quality video content that captivates and engages audiences across Canada.
+      </p>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-image">
+        <img src="../../public/images/bts-filming.jpg" alt="Behind the scenes filming">
+        <p class="about-caption">
+          Behind the scenes: Our team capturing authentic moments that become powerful brand stories
+        </p>
+      </div>
+      
+      <div class="about-text">
+        <div class="about-story">
+          <h3 class="section-subtitle">Our Story</h3>
+          <div class="story-text">
+            <p>Founded in 2012, Juniper Island Productions emerged from Johnny Hockin's seven-year journey at MTV Canada, where he hosted MTV News, created Movie Night, and produced hundreds of branded content segments for major brands like Nike, Apple, and Red Bull.</p>
+            <p>In 2019, Nina Gilmour joined as producer, bringing her expertise to strengthen our production capabilities. Together, we've built a lean yet powerful production powerhouse that partners with businesses, public institutions, and major advertising agencies.</p>
+            <p>From our early seven-year partnership with Red Bull Canada's Music Academy to recent viral campaigns achieving 10M+ views, we've consistently delivered content that resonates with audiences and drives measurable results.</p>
+          </div>
+        </div>
+        
+        <div class="about-approach">
+          <h3 class="section-subtitle">Our Approach</h3>
+          <div class="approach-items">
+            <div class="approach-item">
+              <h4>Story-Driven Content</h4>
+              <p>We believe in the power of stories to captivate, engage, and inspire audiences across all platforms.</p>
+            </div>
+            <div class="approach-item">
+              <h4>Performance Marketing</h4>
+              <p>Our audience-centric strategies deliver measurable results that drive business growth.</p>
+            </div>
+            <div class="approach-item">
+              <h4>Lean & Efficient</h4>
+              <p>We excel at delivering top-tier productions efficiently, often bringing high-quality results on tight budgets and timelines.</p>
+            </div>
+            <div class="approach-item">
+              <h4>Sustainability Focus</h4>
+              <p>Certified with Bullfrog Power and committed to creating impactful content that aligns with our clients' values.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="testimonials" style="background: linear-gradient(135deg, #f8f8f8 0%, #e8e8e8 100%); border-top: 1px solid #d0d0d0;">
+    <div class="testimonials-header">
+      <h2 class="testimonials-title">What Our Clients Say</h2>
+      <p class="testimonials-subtitle">
+        We've had the privilege of working with incredible clients who trust us with their most important stories.
+      </p>
+    </div>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="testimonial-text">
+          "The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn. They take time to understand the 'why' of everything we're doing, and then put in the work to make sure it's as creative and beautiful as possible."
+        </div>
+        <div class="testimonial-author">
+          <div class="author-name">Andrew Addison</div>
+          <div class="author-title">VP Communications, CMPA</div>
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="testimonial-text">
+          "It's perfect! It still gives me feels each time I watch it. Again, thank you so much for the wonderful project! The entire team is over the moon about it."
+        </div>
+        <div class="testimonial-author">
+          <div class="author-name">Jennie Tao</div>
+          <div class="author-title">The Samuel Family Foundation</div>
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="testimonial-text">
+          "Juniper came in with lightning fast development, exceeded our expectations, and the final video's driving really strong/positive engagement."
+        </div>
+        <div class="testimonial-author">
+          <div class="author-name">Andre De Pape</div>
+          <div class="author-title">Cannoe, Toronto</div>
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="testimonial-text">
+          "Johnny and his team are fantastic to work with. They cross all the T's and dot all the I's, so you don't have to. He works with you to reach your marketing goals and reveal new markets and sales channels you may not even have known were there."
+        </div>
+        <div class="testimonial-author">
+          <div class="author-name">Tabitha Osler</div>
+          <div class="author-title">fairechild, Halifax</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section class="team">
+    <div class="team-header">
+      <h2 class="team-title">Meet the Team</h2>
+      <p class="team-subtitle">
+        We're Johnny and Nina, a Toronto-based creative duo passionate about telling authentic brand stories through video.
+      </p>
+    </div>
+
+    <div class="team-content">
+      <div class="team-photos">
+        <div class="team-member">
+          <img src="../../public/images/team/Johnny.png" alt="Johnny Hockin">
+          <h3 class="member-name">Johnny Hockin</h3>
+          <p class="member-title">Creative Director & Producer</p>
+        </div>
+
+        <div class="team-member">
+          <img src="../../public/images/team/Nina.png" alt="Nina">
+          <h3 class="member-name">Nina</h3>
+          <p class="member-title">Director & Creative Strategist</p>
+        </div>
+      </div>
+
+      <div class="team-text">
+        <div class="team-story">
+          <h3 class="section-subtitle">Our Story</h3>
+          <p>
+            Founded in Toronto, Juniper Island emerged from our shared belief that every brand has a unique story worth telling. We combine Johnny's production expertise with Nina's strategic creative vision to create video content that doesn't just look great—it drives real results.
+          </p>
+        </div>
+
+        <div class="team-values">
+          <h4 class="values-title">What Sets Us Apart</h4>
+          <ul class="values-list">
+            <li><strong>Collaborative approach</strong> - We work as an extension of your team, not just a vendor</li>
+            <li><strong>Strategic storytelling</strong> - Every video serves your broader business goals</li>
+            <li><strong>Toronto roots</strong> - Deep understanding of the local market and culture</li>
+            <li><strong>End-to-end service</strong> - From strategy to final delivery, we handle everything</li>
+          </ul>
+        </div>
+
+        <div class="team-cta">
+          <a href="#contact" class="btn">Let's Work Together</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="contact-header">
+      <h2 class="contact-title">Ready to Get Started?</h2>
+      <p class="contact-subtitle">
+        Let's discuss how we can help tell your brand's story through compelling video content.
+      </p>
+    </div>
+    
+    <div class="contact-form">
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message</button>
+      </form>
+    </div>
+    
+    <div class="contact-direct">
+      <p>Prefer to email directly?</p>
+      <a href="mailto:nina@juniperisland.ca">nina@juniperisland.ca</a>
+    </div>
+  </section>
+  
+</body>
+</html>

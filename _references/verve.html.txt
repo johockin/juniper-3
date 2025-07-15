@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e5dac13c-1908-4e09-a202-5caccf084e27" data-blockingmode="auto" type="text/javascript"></script>
+
+    <script data-cookieconsent="ignore">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "denied",
+        personalization_storage: "denied",
+        security_storage: "granted",
+        wait_for_update: 2000,
+    });
+    gtag("set", "ads_data_redaction", true);
+    gtag("set", "url_passthrough", false);
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+            new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WL4K2BZ');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <title>Global creative branding and design agency for growth brands | Verve</title>
+    <meta name="description" content="We turn great brands into Living Brands. Verve is European Agency of the Year."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Global creative branding and design agency for growth brands"/>
+    <meta property="og:description" content="We turn great brands into Living Brands. Verve is European Agency of the Year."/>
+    <meta property="og:url" content="https://verveagency.com"/>
+    <meta property="og:site_name" content="Verve"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Global creative branding and design agency for growth brands"/>
+    <meta name="twitter:description" content="We turn great brands into Living Brands. Verve is European Agency of the Year."/>
+    <link href="https://verveagency.com/" rel="home"/>
+    <link href="https://verveagency.com" rel="canonical"/>
+    <link type="text/plain" rel="author" href="https://verveagency.com/humans.txt"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"/>
+    <link rel="stylesheet" href="/css/app.css?id=ecb51eff3e4303f4c5f7">
+</head>
+
+<body class="theme-default bg-primary font-default text-base font-light leading-normal text-contrast antialiased">
+
+    <header class="js-header fixed z-60 top-0 left-0 w-full theme-default text-contrastTint" style="mix-blend-mode: difference">
+        <div class="container">
+            <div class="top-4 lg:top-12 relative">
+                <a href="https://verveagency.com" class="js-nav-logo logo absolute left-0 block transition duration-1000">
+                    <svg class="js-logo logo" width="130" height="28" viewBox="0 0 130 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M102.666 13.5073C102.666 6.02806 108.791 0 116.39 0C124.465 0 130 5.98341 130 13.4627V16.0525H109.63C110.469 18.9102 112.851 20.7856 116.639 20.7856C119.112 20.7856 121.244 19.647 122.537 17.7716L127.981 21.5224C125.577 24.8043 121.743 27.0146 116.594 27.0146C108.36 27.0146 102.666 20.9866 102.666 13.5073ZM109.947 10.337H122.718C121.766 7.63554 119.497 6.22899 116.435 6.22899C113.373 6.22899 111.059 7.90346 109.947 10.337Z" fill="#FFF"/>
+                        <path d="M76.2852 0.401855H83.7708L89.9861 17.4144L96.0426 0.401855H103.437L93.6608 26.5681H86.334L76.2852 0.401855Z" fill="#FFF"/>
+                        <path d="M73.9943 0.401855H56.3691V26.5458H63.6506V7.25598H73.9943V0.401855Z" fill="#FFF"/>
+                        <path d="M26.2676 13.5073C26.2676 6.02806 32.3922 0 39.9912 0C48.0666 0 53.6014 5.98341 53.6014 13.4627V16.0525H33.2315C34.0708 18.9102 36.4525 20.7856 40.2407 20.7856C42.7132 20.7856 44.8455 19.647 46.1385 17.7716L51.5825 21.5224C49.1781 24.8043 45.3445 27.0146 40.1953 27.0146C31.9612 27.0146 26.2676 20.9866 26.2676 13.5073ZM33.549 10.337H46.3199C45.3672 7.63554 43.0988 6.22899 40.0366 6.22899C36.9743 6.22899 34.6605 7.90346 33.549 10.337Z" fill="#FFF"/>
+                        <path d="M0 0.401855H7.4856L13.7009 17.4144L19.7801 0.401855H27.175L17.3757 26.5458H10.0489L0 0.401855Z" fill="#FFF"/>
+                    </svg>
+                    <div class="js-animated-logo animated-logo hidden"></div>
+                </a>
+
+                <nav class="js-nav top-2 lg:flex absolute right-0 justify-end hidden ml-auto text-white transition duration-500 transform -translate-y-2 opacity-0">
+                    <a class="link-hover-line first:ml-0  ml-6" href="/about">About</a>
+                    <a class="link-hover-line first:ml-0  ml-6" href="/work">Work</a>
+                    <a class="link-hover-line first:ml-0  ml-6" href="/approach">Approach</a>
+                    <a class="link-hover-line first:ml-0  ml-6" href="/insights">Insights</a>
+                    <a class="link-hover-line first:ml-0  ml-6" href="/careers">Careers</a>
+                    <a class="link-hover-line first:ml-0  ml-6" href="/contact">Contact</a>
+                </nav>
+
+                <a href="javascript:;" class="js-nav-toggle nav-toggle lg:hidden absolute right-0" title="menu">
+                    <div class="nav-toggle-inactive"></div>
+                    <div class="nav-toggle-active"></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="js-nav-overlay bg-blur fixed top-0 left-0 z-50 w-full h-full transition duration-500 transform -translate-y-full">
+        <nav class="top-1/2 left-1/2 absolute text-center transform -translate-x-1/2 -translate-y-1/2">
+            <a class="mobile-nav-item" href="/about">About</a>
+            <a class="mobile-nav-item" href="/work">Work</a>
+            <a class="mobile-nav-item" href="/approach">Approach</a>
+            <a class="mobile-nav-item" href="/insights">Insights</a>
+            <a class="mobile-nav-item" href="/careers">Careers</a>
+            <a class="mobile-nav-item" href="/contact">Contact</a>
+        </nav>
+    </div>
+    <main class="main bg-primary">
+
+        <div class="md:mt-52 mt-32">
+            <header data-aos="fade-up" data-aos-duration="1000">
+                <div class="container">
+                    <div class="md:flex-row flex flex-col">
+                        <h1 class="md:max-w-xl md:mb-0 lg:max-w-5xl md:relative font-default text-7xl md:text-8xl max-w-xs mb-16 font-light">Branding and digital agency powering marketing of fast growing companies</h1>
+                        <div class="md:mr-14 md:-mb-8 home-header-content ml-auto">
+                            <p class="text-base">
+                                        We work with the bold to create branding that wows at a global scale. All based on digital, design, and strategic marketing insights.  
+                            						</p>
+                            <div class="md:mb-4">
+                                <div class="mt-5">
+                                    <a class="underline-animation inline-block" href="https://verveagency.com/insights/european-agency-of-the-year-2022" target="_SELF">European Agency of the Year 2022 - 2023</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="lg:mt-12 mt-8" placeholder_video="https://vimeo.com/531159433/498222655c" placeholder_image="" video="https://vimeo.com/531159433/498222655c" duration="1:00" data-aos="fade-up" data-aos-duration="1000">
+                <div class="container">
+                    <div class="js-showreel relative block overflow-hidden cursor-pointer">
+
+                        <div class="js-showreel-video hidden" data-video="https://vimeo.com/531159433/498222655c" data-endpoint="https://verveagency.com/api/embed/autoplay">
+                            <div class="aspect-w-16 aspect-h-9 js-showreel-iframe w-full"></div>
+                        </div>
+
+                        <div class="video-block js-showreel-placeholder z-10 block" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="aspect-w-16 aspect-h-9 js-showreel-placeholder-iframe w-full">
+                                <iframe class="video__iframe" src="https://player.vimeo.com/video/531159433?dnt=1&title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1" width="640" height="320" allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-same-origin allow-presentation" allow="autoplay; fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" layout="responsive" data-provider="Vimeo" data-img="https://i.vimeocdn.com/video/1591715265-72e4cbdb81a9310062fc73beb97290dd4cd5882ca5fbcd12d7511f104646a524-d_295x166?region=us"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="js-showreel-play absolute top-0 z-40 w-full h-full cursor-pointer"></div>
+
+                        <div class="left-2 bottom-2 md:bottom-8 md:left-8 js-showreel-play absolute text-white">
+                            <div class="flex items-center space-x-3">
+                                <span class="md:p-8 showreel-btn inline-block p-4 bg-white bg-opacity-50 rounded-full">
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.584 6.66666L0.209005 13.3062L0.209005 0.0271367L14.584 6.66666Z" fill="white"/>
+                                    </svg>
+                                </span>
+                                <span class="showreel-text">
+                                    <p>Play showreel</p>
+                                    <p>1:00</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="blocks lg:pt-32 pt-20">
+                <div class="block overview-block " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="flex items-end justify-between mb-8">
+                            <h2 class="h2 max-w-lg">Brands that people love and make companies thrive.</h2>
+                            <a class="hidden link-line mr-6 sm:block" href="/work" target="_self">Go to projects</a>
+                        </div>
+                        <div class="space-y-8 lg:space-y-24">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                                <a class="group block" href="/work/the-findest-light" title="A guiding light in cutting-edge R&amp;D">
+                                    <div class="aspect-w-13 aspect-h-16 sm:aspect-w-7 sm:aspect-h-5 w-full overflow-hidden">
+                                        <div class="video-cover video-no-control js-video-cover duration-2000 w-full h-full transition opacity-0">
+                                            <iframe class="video__iframe" src="https://player.vimeo.com/video/1084579196?dnt=1&title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1" width="640" height="320" allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-same-origin allow-presentation" allow="autoplay; fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" layout="responsive" data-provider="Vimeo"></iframe>
+                                        </div>
+                                    </div>
+                                    <h2 class="text-body-large mt-2">
+                                        Findest,    A guiding light in cutting-edge R&amp;D
+                                      </h2>
+                                </a>
+
+                                <a class="group block" href="/work/inbox-monster-mascot-led-branding" title="Mascot worldbuilding for the experts in email">
+                                    <div class="aspect-w-13 aspect-h-16 sm:aspect-w-7 sm:aspect-h-5 w-full overflow-hidden">
+                                        <div class="video-cover video-no-control js-video-cover duration-2000 w-full h-full transition opacity-0">
+                                            <iframe class="video__iframe" src="https://player.vimeo.com/video/1093985398?dnt=1&title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1" width="640" height="320" allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-same-origin allow-presentation" allow="autoplay; fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" layout="responsive" data-provider="Vimeo"></iframe>
+                                        </div>
+                                    </div>
+                                    <h2 class="text-body-large mt-2">
+                                        Inbox Monster,    Mascot worldbuilding for the experts in email
+                                      </h2>
+                                </a>
+                            </div>
+
+                            <a class="group block" href="/work/bynder-brand-evolution" title="A brand evolution that pulls on the heartstrings">
+                                <div class="aspect-w-13 aspect-h-16 sm:aspect-w-16 sm:aspect-h-7 w-full overflow-hidden">
+                                    <div class="video-cover video-no-control js-video-cover duration-2000 w-full h-full transition opacity-0">
+                                        <iframe class="video__iframe" src="https://player.vimeo.com/video/1051448122?dnt=1&title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1" width="640" height="320" allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-same-origin allow-presentation" allow="autoplay; fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" layout="responsive" data-provider="Vimeo"></iframe>
+                                    </div>
+                                </div>
+                                <h2 class="text-body-large mt-2">
+                                    Bynder,    A brand evolution that pulls on the heartstrings
+                                  </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="approach-block theme-sand bg-primary text-contrast relative block pb-20" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="container">
+                        <span class="block pt-10">Services</span>
+
+                        <div class="approach-wrapper">
+                            <div class="aspect-w-13 aspect-h-16 sm:aspect-w-16 sm:aspect-h-7 w-full my-8 overflow-hidden">
+                                <picture class="group-hover:scale-105 object-cover">
+                                    <source media="(min-width:1536px)" srcset="https://verve.ams3.cdn.digitaloceanspaces.com/assets/ezgif.com-gif-maker-(1).gif">
+                                    <source media="(min-width:1024px)" srcset="https://verve.ams3.cdn.digitaloceanspaces.com/assets/ezgif.com-gif-maker-(1).gif">
+                                    <source media="(min-width:640px)" srcset="https://verve.ams3.cdn.digitaloceanspaces.com/assets/ezgif.com-gif-maker-(1).gif">
+                                    <img class="js-lazyload duration-2000 object-cover w-full h-full transition opacity-0" src="https://verve.ams3.cdn.digitaloceanspaces.com/assets/ezgif.com-gif-maker-(1).gif">
+                                </picture>
+                            </div>
+
+                            <div class="sm:gap-64 sm:grid-cols-3 grid grid-cols-1 gap-12">
+                                <div class="flex flex-col">
+                                    <span class="h3 pb-10">
+                                                  1 
+                                                </span>
+
+                                    <p class="h6 pb-10">
+                                                  Identify a timeless, compelling story
+                                                </p>
+
+                                    <a class="link-line self-start" href="/approach/strategy">
+                                                  Go to Strategy
+                                                </a>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="h3 pb-10">
+                                                  2 
+                                                </span>
+
+                                    <p class="h6 pb-10">
+                                                  Stand out in a sea of sameness
+                                                </p>
+
+                                    <a class="link-line self-start" href="/approach/design">
+                                                  Go to Design
+                                                </a>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="h3 pb-10">
+                                                  3 
+                                                </span>
+
+                                    <p class="h6 pb-10">
+                                                  Balance creativity with technical expertise
+                                                </p>
+
+                                    <a class="link-line self-start" href="/approach/digital">
+                                                  Go to Digital
+                                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block overview-block lg:mt-56" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="flex items-end justify-between mb-8">
+                            <h2 class="h2 max-w-lg">Latest stories</h2>
+                        </div>
+                        <div class="space-y-8 lg:space-y-11">
+
+                            <a class="group flex flex-col p-2 md:items-stretch md:flex-row" href="/insights/mathematics-vs-mythology" title="Mathematics vs. mythology" style="background:#000000;color:#FFFFFF">
+                                <div class="md:order-2 md:w-1/2  w-full">
+                                    <div class="aspect-w-16 aspect-h-11 overflow-hidden">
+                                        <img src="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Verve-myth1-A-1685714110.jpg/749c74d8440762e27f7ff426722bd280.jpg" class="group-hover:scale-110 object-cover w-full" alt="Mathematics vs. mythology"/>
+                                    </div>
+                                </div>
+                                <div class="md:order-1 md:w-1/2 lg:pt-8 lg:px-8 lg:pb-12 flex flex-col w-full px-4 py-6">
+                                    <p class="text-sm">
+
+                                                    Insights
+                                        <span class="md:inline hidden"> ○  min read</span>
+                                    </p>
+                                    <h2 class="h6 md:mt-auto mt-12">Mathematics vs. mythology</h2>
+                                </div>
+                            </a>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+
+                                <a class="group block" href="/insights/interview-eveline" title="Eveline Koppejan, Verve’s Strategy Unit Lead: “Brand strategy is like a great children’s book: simple, imaginative, and meaningful.”">
+                                    <div class="aspect-w-14 aspect-h-16 overflow-hidden">
+                                        <img src="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Verve_Eveline_TomvanHuisstede_0160-1680863087.jpg/bfad9bb2485553e23e26584157ee992e.jpg" class="group-hover:scale-110 object-cover w-full" alt="Eveline Koppejan, Verve’s Strategy Unit Lead: “Brand strategy is like a great children’s book: simple, imaginative, and meaningful.”"/>
+                                    </div>
+                                    <div class="flex justify-between mt-6">
+                                        <p class="w-2/5 pr-4 text-sm">
+                                                                    Insights
+                                                            </p>
+                                        <h2 class="text-body-large w-3/5">Eveline Koppejan, Verve’s Strategy Unit Lead: “Brand strategy is like a great children’s book: simple, imaginative, and meaningful.”</h2>
+                                    </div>
+                                </a>
+
+                                <a class="group block" href="/insights/why-modern-brand-identities-are-more-than-an-icon" title="Your logo doesn’t matter: The essence of modern brand identities">
+                                    <div class="aspect-w-14 aspect-h-16 overflow-hidden">
+                                        <img src="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Verve_Adnight_2022_Eastcamp-125-min.jpg/4e26bab47bf02927f9971d85f960d870.jpg" class="group-hover:scale-110 object-cover w-full" alt="Your logo doesn’t matter: The essence of modern brand identities"/>
+                                    </div>
+                                    <div class="flex justify-between mt-6">
+                                        <p class="w-2/5 pr-4 text-sm">
+                                                                    Living Brands
+                                                            </p>
+                                        <h2 class="text-body-large w-3/5">Your logo doesn’t matter: The essence of modern brand identities</h2>
+                                    </div>
+                                </a>
+
+                                <a class="group block" href="/insights/interview-walewijn-den-boer" title="Verve’s Brand Design Lead, Walewijn den Boer: “It shouldn&#039;t matter what you come up with, it should work on anything, anywhere.”">
+                                    <div class="aspect-w-14 aspect-h-16 overflow-hidden">
+                                        <img src="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/20210928-verve-123-min-1652090877.jpg/0e329d326f5692103677225d89fab297.jpg" class="group-hover:scale-110 object-cover w-full" alt="Verve’s Brand Design Lead, Walewijn den Boer: “It shouldn&#039;t matter what you come up with, it should work on anything, anywhere.”"/>
+                                    </div>
+                                    <div class="flex justify-between mt-6">
+                                        <p class="w-2/5 pr-4 text-sm">
+                                                                    Culture
+                                                            </p>
+                                        <h2 class="text-body-large w-3/5">Verve’s Brand Design Lead, Walewijn den Boer: “It shouldn&#039;t matter what you come up with, it should work on anything, anywhere.”</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block texts-block texts-block--full" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="max-w-block-xs mx-auto text-body-large style-text js-noopener">
+                            <h3>
+                                <span style="text-align:center;display :block">Selection of our clients</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="block images-block images-block--contained images-block--nocaptions" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="mx-auto max-w-block-lg">
+                            <figure>
+                                <div class="w-full  aspect-w-13 aspect-h-16 sm:aspect-w-16 sm:aspect-h-9  group block overflow-hidden">
+                                    <picture class="object-cover group-hover:scale-105">
+                                        <source media="(min-width:1536px)" srcset="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Logo-wall-Verve-Home-high.png/4d920980209a1128b0a278f271f2c962.png">
+                                        <source media="(min-width:1024px)" srcset="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Logo-wall-Verve-Home-high.png/c3e92ae2828eeb23dbd5400f34c681de.png">
+                                        <source media="(min-width:640px)" srcset="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Logo-wall-Verve-Home-high.png/92be17c75bcc37f89a090479ba1d5133.png">
+                                        <img class="w-full transition opacity-0 js-lazyload duration-2000" src="https://glide.ams3.cdn.digitaloceanspaces.com/verve/containers/assets/Logo-wall-Verve-Home-high.png/8f2aa5ca841b3baa41e8c560f317b5a8.png" alt="">
+                                    </picture>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-primary text-contrast lg:pt-40 relative z-40 pt-24 pb-10">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <section class="h3 lg:mb-40 lg:max-w-3xl mb-24">
+
+                      Turn your brand into a great one.
+                <br>
+                <a href="/contact" class="footer__contact">Get in touch.</a>
+            </section>
+            <section class="lg:mx-0 lg:flex-row lg:justify-between lg:items-end flex flex-col mx-2">
+                <a href="tel:+31707851734" class="link-hover-line lg:block hidden">+31 70 7851734</a>
+                <nav class="md:flex-row lg:mb-0 md:-mx-6 flex flex-col items-center justify-center mb-16">
+                    <a class="link-hover-line md:my-0 md:mx-3 md:text-base my-2 text-sm" href="http://eepurl.com/hvlmR5">Newsletter</a>
+                    <a class="link-hover-line md:my-0 md:mx-3 md:text-base my-2 text-sm" href="/careers">Careers</a>
+                    <a class="link-hover-line md:my-0 md:mx-3 md:text-base my-2 text-sm" href="/contact">Contact</a>
+                    <a class="link-hover-line md:my-0 md:mx-3 md:text-base my-2 text-sm" href="/privacy">Privacy &amp; Cookies</a>
+                </nav>
+
+                <div class="flex justify-center">
+                    <a class="opacity-60 hover:opacity-100 first:ml-0 ml-6 transition duration-500" href="https://www.facebook.com/vervetheagency" title="Facebook">
+                        <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.97914 9.31078L9.4269 6.36336H6.62583V4.45153C6.62583 3.64499 7.01639 2.85833 8.27099 2.85833H9.54527V0.349052C9.54527 0.349052 8.38932 0.149902 7.28467 0.149902C4.97676 0.149902 3.46967 1.56186 3.46967 4.11696V6.36336H0.905273V9.31078H3.46967V16.4364C3.9845 16.518 4.5112 16.5598 5.04775 16.5598C5.5843 16.5598 6.111 16.518 6.62583 16.4364V9.31078H8.97914Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a class="opacity-60 hover:opacity-100 first:ml-0 ml-6 transition duration-500" href="https://www.instagram.com/vervetheagency" title="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.02882 0.149902H12.2122C14.9777 0.149902 17.2405 2.38762 17.2405 5.1226V12.2265C17.2405 14.9614 14.9777 17.1992 12.2122 17.1992H5.02882C2.26324 17.1992 0.000488281 14.9614 0.000488281 12.2265V5.1226C0.000488281 2.38762 2.26324 0.149902 5.02882 0.149902ZM14.7465 2.61442C14.0641 1.944 13.1617 1.57104 12.2099 1.57104H5.02654C4.07475 1.57104 3.16785 1.93956 2.48992 2.61442C1.81199 3.28929 1.43487 4.18171 1.43487 5.12297V12.2268C1.43487 13.1681 1.8075 14.065 2.48992 14.7354C3.17234 15.4058 4.07475 15.7788 5.02654 15.7788H12.2099C13.1617 15.7788 14.0686 15.4102 14.7465 14.7354C15.4244 14.0605 15.8016 13.1681 15.8016 12.2268V5.12297C15.8016 4.18171 15.4289 3.28485 14.7465 2.61442Z" fill="currentColor"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2896 5.12306C12.6925 5.12306 12.2121 4.64805 12.2121 4.05762C12.2121 3.46719 12.6925 2.99219 13.2896 2.99219C13.8822 2.99219 14.367 3.46719 14.367 4.05762C14.367 4.64805 13.8822 5.12306 13.2896 5.12306ZM8.62058 5.83398C10.2054 5.83398 11.4939 7.10828 11.4939 8.67563C11.4939 10.243 10.2054 11.5173 8.62058 11.5173C7.03575 11.5173 5.74723 10.243 5.74723 8.67563C5.74723 7.10828 7.03575 5.83398 8.62058 5.83398ZM4.30908 8.67541C4.30908 6.32226 6.2396 4.41309 8.61908 4.41309C10.9986 4.41309 12.9291 6.32226 12.9291 8.67541C12.9291 11.0286 10.9986 12.9377 8.61908 12.9377C6.2396 12.9377 4.30908 11.0286 4.30908 8.67541Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a class="opacity-60 hover:opacity-100 first:ml-0 ml-6 transition duration-500" href="https://www.linkedin.com/company/vervetheagency" title="LinkedIn">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.81328 5.26465V15.8746H0.212402V5.26465H3.81328Z" fill="currentColor"/>
+                            <path d="M4.05151 1.98256C4.05151 3.00132 3.26954 3.81649 2.01395 3.81649H1.99094C0.782028 3.81649 0.000488281 3.00132 0.000488281 1.98256C0.000488281 0.942259 0.805831 0.149902 2.03768 0.149902C3.26954 0.149902 4.02814 0.942259 4.05151 1.98256Z" fill="currentColor"/>
+                            <path d="M16.8002 9.7923L16.8 15.8757H13.1993V10.1994C13.1993 8.77361 12.6782 7.8007 11.3747 7.8007C10.3798 7.8007 9.78728 8.45658 9.52703 9.09008C9.43182 9.31711 9.40845 9.63343 9.40845 9.95053V15.876H5.80713C5.80713 15.876 5.85459 6.26161 5.80713 5.26603H9.40845V6.76884C9.88637 6.04641 10.7423 5.0166 12.6542 5.0166C15.0237 5.0166 16.8002 6.53336 16.8002 9.7923Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="lg:mb-0 flex justify-center mb-16 lg:mt-0 mt-16">
+                    <svg class="h-12 w-40" width="1586" height="418" viewBox="0 0 1586 418" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1533.17 417.81C1566.7 417.81 1585.81 404.73 1585.81 382.1C1585.81 363.99 1574.41 353.76 1548.59 348.91C1525.12 344.38 1522.1 343.21 1522.1 338.68C1522.1 334.49 1527.13 332.14 1536.69 332.14C1551.28 332.14 1567.37 336.5 1579.94 343.71V316.04C1569.38 310 1552.44 306.15 1536.35 306.15C1503.66 306.15 1483.87 320.23 1483.87 342.36C1483.87 360.3 1495.44 370.02 1521.09 375.05C1539.87 378.74 1547.58 380.58 1547.58 385.95C1547.58 390.14 1543.22 391.82 1533.16 391.82C1520.08 391.82 1504.66 387.63 1487.72 379.24V406.9C1501.3 414.11 1516.39 417.8 1533.16 417.8M1438.27 361.97C1438.27 379.24 1429.21 388.13 1411.61 388.13H1399.54V335.82H1411.61C1429.22 335.82 1438.27 344.71 1438.27 361.98M1410.77 307.66H1363.82V416.3H1410.77C1451.68 416.3 1476.49 396.85 1476.49 361.98C1476.49 327.11 1451.68 307.66 1410.77 307.66ZM1349.74 416.3V307.66H1314.87V368.52L1274.3 307.66H1233.72V416.3H1268.59V355.1L1309.17 416.3H1349.74ZM1165.31 417.81C1200.52 417.81 1220.14 402.22 1220.14 370.03V307.66H1184.43V368.86C1184.43 381.6 1178.73 388.98 1165.31 388.98C1151.89 388.98 1146.2 381.6 1146.2 368.86V307.66H1110.49V370.03C1110.49 402.22 1130.11 417.81 1165.31 417.81ZM1036.72 389.31C1020.29 389.31 1011.07 379.42 1011.07 362.15C1011.07 344.88 1020.29 334.65 1036.72 334.65C1053.15 334.65 1062.37 344.54 1062.37 361.64C1062.37 378.74 1053.15 389.31 1036.72 389.31ZM1036.72 417.81C1074.61 417.81 1100.6 394.67 1100.6 361.98C1100.6 329.29 1074.78 306.15 1036.72 306.15C998.66 306.15 972.84 329.12 972.84 361.98C972.84 394.84 998.83 417.81 1036.72 417.81ZM928.91 347.06C928.91 356.62 922.54 361.65 910.64 361.65H891.52V333.32H910.64C923.05 333.32 928.91 337.68 928.91 347.07M942.49 379.6C958.42 372.73 965.63 362.33 965.63 345.9C965.63 321.76 947.53 307.67 916.67 307.67H855.81V416.31H891.52V386.8H908.45L928.57 416.31H968.47L942.48 379.59L942.49 379.6ZM842.23 406.09V353.61H790.26V376.07H809.54V390.15C805.85 390.82 801.83 391.15 798.31 391.15C778.52 391.15 767.46 380.93 767.46 363.49C767.46 346.05 782.21 334.32 805.02 334.32C819.1 334.32 829.5 337.34 837.71 341.03V313.2C826.98 308.17 813.9 306.16 798.48 306.16C756.57 306.16 728.9 329.63 728.9 364.17C728.9 398.71 754.55 417.82 795.29 417.82C812.06 417.82 829.16 414.3 842.24 406.08M699.23 307.66L678.27 351.92L657.48 307.66H617.24L659.66 385.29V416.31H695.37V385.29L739.63 307.66H699.22H699.23ZM555.88 374.89L569.46 331.47L583.37 374.89H555.87H555.88ZM506.59 416.3H543.64L548 401.38H591.76L596.45 416.3H633.67L596.62 307.66H542.3L506.59 416.3ZM414.88 307.32V416.3H501.22V388.13H450.58V351.58C450.58 325.26 437.5 309.84 414.87 307.32M368.43 349.57C368.43 358.63 362.56 364.16 349.99 364.16H331.04V335.82H349.99C361.56 335.82 368.43 339.51 368.43 349.57ZM295.33 416.3H331.04V392.33H359.38C387.04 392.33 405.15 375.23 405.15 349.91C405.15 324.59 386.71 307.66 359.38 307.66H295.33V416.3Z" fill="#390A13"/>
+                        <path d="M883.24 228.21C883.24 245.48 874.19 254.37 856.58 254.37H844.51V202.06H856.58C874.19 202.06 883.24 210.95 883.24 228.22M855.74 173.9H808.79V282.54H855.74C896.65 282.54 921.46 263.09 921.46 228.22C921.46 193.35 896.65 173.9 855.74 173.9ZM796.73 202.07V173.9H705.35V282.54H796.73V254.37H741.07V239.62H792.88V216.82H741.07V202.07H796.73ZM694.79 173.9H591.18V202.07H625.21V282.55H660.92V202.07H694.79V173.9ZM580.62 282.88V173.9H544.91V238.62C544.91 264.94 557.99 280.36 580.62 282.88ZM530.83 282.54V173.9H495.96V234.76L455.38 173.9H414.81V282.54H449.68V221.34L490.25 282.54H530.83ZM346.4 284.05C381.61 284.05 401.22 268.46 401.22 236.27V173.9H365.51V235.1C365.51 247.84 359.81 255.22 346.4 255.22C332.99 255.22 327.29 247.84 327.29 235.1V173.9H291.58V236.27C291.58 268.46 311.2 284.05 346.4 284.05Z" fill="#390A13"/>
+                        <path d="M229.38 416.08H14.4101C6.93013 416.08 0.870117 410.02 0.870117 402.54V187.57C0.870117 180.09 6.93013 174.03 14.4101 174.03H229.38C236.86 174.03 242.92 180.09 242.92 187.57V402.54C242.92 410.02 236.86 416.08 229.38 416.08Z" fill="#F2D6FA"/>
+                        <path d="M43.39 277.65L18.52 244.11L52.64 218.96L109.02 297.02C101.21 299.91 93.7 301.65 86.18 301.65C69.99 301.65 55.24 293.84 43.39 277.65ZM73.46 360.63L33.85 373.64L20.84 333.45L112.2 303.96C113.65 331.14 101.21 351.37 73.46 360.63ZM161.35 358.32L161.64 399.95H119.14L119.72 303.96C146.03 310.9 161.07 329.11 161.35 358.32ZM185.64 273.61L225.25 286.33L212.24 326.52L121.16 296.45C132.15 279.39 147.18 270.14 165.4 270.14C171.76 270.14 178.41 271.3 185.64 273.61ZM112.49 223.88L136.78 190.05L171.19 214.92L114.81 292.12C105.56 281.13 100.64 269.28 100.64 257.14C100.64 246.44 104.4 235.17 112.5 223.89" fill="#390A13"/>
+                        <path d="M0.849854 5.5H38.8998C47.2898 5.5 54.5699 6.98 60.7599 9.95C66.9499 12.92 71.7498 17.03 75.1798 22.3C78.6098 27.57 80.3199 33.78 80.3199 40.94C80.3199 48.1 78.5799 54.16 75.0999 59.43C71.6199 64.7 66.7598 68.81 60.5198 71.78C54.2798 74.75 46.9098 76.23 38.4298 76.23H13.7299V112.9H0.839844V5.5H0.849854ZM13.7398 64.26H38.5999C47.6999 64.26 54.7598 62.22 59.7698 58.12C64.7798 54.03 67.2899 48.3 67.2899 40.94C67.2899 33.58 64.7798 27.82 59.7698 23.68C54.7598 19.54 47.6999 17.47 38.5999 17.47H13.7398V64.26Z" fill="#390A13"/>
+                        <path d="M125.43 36.8003C131.36 36.8003 136.68 37.8503 141.39 39.9503C146.09 42.0503 149.83 45.2703 152.59 49.6203C155.35 53.9703 156.73 59.5203 156.73 66.2703V112.91H144.92V103.86C142.77 107.03 139.73 109.59 135.79 111.53C131.85 113.47 127.07 114.45 121.44 114.45C115.81 114.45 111.11 113.5 106.71 111.61C102.31 109.72 98.81 107.03 96.2 103.55C93.59 100.07 92.29 95.9303 92.29 91.1203C92.29 86.3103 93.54 82.3203 96.05 78.8503C98.55 75.3703 102.01 72.6603 106.41 70.7203C110.81 68.7803 115.72 67.8003 121.14 67.8003C126.05 67.8003 130.47 68.5903 134.41 70.1803C138.35 71.7703 141.54 73.9403 144 76.7003V65.0403C144 59.1103 142.16 54.7603 138.48 52.0003C134.8 49.2403 129.68 47.8603 123.14 47.8603C118.64 47.8603 114.01 48.6503 109.26 50.2403C104.5 51.8303 100.44 54.0503 97.06 56.9103V45.1003C100.33 42.8503 104.6 40.9103 109.87 39.2703C115.14 37.6403 120.33 36.8103 125.44 36.8103L125.43 36.8003ZM124.2 104C130.34 104 135.25 102.75 138.93 100.24C142.61 97.7303 144.45 94.5903 144.45 90.8003C144.45 87.0103 142.69 83.9203 139.16 81.2103C135.63 78.5003 130.7 77.1403 124.35 77.1403C118.42 77.1403 113.71 78.3703 110.23 80.8203C106.75 83.2803 105.01 86.6003 105.01 90.7903C105.01 94.9803 106.8 98.2303 110.38 100.53C113.96 102.83 118.56 103.98 124.19 103.98L124.2 104Z" fill="#390A13"/>
+                        <path d="M217.18 36.8003C219.02 36.8003 220.91 37.0603 222.86 37.5703C224.8 38.0803 226.29 38.7503 227.31 39.5603V51.0703C226.18 50.1503 224.65 49.3803 222.71 48.7703C220.77 48.1603 218.77 47.8503 216.73 47.8503C209.88 47.8503 204.56 50.3803 200.77 55.4403C196.98 60.5003 195.09 67.8903 195.09 77.6103V112.9H182.36V38.3303H194.48V54.2903C196.63 48.6703 199.62 44.3403 203.46 41.3303C207.29 38.3103 211.87 36.8003 217.19 36.8003H217.18Z" fill="#390A13"/>
+                        <path d="M278.7 102.78C281.15 102.78 283.58 102.3 285.99 101.32C288.39 100.35 290.62 99.1502 292.66 97.7102V108.6C290.31 110.65 287.6 112.13 284.53 113.05C281.46 113.97 278.6 114.43 275.94 114.43C271.34 114.43 267.12 113.59 263.28 111.9C259.45 110.21 256.4 107.68 254.15 104.31C251.9 100.93 250.77 96.8502 250.77 92.0402V49.5402H235.89V38.3402H250.77V17.9302H263.5V38.3402H291.73V49.5402H263.5V89.2802C263.5 94.6002 265.01 98.1802 268.03 100.02C271.05 101.86 274.6 102.78 278.69 102.78H278.7Z" fill="#390A13"/>
+                        <path d="M377.81 114.44C370.24 114.44 363.59 112.83 357.86 109.61C352.13 106.39 347.66 101.89 344.44 96.1101C341.22 90.3301 339.61 83.6101 339.61 75.9301C339.61 68.2501 341.22 61.2001 344.44 55.3701C347.66 49.5401 352.14 44.9901 357.86 41.7201C363.59 38.4501 370.24 36.8101 377.81 36.8101C385.38 36.8101 392.18 38.4501 397.91 41.7201C403.64 44.9901 408.11 49.5401 411.33 55.3701C414.55 61.2001 416.16 68.0501 416.16 75.9301C416.16 83.8101 414.55 90.3301 411.33 96.1101C408.11 101.89 403.63 106.39 397.91 109.61C392.18 112.83 385.48 114.44 377.81 114.44ZM377.96 103.09C385.53 103.09 391.67 100.63 396.37 95.7301C401.07 90.8201 403.43 84.2201 403.43 75.9401C403.43 67.6601 401.08 60.7001 396.37 55.6901C391.66 50.6801 385.53 48.1701 377.96 48.1701C370.39 48.1701 364.23 50.6801 359.47 55.6901C354.71 60.7001 352.34 67.4501 352.34 75.9401C352.34 84.4301 354.72 90.8201 359.47 95.7301C364.23 100.64 370.39 103.09 377.96 103.09Z" fill="#390A13"/>
+                        <path d="M469.25 11.6401C464.75 11.6401 461.12 13.0501 458.36 15.8601C455.6 18.6701 454.22 22.6901 454.22 27.9001V38.3301H480.15V49.5301H454.22V112.9H441.33V49.5301H426.6V38.3301H441.33V27.9001C441.33 22.4801 442.5 17.7501 444.86 13.7101C447.21 9.67014 450.41 6.53014 454.45 4.27014C458.49 2.02014 463.07 0.890137 468.18 0.890137C473.6 0.890137 478.31 2.32014 482.3 5.19014V16.0801C480.97 14.8501 479.18 13.8001 476.93 12.9301C474.68 12.0601 472.12 11.6301 469.26 11.6301L469.25 11.6401Z" fill="#390A13"/>
+                    </svg>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="/js/app.js?id=693d054bfe7a4a5a1a32"></script>
+</body>
+
+</html>
