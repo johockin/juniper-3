@@ -486,16 +486,36 @@ export default function Home() {
       </section>
       
       {/* Services Section */}
-      <section className="services-section-bg py-24 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="ultra-thin-title clamp-section-title mb-6">Story-Driven Video Production</h2>
-            <p className="ultra-thin-subtitle clamp-section-subtitle leading-relaxed max-w-3xl mx-auto">
+      <section className="services-section-bg" style={{
+        padding: '6rem 1rem'
+      }}>
+        <div style={{
+          maxWidth: '80rem',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}>
+          <div style={{
+            textAlign: 'center',
+            marginBottom: '4rem'
+          }}>
+            <h2 className="ultra-thin-title clamp-section-title" style={{
+              marginBottom: '1.5rem'
+            }}>Story-Driven Video Production</h2>
+            <p className="ultra-thin-subtitle clamp-section-subtitle" style={{
+              lineHeight: 1.625,
+              maxWidth: '48rem',
+              marginLeft: 'auto',
+              marginRight: 'auto'
+            }}>
               We believe in the power of stories to captivate, engage, and inspire. Our audience-centric strategies deliver performance marketing results that drive measurable business growth.
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            gap: '2rem'
+          }}>
             {/* Brand Videos */}
             <div className="glass-work-card p-8">
               <div className="service-icon-premium w-12 h-12 flex items-center justify-center mb-6">
@@ -764,9 +784,19 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-24 px-4 bg-black">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+      <section id="about" style={{
+        padding: '6rem 1rem',
+        background: '#000'
+      }}>
+        <div style={{
+          maxWidth: '72rem',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}>
+          <div style={{
+            textAlign: 'center',
+            marginBottom: '4rem'
+          }}>
             <h2 className="ultra-thin-title clamp-section-title mb-6">Meet the Team</h2>
             <p className="ultra-thin-subtitle clamp-section-subtitle leading-relaxed max-w-3xl mx-auto">
               We&apos;re Johnny and Nina, a Toronto-based creative duo passionate about telling authentic brand stories through video.
@@ -854,22 +884,46 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="contact-section-bg py-24 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="ultra-thin-title clamp-section-title mb-6">Ready to Get Started?</h2>
-            <p className="ultra-thin-subtitle clamp-section-subtitle leading-relaxed">
+      <section id="contact" className="contact-section-bg" style={{
+        padding: '6rem 1rem'
+      }}>
+        <div style={{
+          maxWidth: '56rem',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}>
+          <div style={{
+            textAlign: 'center',
+            marginBottom: '3rem'
+          }}>
+            <h2 className="ultra-thin-title clamp-section-title" style={{
+              marginBottom: '1.5rem'
+            }}>Ready to Get Started?</h2>
+            <p className="ultra-thin-subtitle clamp-section-subtitle" style={{
+              lineHeight: 1.625
+            }}>
               Let&apos;s discuss how we can help tell your brand&apos;s story through compelling video content.
             </p>
           </div>
           
           <ContactForm />
           
-          <div className="text-center mt-12 pt-8 border-t border-white/20">
-            <p className="ultra-thin-subtitle mb-4">Prefer to email directly?</p>
+          <div style={{
+            textAlign: 'center',
+            marginTop: '3rem',
+            paddingTop: '2rem',
+            borderTop: '1px solid rgba(255,255,255,0.2)'
+          }}>
+            <p className="ultra-thin-subtitle" style={{
+              marginBottom: '1rem'
+            }}>Prefer to email directly?</p>
             <a 
               href={`mailto:${siteConfig.business.email}`}
-              className="contact-link-underline font-medium transition-colors"
+              className="contact-link-underline"
+              style={{
+                fontWeight: 500,
+                transition: 'color 0.3s ease'
+              }}
             >
               {siteConfig.business.email}
             </a>
