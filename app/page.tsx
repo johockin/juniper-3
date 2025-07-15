@@ -3,35 +3,59 @@ import ContactForm from '../components/ContactForm'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-white" style={{
+    <div style={{
+      minHeight: '100vh',
+      background: '#000',
+      color: '#fff',
       fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif',
       fontWeight: 400,
-      lineHeight: 1.4,
-      color: '#f5f5f7'
+      lineHeight: 1.4
     }}>
       {/* Hero Section */}
-      <section className="relative h-screen flex flex-col justify-center overflow-hidden" style={{
+      <section style={{
+        position: 'relative',
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        overflow: 'hidden',
         minHeight: '100vh',
-        padding: '0 4rem',
-        position: 'relative'
+        padding: '0 4rem'
       }}>
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover"
-          style={{ zIndex: 1 }}
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: 1
+          }}
           preload="auto"
           poster="/images/hero-poster.jpg"
         >
           <source src="/videos/hero-video.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0" style={{
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          right: 0,
+          bottom: 0,
+          left: 0,
           background: 'rgba(0, 0, 0, 0.15)',
           zIndex: 2
         }} />
-        <div className="absolute inset-0" style={{
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          right: 0,
+          bottom: 0,
+          left: 0,
           background: `
             radial-gradient(circle at 50% 0%, rgba(255,255,255,0.02) 0%, transparent 70%),
             radial-gradient(circle at 100% 100%, rgba(255,255,255,0.01) 0%, transparent 50%)
@@ -40,30 +64,50 @@ export default function Home() {
           zIndex: 3
         }} />
         
-        <div className="relative text-center max-w-5xl mx-auto" style={{ zIndex: 10 }}>
-          <h1 className="ultra-thin-title clamp-hero-title mb-8" style={{
+        <div style={{
+          position: 'relative',
+          textAlign: 'center',
+          maxWidth: '64rem',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          zIndex: 10
+        }}>
+          <h1 className="ultra-thin-title clamp-hero-title" style={{
             fontWeight: 200,
             letterSpacing: '-0.03em',
             lineHeight: 1.05,
             color: '#f5f5f7',
             WebkitFontSmoothing: 'antialiased',
             MozOsxFontSmoothing: 'grayscale',
-            textRendering: 'optimizeLegibility'
+            textRendering: 'optimizeLegibility',
+            marginBottom: '2rem'
           }}>
             <span style={{ fontWeight: 600, color: '#fff' }}>Toronto&apos;s Premier</span><br />
             Video Production Company
           </h1>
-          <p className="ultra-thin-subtitle clamp-hero-subtitle mb-16 max-w-2xl mx-auto" style={{
+          <p className="ultra-thin-subtitle clamp-hero-subtitle" style={{
             fontWeight: 300,
             color: '#a1a1a6',
             WebkitFontSmoothing: 'antialiased',
             MozOsxFontSmoothing: 'grayscale',
-            textRendering: 'optimizeLegibility'
+            textRendering: 'optimizeLegibility',
+            marginBottom: '4rem',
+            maxWidth: '42rem',
+            marginLeft: 'auto',
+            marginRight: 'auto'
           }}>
             Elevating brands with visually compelling video content
           </p>
           
-          <div className="grid grid-cols-3 gap-16 mb-16 max-w-4xl mx-auto">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+            gap: '4rem',
+            marginBottom: '4rem',
+            maxWidth: '56rem',
+            marginLeft: 'auto',
+            marginRight: 'auto'
+          }}>
             <div className="text-center" style={{
               background: 'rgba(255,255,255,0.02)',
               border: '1px solid rgba(255,255,255,0.08)',
