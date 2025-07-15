@@ -108,7 +108,8 @@ export default function Home() {
             marginLeft: 'auto',
             marginRight: 'auto'
           }}>
-            <div className="text-center" style={{
+            <div style={{
+              textAlign: 'center',
               background: 'rgba(255,255,255,0.02)',
               border: '1px solid rgba(255,255,255,0.08)',
               borderRadius: '12px',
@@ -116,7 +117,8 @@ export default function Home() {
               transition: 'all 0.3s ease',
               padding: '2rem 1rem'
             }}>
-              <div className="mb-2" style={{
+              <div style={{
+                marginBottom: '0.5rem',
                 fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
                 fontWeight: 200,
                 color: '#fff',
@@ -130,7 +132,8 @@ export default function Home() {
                 letterSpacing: '0.02em'
               }}>Video Projects</div>
             </div>
-            <div className="text-center" style={{
+            <div style={{
+              textAlign: 'center',
               background: 'rgba(255,255,255,0.02)',
               border: '1px solid rgba(255,255,255,0.08)',
               borderRadius: '12px',
@@ -138,7 +141,8 @@ export default function Home() {
               transition: 'all 0.3s ease',
               padding: '2rem 1rem'
             }}>
-              <div className="mb-2" style={{
+              <div style={{
+                marginBottom: '0.5rem',
                 fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
                 fontWeight: 200,
                 color: '#fff',
@@ -152,7 +156,8 @@ export default function Home() {
                 letterSpacing: '0.02em'
               }}>Total Views</div>
             </div>
-            <div className="text-center" style={{
+            <div style={{
+              textAlign: 'center',
               background: 'rgba(255,255,255,0.02)',
               border: '1px solid rgba(255,255,255,0.08)',
               borderRadius: '12px',
@@ -160,7 +165,8 @@ export default function Home() {
               transition: 'all 0.3s ease',
               padding: '2rem 1rem'
             }}>
-              <div className="mb-2" style={{
+              <div style={{
+                marginBottom: '0.5rem',
                 fontSize: 'clamp(1.75rem, 4vw, 2.25rem)',
                 fontWeight: 200,
                 color: '#fff',
@@ -176,33 +182,48 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="flex gap-4 justify-center flex-wrap">
+          <div style={{
+            display: 'flex',
+            gap: '1rem',
+            justifyContent: 'center',
+            flexWrap: 'wrap'
+          }}>
             <a 
               href="#contact" 
-              className="btn-shine relative overflow-hidden px-10 py-4 rounded-lg border transition-all duration-300 hover:opacity-90"
+              className="btn-shine"
               style={{
+                position: 'relative',
+                overflow: 'hidden',
+                padding: '1rem 2.5rem',
+                borderRadius: '0.5rem',
+                border: '1px solid #fff',
                 background: '#fff',
                 color: '#000',
-                border: '1px solid #fff',
                 fontSize: '0.9375rem',
                 fontWeight: 400,
                 textDecoration: 'none',
-                letterSpacing: '0.01em'
+                letterSpacing: '0.01em',
+                transition: 'all 0.3s ease'
               }}
             >
               Get Started
             </a>
             <a 
               href="#work" 
-              className="btn-shine relative overflow-hidden px-10 py-4 rounded-lg border transition-all duration-300 hover:bg-white/10"
+              className="btn-shine"
               style={{
+                position: 'relative',
+                overflow: 'hidden',
+                padding: '1rem 2.5rem',
+                borderRadius: '0.5rem',
+                border: '1px solid rgba(255,255,255,0.3)',
                 background: 'transparent',
                 color: '#f5f5f7',
-                border: '1px solid rgba(255,255,255,0.3)',
                 fontSize: '0.9375rem',
                 fontWeight: 400,
                 textDecoration: 'none',
-                letterSpacing: '0.01em'
+                letterSpacing: '0.01em',
+                transition: 'all 0.3s ease'
               }}
             >
               View Our Work
@@ -212,48 +233,110 @@ export default function Home() {
       </section>
       
       {/* Testimonial + Logo Strip Belt */}
-      <section className="belt-section px-16 py-16">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 gap-24 items-center">
+      <section className="belt-section" style={{
+        padding: '4rem'
+      }}>
+        <div style={{
+          maxWidth: '72rem',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          display: 'grid',
+          gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+          gap: '6rem',
+          alignItems: 'center'
+        }}>
           {/* Testimonial */}
-          <div className="testimonial-quote-gradient relative pl-8">
-            <blockquote className="clamp-section-subtitle mb-4 ultra-thin-subtitle italic">
+          <div className="testimonial-quote-gradient" style={{
+            position: 'relative',
+            paddingLeft: '2rem'
+          }}>
+            <blockquote className="clamp-section-subtitle ultra-thin-subtitle" style={{
+              marginBottom: '1rem',
+              fontStyle: 'italic'
+            }}>
               &quot;The Juniper Island team are ideal partners, anticipating our needs and exceeding our expectations at every turn.&quot;
             </blockquote>
-            <div className="pl-8 text-xs text-gray-400 font-light">
+            <div style={{
+              paddingLeft: '2rem',
+              fontSize: '0.75rem',
+              color: '#a1a1a6',
+              fontWeight: 300
+            }}>
               Andrew Addison, VP Communications, CMPA
             </div>
           </div>
           
           {/* Logo Strip */}
-          <div className="belt-logos-container text-right p-8">
-            <h3 className="ultra-thin-subtitle mb-4 text-xs tracking-wider">
+          <div className="belt-logos-container" style={{
+            textAlign: 'right',
+            padding: '2rem'
+          }}>
+            <h3 className="ultra-thin-subtitle" style={{
+              marginBottom: '1rem',
+              fontSize: '0.75rem',
+              letterSpacing: '0.05em'
+            }}>
               Trusted by Leading Brands
             </h3>
             <img 
               src="/images/logo-strip-white.avif" 
               alt="Client logos including Red Bull, Rily, Muskoka Roastery and others" 
-              className="logo-strip-filter max-w-full h-auto"
+              className="logo-strip-filter"
+              style={{
+                maxWidth: '100%',
+                height: 'auto'
+              }}
             />
           </div>
         </div>
       </section>
       
       {/* Work/Portfolio Section */}
-      <section id="work" className="py-24 px-4 bg-black">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="ultra-thin-title clamp-section-title mb-6">Our Work</h2>
-            <p className="ultra-thin-subtitle clamp-section-subtitle leading-relaxed max-w-3xl mx-auto mb-4">
+      <section id="work" style={{
+        padding: '6rem 1rem',
+        background: '#000'
+      }}>
+        <div style={{
+          maxWidth: '80rem',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}>
+          <div style={{
+            textAlign: 'center',
+            marginBottom: '4rem'
+          }}>
+            <h2 className="ultra-thin-title clamp-section-title" style={{
+              marginBottom: '1.5rem'
+            }}>Our Work</h2>
+            <p className="ultra-thin-subtitle clamp-section-subtitle" style={{
+              lineHeight: 1.625,
+              maxWidth: '48rem',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              marginBottom: '1rem'
+            }}>
               Expertly crafted commercials, documentaries, social ads, corporate videos and brand films.
             </p>
-            <p className="ultra-thin-subtitle leading-relaxed max-w-3xl mx-auto">
+            <p className="ultra-thin-subtitle" style={{
+              lineHeight: 1.625,
+              maxWidth: '48rem',
+              marginLeft: 'auto',
+              marginRight: 'auto'
+            }}>
               Award-winning creative, expert production and white-glove service. Whether you need a single testimonial video or a massive content library, consider it done.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: '2rem'
+          }}>
             {/* Subway Meat Cute */}
-            <a href="/work/subway-meat-cute" className="glass-work-card work-item-shine group block p-6" aria-label="View Subway Meat Cute case study">
+            <a href="/work/subway-meat-cute" className="glass-work-card work-item-shine" style={{
+              display: 'block',
+              padding: '1.5rem'
+            }} aria-label="View Subway Meat Cute case study">
               <div className="relative bg-gradient-to-br from-green-600 to-yellow-500 rounded-lg overflow-hidden aspect-video mb-4 group-hover:scale-105 transition-transform duration-300">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-white text-center">
