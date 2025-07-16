@@ -12,9 +12,9 @@ yarn-error.log*
 *.tmp
 *.temp
 
-# Old build artifacts (to be removed)
-.next/
-node_modules/
-tsconfig.json
-package-lock.json
+# Editor files
+.vscode/
+.idea/
+
+# Backup folders
 _production-backup/
