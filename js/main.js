@@ -69,11 +69,38 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // ==========================================================================
-  // Simple Form Validation Feedback
+  // Contact Form Toggle and Validation
   // ==========================================================================
   
   const contactForm = document.querySelector('.contact-form');
+  const toggleButton = document.getElementById('toggleDetails');
+  const toggleIcon = document.getElementById('toggleIcon');
+  const toggleText = document.getElementById('toggleText');
+  const optionalFields = document.getElementById('optionalFields');
   
+  let detailsVisible = false;
+  
+  // Toggle project details
+  if (toggleButton && optionalFields) {
+    // Initially hide optional fields
+    optionalFields.style.display = 'none';
+    
+    toggleButton.addEventListener('click', function() {
+      detailsVisible = !detailsVisible;
+      
+      if (detailsVisible) {
+        optionalFields.style.display = 'block';
+        toggleIcon.style.transform = 'rotate(90deg)';
+        toggleText.textContent = 'Hide project details';
+      } else {
+        optionalFields.style.display = 'none';
+        toggleIcon.style.transform = 'rotate(0deg)';
+        toggleText.textContent = 'Add project details (optional)';
+      }
+    });
+  }
+  
+  // Form validation and submission
   if (contactForm) {
     contactForm.addEventListener('submit', function() {
       const submitButton = this.querySelector('.contact-form-button');

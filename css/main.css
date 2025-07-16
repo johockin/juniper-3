@@ -343,10 +343,10 @@ body {
 
 .hero-stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--space-2xl);
-  margin-bottom: var(--space-2xl);
-  max-width: 56rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  margin-bottom: 4rem;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -988,4 +988,55 @@ body {
   font-weight: var(--font-weight-normal);
   color: var(--color-gray-medium);
   letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Contact Form Toggle Styles
+   ========================================================================== */
+
+.details-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: var(--font-weight-light);
+  color: var(--color-gray-medium);
+  transition: color 0.3s ease;
+  padding: 0;
+}
+
+.details-toggle:hover {
+  color: var(--color-white);
+}
+
+.toggle-icon {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.optional-fields {
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.optional-fields .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.optional-fields .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .optional-fields .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }
