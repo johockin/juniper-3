@@ -1,19 +1,8 @@
 [build]
-  publish = ".next"
-  command = "npm run build"
+  publish = "."
+  command = "echo 'Static site - no build needed!'"
 
-[build.environment]
-  NODE_VERSION = "20"
-  NPM_VERSION = "10"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[dev]
-  framework = "next"
-  targetPort = 3000
-  publish = ".next"
-
+# Security Headers
 [[headers]]
   for = "/*"
   [headers.values]
@@ -23,6 +12,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
+# Performance Headers - Long cache for static assets
 [[headers]]
   for = "/videos/*"
   [headers.values]
@@ -34,6 +24,44 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/_next/static/*"
+  for = "/logos/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML files - shorter cache for content updates
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# Form handling for Netlify Forms
+[[headers]]
+  for = "/__forms.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Redirects (if needed)
+[[redirects]]
+  from = "/work"
+  to = "/#work"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/#about"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/#contact"
+  status = 301

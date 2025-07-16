@@ -1,6 +1,20 @@
-node_modules/
-.next/
-.env.local
-*.log
+# System Files
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Old build artifacts (to be removed)
+.next/
+node_modules/
 tsconfig.json
+package-lock.json
+_production-backup/

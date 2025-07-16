@@ -1,25 +1,8 @@
 {
   "name": "juniper-island",
-  "version": "1.0.0",
-  "private": true,
+  "version": "2.0.0",
+  "description": "Juniper Island - Toronto's Premier Video Production Company. Vanilla HTML/CSS/JS site optimized for extreme performance.",
   "scripts": {
-    "dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
-  },
-  "dependencies": {
-    "next": "^15.3.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^15.3.5",
-    "typescript": "^5.6.0"
+    "deploy": "echo 'Just push to git! Netlify auto-deploys on every commit.'"
   }
 }
