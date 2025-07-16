@@ -69,6 +69,101 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // ==========================================================================
+  // Services Section Toggle
+  // ==========================================================================
+  
+  const servicesToggle = document.getElementById('servicesToggle');
+  const servicesContent = document.getElementById('servicesContent');
+  
+  if (servicesToggle && servicesContent) {
+    servicesToggle.addEventListener('click', function() {
+      const isExpanded = servicesContent.classList.contains('expanded');
+      
+      if (isExpanded) {
+        // Collapse
+        servicesContent.classList.remove('expanded');
+        servicesToggle.classList.remove('expanded');
+        servicesToggle.querySelector('.toggle-text').textContent = 'Explore Our Services';
+      } else {
+        // Expand
+        servicesContent.classList.add('expanded');
+        servicesToggle.classList.add('expanded');
+        servicesToggle.querySelector('.toggle-text').textContent = 'Hide Services';
+      }
+    });
+  }
+  
+  // ==========================================================================
+  // Testimonials Carousel
+  // ==========================================================================
+  
+  const testimonialsTrack = document.getElementById('testimonialsTrack');
+  const testimonialSlides = document.querySelectorAll('.testimonial-slide');
+  const indicators = document.querySelectorAll('.indicator');
+  let currentSlide = 0;
+  let autoSlideInterval;
+  
+  if (testimonialSlides.length > 0) {
+    
+    function showSlide(index) {
+      // Remove active class from all slides and indicators
+      testimonialSlides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (indicators[i]) {
+          indicators[i].classList.remove('active');
+        }
+      });
+      
+      // Set new current slide
+      currentSlide = index;
+      
+      // Add active class to current slide and indicator
+      if (testimonialSlides[currentSlide]) {
+        testimonialSlides[currentSlide].classList.add('active');
+      }
+      if (indicators[currentSlide]) {
+        indicators[currentSlide].classList.add('active');
+      }
+    }
+    
+    function nextSlide() {
+      const next = (currentSlide + 1) % testimonialSlides.length;
+      showSlide(next);
+    }
+    
+    function startAutoSlide() {
+      autoSlideInterval = setInterval(nextSlide, 5000); // 5 seconds
+    }
+    
+    function stopAutoSlide() {
+      if (autoSlideInterval) {
+        clearInterval(autoSlideInterval);
+      }
+    }
+    
+    // Add click handlers to indicators
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', () => {
+        stopAutoSlide();
+        showSlide(index);
+        startAutoSlide(); // Restart auto-slide after manual interaction
+      });
+    });
+    
+    // Pause auto-slide on hover
+    if (testimonialsTrack) {
+      testimonialsTrack.addEventListener('mouseenter', stopAutoSlide);
+      testimonialsTrack.addEventListener('mouseleave', startAutoSlide);
+    }
+    
+    // Initialize first slide
+    showSlide(0);
+    
+    // Start the carousel
+    startAutoSlide();
+  }
+  
+  // ==========================================================================
   // Contact Form Toggle and Validation
   // ==========================================================================
   

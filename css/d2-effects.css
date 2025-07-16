@@ -46,7 +46,6 @@
   backdrop-filter: blur(20px);
   transition: all var(--transition-fast);
   padding: var(--space-xl);
-  position: relative;
 }
 
 .glass-testimonial-card:hover {
