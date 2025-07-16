@@ -6,31 +6,27 @@
 document.addEventListener('DOMContentLoaded', function() {
   
   // ==========================================================================
-  // Mobile Menu Toggle
+  // Floating Navigation
   // ==========================================================================
   
-  const menuButton = document.getElementById('menuButton');
-  const mobileMenu = document.getElementById('mobileMenu');
-  const mobileLinks = document.querySelectorAll('.mobile-link');
+  // Add scroll-based opacity for floating elements
+  const floatingLogo = document.querySelector('.floating-logo');
+  const floatingNav = document.querySelector('.floating-nav');
   
-  if (menuButton && mobileMenu) {
-    menuButton.addEventListener('click', function() {
-      mobileMenu.classList.toggle('active');
-    });
-    
-    // Close menu when clicking mobile links
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', function() {
-        mobileMenu.classList.remove('active');
-      });
+  if (floatingLogo && floatingNav) {
+    window.addEventListener('scroll', function() {
+      const scrollY = window.scrollY;
+      const opacity = scrollY > 200 ? 0.4 : 0;
+      const navOpacity = scrollY > 200 ? 0.8 : 0;
+      
+      floatingLogo.style.opacity = opacity;
+      floatingNav.style.opacity = navOpacity;
     });
   }
   
   // ==========================================================================
   // Smooth Scroll for Anchor Links
   // ==========================================================================
-  
-  const navHeight = 64; // 4rem = 64px
   
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -40,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const targetElement = document.getElementById(targetId);
       
       if (targetElement) {
-        const targetPosition = targetElement.offsetTop - navHeight;
+        const targetPosition = targetElement.offsetTop;
         
         window.scrollTo({
           top: targetPosition,
@@ -50,23 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
-  // ==========================================================================
-  // Navigation Glass Effect on Scroll
-  // ==========================================================================
-  
-  const navigation = document.querySelector('.navigation-container');
-  
-  if (navigation) {
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 50) {
-        navigation.style.background = 'rgba(0, 0, 0, 0.9)';
-        navigation.style.backdropFilter = 'blur(25px)';
-      } else {
-        navigation.style.background = 'rgba(0, 0, 0, 0.8)';
-        navigation.style.backdropFilter = 'blur(20px)';
-      }
-    });
-  }
   
   // ==========================================================================
   // Services Section Toggle

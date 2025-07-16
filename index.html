@@ -29,35 +29,17 @@
     <link rel="stylesheet" href="css/d2-effects.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navigation-container">
-        <div class="nav-inner">
-            <div class="nav-logo">
-                <a href="/">
-                    <img src="logos/logo-dark.png" alt="Juniper Island Logo" width="120" height="32">
-                </a>
-            </div>
-            
-            <!-- Desktop Navigation -->
-            <div class="desktop-nav">
-                <div class="nav-links">
-                    <a href="/" class="nav-link">Home</a>
-                    <a href="#work" class="nav-link">Work</a>
-                    <a href="#about" class="nav-link">About</a>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </div>
-            </div>
-            
-            <!-- Mobile Navigation -->
-            <div class="mobile-nav">
-                <button class="menu-button" id="menuButton">MENU</button>
-                <div class="mobile-menu" id="mobileMenu">
-                    <a href="#work" class="mobile-link">Work</a>
-                    <a href="#about" class="mobile-link">About</a>
-                    <a href="#contact" class="mobile-link">Contact</a>
-                </div>
-            </div>
-        </div>
+    <!-- Floating Navigation -->
+    <div class="floating-logo">
+        <a href="/">
+            <img src="logos/logo-dark.png" alt="Juniper Island Logo">
+        </a>
+    </div>
+    
+    <nav class="floating-nav">
+        <a href="#work" class="floating-link">Work</a>
+        <a href="#about" class="floating-link">About</a>
+        <a href="#contact" class="floating-link">Contact</a>
     </nav>
 
     <!-- Hero Section -->
@@ -97,8 +79,60 @@
         </div>
     </section>
 
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section" style="padding-bottom: 2rem;">
+        <div class="container">
+            <!-- Glass Card Container -->
+            <div class="glass-testimonial-card" style="max-width: 900px; margin: 0 auto; padding: 3rem;">
+                <h2 class="ultra-thin-title clamp-section-title" style="font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 200; color: #fff; margin-bottom: 2rem;">Why Story-Driven Video?</h2>
+                <!-- Two Column Layout -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; text-align: left;">
+                    <div>
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 1.25rem; text-align: left;">
+                            Most videos get watched. <strong>The best ones get remembered — and acted on.</strong>
+                        </p>
+
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 1.25rem; text-align: left;">
+                            Your audience is distracted. Your competitors are loud.
+                        </p>
+
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 0; text-align: left;">
+                            It builds trust, stirs emotion, and drives action.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 1.25rem; text-align: left;">
+                            Lots of teams can shoot a video. <strong>Few can tell a story that actually connects.</strong>
+                        </p>
+
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 1.25rem; text-align: left;">
+                            We help marketing teams turn scattered messages into clear, compelling content.
+                        </p>
+
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 400; color: #fff; line-height: 1.5; margin-bottom: 0; text-align: left;">
+                            <strong>Beautiful. Strategic. Effective.</strong><br>
+                            That's what story-driven means.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Editorial Callout - Stat -->
+                <div style="margin-top: 3rem; padding: 2rem 0; border-top: 1px solid rgba(255,255,255,0.1); position: relative;">
+                    <div style="position: absolute; left: 0; top: 2rem; width: 2px; height: 3rem; background: linear-gradient(180deg, rgba(255,255,255,0.4), rgba(255,255,255,0.1));"></div>
+                    <div style="padding-left: 1.5rem; font-size: clamp(1rem, 2.5vw, 1.125rem); font-weight: 300; color: #f5f5f7; line-height: 1.5;">
+                        <strong style="color: #fff; font-weight: 400;">68% of consumers</strong> say video is the most memorable content format
+                    </div>
+                    <div style="padding-left: 1.5rem; font-size: clamp(0.85rem, 2vw, 0.95rem); font-weight: 200; color: rgba(245,245,247,0.6); margin-top: 0.5rem; letter-spacing: 0.025em;">
+                        HUBSPOT RESEARCH, 2024
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- BELT SECTION -->
-    <section class="belt">
+    <section class="belt" style="margin-top: 1rem;">
         <div class="belt-content">
             <div>
                 <blockquote class="belt-quote">
@@ -110,26 +144,6 @@
             <div class="belt-logos">
                 <h3>Trusted by Leading Brands</h3>
                 <img src="images/logo-strip-white.avif" alt="Client logos including Red Bull, Rily, Muskoka Roastery, Subway, CMPA" class="logo-strip">
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="ultra-thin-title clamp-section-title" style="font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 200; color: #fff; margin-bottom: 2rem;">Why Story-Driven Video?</h2>
-                <div class="why-content" style="max-width: 900px; margin: 0 auto; columns: 2; column-gap: 3rem; column-fill: balance;">
-                    <p class="ultra-thin-subtitle clamp-section-subtitle" style="font-size: clamp(1.125rem, 3vw, 1.5rem); font-weight: 300; color: #f5f5f7; line-height: 1.6; margin-bottom: 1.5rem; text-align: justify; break-inside: avoid;">
-                        Because you're not just making a video — you're building connection, clarity, and momentum.
-                    </p>
-                    <p class="ultra-thin-subtitle clamp-section-subtitle" style="font-size: clamp(1.125rem, 3vw, 1.5rem); font-weight: 300; color: #f5f5f7; line-height: 1.6; margin-bottom: 1.5rem; text-align: justify; break-inside: avoid;">
-                        Story-driven content doesn't just look good. It sticks. It spreads. It speaks for your brand when you're not in the room.
-                    </p>
-                    <p class="ultra-thin-subtitle clamp-section-subtitle" style="font-size: clamp(1.125rem, 3vw, 1.5rem); font-weight: 300; color: #f5f5f7; line-height: 1.6; text-align: justify; break-inside: avoid;">
-                        That's why we design every project to hit both the heart and the numbers. Whether it's a brand film or an Instagram Reel, your story is our strategy.
-                    </p>
-                </div>
             </div>
         </div>
     </section>
@@ -266,7 +280,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="ultra-thin-subtitle clamp-section-subtitle" style="font-size: clamp(1.5rem, 4vw, 2.25rem); font-weight: 200; color: #f5f5f7; text-align: center; max-width: 900px; margin: 0 auto;">
-                    We've helped teams like yours go from stuck to soaring — here are a few stories that show what great video can do.
+                    What Great Content Can Really Do
                 </h2>
             </div>
 
@@ -391,42 +405,70 @@
     <!-- Why Juniper Island Section -->
     <section id="about" class="why-juniper-section">
         <div class="container">
-            <div class="section-header">
-                <h2 class="ultra-thin-title clamp-section-title" style="font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 200; color: #fff; margin-bottom: 2rem;">Why Juniper Island?</h2>
-                <p class="ultra-thin-subtitle clamp-section-subtitle" style="font-size: clamp(1.125rem, 3vw, 1.375rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 3rem; text-align: center;">
-                    We're not just a vendor — we're your video partner.
+            <!-- Glass Card Container -->
+            <div class="glass-testimonial-card" style="max-width: 1000px; margin: 0 auto; padding: 4rem;">
+                <h2 class="ultra-thin-title clamp-section-title" style="font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 200; color: #fff; margin-bottom: 1rem;">Why Juniper Island?</h2>
+                <p class="ultra-thin-subtitle clamp-section-subtitle" style="font-size: clamp(1.125rem, 3vw, 1.375rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; margin-bottom: 2.5rem;">
+                    Because great video starts with the right partners.
                 </p>
-            </div>
 
-            <div class="why-juniper-content">
-                <div class="team-photos">
-                    <div class="team-member">
-                        <img src="images/team/Johnny.png" alt="Johnny Hockin" class="member-photo">
-                        <h3 class="member-name">Johnny Hockin</h3>
-                        <p class="member-title">Creative Director & Producer</p>
+                <!-- Content Grid -->
+                <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: start;">
+                    <!-- Team Photos -->
+                    <div style="display: flex; flex-direction: column; gap: 2rem;">
+                        <div style="text-align: center;">
+                            <div style="width: 120px; height: 120px; margin: 0 auto 1rem; border-radius: 50%; overflow: hidden; border: 2px solid rgba(255,255,255,0.1);">
+                                <img src="images/team/Johnny.png" alt="Johnny Hockin" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: clamp(1.125rem, 2.5vw, 1.25rem); font-weight: 300; color: #fff; margin-bottom: 0.25rem;">Johnny Hockin</h3>
+                            <p style="font-size: clamp(0.875rem, 2vw, 1rem); font-weight: 200; color: #f5f5f7; margin: 0;">Former MTV Canada</p>
+                        </div>
+
+                        <div style="text-align: center;">
+                            <div style="width: 120px; height: 120px; margin: 0 auto 1rem; border-radius: 50%; overflow: hidden; border: 2px solid rgba(255,255,255,0.1);">
+                                <img src="images/team/Nina.png" alt="Nina Gilmour" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: clamp(1.125rem, 2.5vw, 1.25rem); font-weight: 300; color: #fff; margin-bottom: 0.25rem;">Nina Gilmour</h3>
+                            <p style="font-size: clamp(0.875rem, 2vw, 1rem); font-weight: 200; color: #f5f5f7; margin: 0;">Award-winning Director</p>
+                        </div>
                     </div>
 
-                    <div class="team-member">
-                        <img src="images/team/Nina.png" alt="Nina Gilmour" class="member-photo">
-                        <h3 class="member-name">Nina Gilmour</h3>
-                        <p class="member-title">Director & Creative Strategist</p>
-                    </div>
-                </div>
+                    <!-- Content -->
+                    <div style="text-align: left;">
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.6; margin-bottom: 1.5rem;">
+                            We're not just here to shoot and edit — we're here to listen, translate your message into something powerful, and make you feel fully supported at every step.
+                        </p>
+                        
+                        <p style="font-size: clamp(1.125rem, 2.5vw, 1.375rem); font-weight: 300; color: #f5f5f7; line-height: 1.6; margin-bottom: 2.5rem;">
+                            Founded by <strong style="color: #fff;">Johnny Hockin</strong> (former MTV Canada) and <strong style="color: #fff;">Nina Gilmour</strong> (award-winning director and strategist), Juniper Island is where strategic thinking meets cinematic craft. We help brands distill what matters most — then say it beautifully.
+                        </p>
 
-                <div class="why-juniper-text">
-                    <p class="why-juniper-description">
-                        Founded by Johnny Hockin (MTV Canada) and Nina Gilmour (creative strategist and director), Juniper Island blends cinematic storytelling with business-savvy execution. That means we get to the heart of your message — and bring it to life, beautifully.
-                    </p>
-
-                    <div class="what-makes-different">
-                        <h4 class="different-title">What makes us different:</h4>
-                        <ul class="different-list">
-                            <li>Strategic storytelling that moves people and metrics</li>
-                            <li>Collaborative, embedded approach</li>
-                            <li>Full-service production from start to finish</li>
-                            <li>Deep Toronto roots and national experience</li>
-                            <li>Sustainable, values-aligned production</li>
-                        </ul>
+                        <div style="margin-top: 2rem;">
+                            <h4 style="font-size: clamp(1rem, 2.5vw, 1.125rem); font-weight: 400; color: #fff; margin-bottom: 1.5rem; letter-spacing: 0.025em;">WHAT MAKES US DIFFERENT</h4>
+                            
+                            <div style="display: grid; gap: 1.25rem;">
+                                <div style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; padding-left: 1rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: rgba(255,255,255,0.4); font-weight: 200;">•</span>
+                                    We shape stories that connect and convert — not just pretty visuals.
+                                </div>
+                                <div style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; padding-left: 1rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: rgba(255,255,255,0.4); font-weight: 200;">•</span>
+                                    We work with your team, not just for you.
+                                </div>
+                                <div style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; padding-left: 1rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: rgba(255,255,255,0.4); font-weight: 200;">•</span>
+                                    We handle every step, from strategy to final cut.
+                                </div>
+                                <div style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; padding-left: 1rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: rgba(255,255,255,0.4); font-weight: 200;">•</span>
+                                    We've got Toronto roots and national reach.
+                                </div>
+                                <div style="font-size: clamp(1rem, 2.5vw, 1.25rem); font-weight: 300; color: #f5f5f7; line-height: 1.5; padding-left: 1rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: rgba(255,255,255,0.4); font-weight: 200;">•</span>
+                                    We believe in thoughtful, values-driven production.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -606,7 +648,7 @@
         <div class="container">
             <div class="footer-content">
                 <p>&copy; 2025 Juniper Island. All rights reserved.</p>
-                <p class="footer-tagline">Toronto's Premier Video Production Company</p>
+                <p class="footer-tagline">450+ video projects. Millions of views. Trusted by brands across North America.</p>
             </div>
         </div>
     </footer>

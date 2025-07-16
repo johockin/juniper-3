@@ -169,113 +169,90 @@ body {
 }
 
 /* ==========================================================================
-   Navigation
+   Floating Navigation (Direction 7 Inspired)
    ========================================================================== */
 
-.navigation-container {
+.floating-logo {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 8%;
+  left: -1.4rem;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--color-white-border);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
 }
 
-.nav-inner {
-  max-width: 80rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 var(--space-sm);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 4rem;
+.floating-logo:hover {
+  opacity: 0.8;
 }
 
-.nav-logo img {
-  height: 2rem;
+.floating-logo img {
+  height: 32.2px;
   width: auto;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  filter: invert(1); /* Make logo white for dark background */
 }
 
-.nav-links {
-  margin-left: 2.5rem;
+.floating-nav {
+  position: fixed;
+  top: 3.3%;
+  right: 2rem;
+  z-index: 1000;
   display: flex;
-  align-items: baseline;
-  gap: var(--space-lg);
+  flex-direction: column;
+  gap: var(--space-md);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
 }
 
-.nav-link {
-  color: var(--color-gray-900);
-  font-weight: var(--font-weight-medium);
-  transition: color var(--transition-fast);
+.floating-link {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-}
-
-.nav-link:hover {
-  color: var(--color-white);
-}
-
-.menu-button {
-  color: var(--color-gray-900);
-  font-weight: var(--font-weight-medium);
-  transition: color var(--transition-fast);
   font-size: 0.875rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.1em;
+  transition: all var(--transition-fast);
+  padding: 0;
   background: none;
   border: none;
-  cursor: pointer;
 }
 
-.menu-button:hover {
+.floating-link:hover {
   color: var(--color-white);
+  transform: translateX(-4px);
 }
 
-.mobile-menu {
-  position: absolute;
-  top: 4rem;
-  left: 0;
-  right: 0;
-  background: var(--color-white);
-  border-bottom: 1px solid var(--color-gray-100);
-  padding: var(--space-xs) var(--space-sm);
-  z-index: 50;
-  display: none;
-}
-
-.mobile-menu.active {
-  display: block;
-}
-
-.mobile-link {
-  display: block;
-  color: var(--color-gray-900);
-  font-weight: var(--font-weight-medium);
-  transition: color var(--transition-fast);
-  padding: var(--space-xs) 0;
-  text-decoration: none;
-}
-
-.mobile-link:hover {
-  color: var(--color-black);
-}
-
-/* Navigation Responsive Classes */
-.desktop-nav {
-  display: none;
-}
-
-.mobile-nav {
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .desktop-nav {
-    display: block;
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .floating-logo {
+    top: 2rem;
+    left: 1rem;
   }
   
-  .mobile-nav {
-    display: none;
+  .floating-logo img {
+    height: 24px;
+    transform: rotate(0deg); /* Horizontal on mobile */
+  }
+  
+  .floating-nav {
+    top: 2rem;
+    right: 1rem;
+    transform: none;
+    flex-direction: row;
+    gap: var(--space-sm);
+  }
+  
+  .floating-link {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    font-size: 0.75rem;
+    padding: var(--space-xs) var(--space-sm);
+  }
+  
+  .floating-link:hover {
+    transform: translateY(-2px);
   }
 }
 
@@ -913,10 +890,10 @@ body {
   text-align: center;
 }
 
-/* Why Content Responsive Columns */
+/* Why Content Responsive Grid */
 @media (max-width: 768px) {
   .why-content {
-    columns: 1 !important;
+    grid-template-columns: 1fr !important;
   }
 }
 
