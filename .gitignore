@@ -16,5 +16,9 @@ yarn-error.log*
 .vscode/
 .idea/
 
-# Backup folders
+# Development folders (not deployed)
+_uploads/
+_references/
+_creative-jam/
+_creative-jam-archive/
 _production-backup/
